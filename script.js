@@ -2089,6 +2089,3318 @@ const CONFIG = {
           "answer": "Activités de vaccination au centre de santé : 5 km"
         }
       ]
+    },
+    {
+      "id": "hygiene-hospitaliere-as-210",
+      "title": "Hygiène hospitalière AS — 210 questions",
+      "matter": "Hygiène hospitalière",
+      "description": "90 QCD, 90 QCM et 3 études de cas de 10 questions.",
+      "instructions": "Respectez le nombre de réponses indiqué. QCD : +1 / −1 / 0. QCM : +1 pour la sélection exacte, 0 sinon. Chaque étude de cas est affichée avec ses questions.",
+      "duration": 30,
+      "programmed": true,
+      "openDate": "2026-01-01",
+      "openTime": "00:00",
+      "closeDate": "2030-12-31",
+      "closeTime": "23:59",
+      "marking": {
+        "correct": 1,
+        "wrong": -1,
+        "empty": 0
+      },
+      "questions": [
+        {
+          "id": "hygiene-as-1",
+          "type": "qcd",
+          "text": "Question 1 — QCD\nL’hygiène hospitalière vise notamment à prévenir les infections associées aux soins.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "Elle comprend les règles et pratiques qui réduisent le risque infectieux lié aux soins.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 4 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-2",
+          "type": "qcd",
+          "text": "Question 2 — QCD\nL’hygiène en milieu de soins relève uniquement du personnel d’entretien.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "Elle concerne tous les acteurs : soignants, personnel d’entretien, patients et visiteurs.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 4–6 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-3",
+          "type": "qcd",
+          "text": "Question 3 — QCD\nL’hygiène individuelle comprend l’hygiène corporelle et vestimentaire.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "Ces mesures personnelles participent à la préservation de la santé.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 4 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-4",
+          "type": "qcd",
+          "text": "Question 4 — QCD\nL’entretien des locaux constitue l’unique composante de l’hygiène hospitalière.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "L’hygiène des mains, le matériel, le linge et les déchets sont aussi concernés.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 4 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-5",
+          "type": "qcd",
+          "text": "Question 5 — QCD\nUne infection associée aux soins peut apparaître après la fin de la prise en charge.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "La définition inclut une infection survenant au cours ou à la suite des soins, absente et non en incubation au début.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 6 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-6",
+          "type": "qcd",
+          "text": "Question 6 — QCD\nToute infection présente à l’admission est automatiquement une infection associée aux soins de ce séjour.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "La présence ou l’incubation au début de la prise en charge exclut cette attribution automatique.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 6 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-7",
+          "type": "qcd",
+          "text": "Question 7 — QCD\nUne infection associée aux soins acquise en milieu hospitalier est dite nosocomiale.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "Le terme nosocomial précise le lieu d’acquisition hospitalier.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 6–7 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-8",
+          "type": "qcd",
+          "text": "Question 8 — QCD\nUne infection endogène provient nécessairement d’un germe extérieur au patient.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "Elle provient des micro-organismes hébergés par le patient lui-même.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 7 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-9",
+          "type": "qcd",
+          "text": "Question 9 — QCD\nDes micro-organismes présents dans l’environnement peuvent être à l’origine d’une infection exogène.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "L’origine exogène implique une source extérieure au patient.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 7–8 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-10",
+          "type": "qcd",
+          "text": "Question 10 — QCD\nLes infections nosocomiales sont exclusivement dues à des bactéries.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "Des virus, champignons et autres agents peuvent également être impliqués.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 7 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-11",
+          "type": "qcd",
+          "text": "Question 11 — QCD\nLes nouveau-nés, les prématurés et les personnes âgées figurent parmi les patients vulnérables du cours.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "Les âges extrêmes sont cités parmi les facteurs liés au patient.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 7 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-12",
+          "type": "qcd",
+          "text": "Question 12 — QCD\nLe sondage et le cathétérisme n’augmentent jamais le risque infectieux.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "Ces gestes invasifs peuvent créer une porte d’entrée et favoriser une infection.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 8 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-13",
+          "type": "qcd",
+          "text": "Question 13 — QCD\nUne infection nosocomiale peut prolonger la durée d’hospitalisation.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "Elle entraîne des conséquences humaines, économiques et organisationnelles.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 9 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-14",
+          "type": "qcd",
+          "text": "Question 14 — QCD\nLe respect des règles d’hygiène garantit un risque infectieux nul.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "Le risque zéro n’existe pas ; les mesures réduisent la fréquence et la gravité des infections.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 6 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-15",
+          "type": "qcd",
+          "text": "Question 15 — QCD\nLes visiteurs peuvent intervenir dans la transmission de certains agents infectieux.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "Le cours les inclut parmi les réservoirs humains possibles.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 8 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-16",
+          "type": "qcd",
+          "text": "Question 16 — QCD\nLes mains des soignants peuvent transmettre des micro-organismes d’un patient à un autre.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "Elles constituent un intermédiaire important des infections croisées.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 14 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-17",
+          "type": "qcd",
+          "text": "Question 17 — QCD\nLe port de gants dispense de pratiquer l’hygiène des mains après leur retrait.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "Une hygiène des mains reste nécessaire après le retrait des gants.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 24,48–49 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-18",
+          "type": "qcd",
+          "text": "Question 18 — QCD\nLe lavage à l’eau et au savon est indiqué lorsque les mains sont visiblement souillées.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "Le lavage enlève les salissures visibles par une action mécanique.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 14 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-19",
+          "type": "qcd",
+          "text": "Question 19 — QCD\nUne friction hydroalcoolique doit être systématiquement rincée à l’eau.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "Le produit est frictionné jusqu’au séchage complet, sans rinçage.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 16 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-20",
+          "type": "qcd",
+          "text": "Question 20 — QCD\nLe cours recommande des ongles courts, sans faux ongles, pour le personnel soignant.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "Cette préparation des mains facilite l’hygiène et limite les réservoirs de germes.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 17 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-21",
+          "type": "qcd",
+          "text": "Question 21 — QCD\nUne montre de poignet peut être conservée pendant l’hygiène des mains.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "Le cours demande des mains et avant-bras dégagés, sans bijoux.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 14,17 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-22",
+          "type": "qcd",
+          "text": "Question 22 — QCD\nLa friction hydroalcoolique s’effectue jusqu’au séchage complet des mains.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "Il faut traiter toutes les surfaces et laisser sécher le produit.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 16 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-23",
+          "type": "qcd",
+          "text": "Question 23 — QCD\nLa même paire de gants peut servir pour plusieurs patients si elle paraît propre.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "Les gants doivent être changés entre les patients.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 24,49 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-24",
+          "type": "qcd",
+          "text": "Question 24 — QCD\nDes gants sont indiqués lorsqu’un contact avec du sang est prévisible.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "Ils protègent lors d’un contact possible avec du sang ou des produits biologiques.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 24,49 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-25",
+          "type": "qcd",
+          "text": "Question 25 — QCD\nLe choix des équipements de protection ne dépend pas de l’activité réalisée.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "Les équipements sont adaptés aux risques de contact, de projection et aux tâches.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 21–24 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-26",
+          "type": "qcd",
+          "text": "Question 26 — QCD\nUne protection oculaire peut être nécessaire si un soin expose à des projections de liquide biologique.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "Les lunettes ou la visière protègent les yeux exposés.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 23,49 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-27",
+          "type": "qcd",
+          "text": "Question 27 — QCD\nUn masque chirurgical correctement porté laisse le nez découvert.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "Il doit couvrir le nez, la bouche et le menton.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 22 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-28",
+          "type": "qcd",
+          "text": "Question 28 — QCD\nLes chaussures professionnelles recommandées sont lavables et antidérapantes.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "Elles doivent aussi être fermées sur l’avant et adaptées au travail.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 21 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-29",
+          "type": "qcd",
+          "text": "Question 29 — QCD\nUne tenue de travail souillée par un liquide biologique peut être conservée jusqu’à la fin de la semaine.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "Elle doit être changée dès qu’elle est souillée.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 23 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-30",
+          "type": "qcd",
+          "text": "Question 30 — QCD\nLes gants doivent être retirés en limitant le contact de la peau avec leur face externe contaminée.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "La technique de retrait évite une contamination des mains et des avant-bras.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 25 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-31",
+          "type": "qcd",
+          "text": "Question 31 — QCD\nUn détergent aide à éliminer les graisses et les salissures.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "Sa fonction principale est le nettoyage.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 10 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-32",
+          "type": "qcd",
+          "text": "Question 32 — QCD\nUne surface visuellement propre est nécessairement désinfectée.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "Le nettoyage ne prouve pas l’élimination des micro-organismes.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 10–11 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-33",
+          "type": "qcd",
+          "text": "Question 33 — QCD\nL’antisepsie concerne les tissus vivants.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "Elle réduit ou inhibe les micro-organismes sur la peau, les muqueuses ou les plaies selon le produit.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 10 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-34",
+          "type": "qcd",
+          "text": "Question 34 — QCD\nUn désinfectant de surface peut être appliqué sur toute plaie sans vérifier sa destination.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "Un produit pour milieu inerte n’est pas automatiquement adapté aux tissus vivants.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 10–11 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-35",
+          "type": "qcd",
+          "text": "Question 35 — QCD\nLa rémanence d’un antiseptique correspond à la persistance de son activité après application.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "C’est l’un des critères de choix cités dans le cours.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 10 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-36",
+          "type": "qcd",
+          "text": "Question 36 — QCD\nMélanger deux antiseptiques garantit toujours une meilleure efficacité.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "Le cours interdit de les mélanger sur un même site sans indication validée.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 11 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-37",
+          "type": "qcd",
+          "text": "Question 37 — QCD\nLa date d’ouverture d’un flacon d’antiseptique doit être indiquée.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "Elle aide à respecter sa durée d’utilisation après ouverture.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 11 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-38",
+          "type": "qcd",
+          "text": "Question 38 — QCD\nLe temps de contact d’un désinfectant peut être supprimé lorsque la surface paraît propre.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "Le temps prévu par le fabricant est une condition de son efficacité.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 11–12 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-39",
+          "type": "qcd",
+          "text": "Question 39 — QCD\nL’entretien des locaux suit le principe du propre vers le sale.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "Cette progression limite le transfert de contamination.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 26–27 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-40",
+          "type": "qcd",
+          "text": "Question 40 — QCD\nIl faut commencer par le sol puis nettoyer les surfaces situées au-dessus.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "On progresse de haut en bas et le sol est traité après les surfaces hautes.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 27 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-41",
+          "type": "qcd",
+          "text": "Question 41 — QCD\nLe matériel de nettoyage doit lui-même être entretenu après utilisation.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "Il doit être nettoyé et désinfecté selon la procédure.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 27 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-42",
+          "type": "qcd",
+          "text": "Question 42 — QCD\nUn instrument réutilisable encore couvert de sang peut être envoyé directement à la stérilisation.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "Le nettoyage doit enlever les souillures avant la stérilisation.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 33–35 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-43",
+          "type": "qcd",
+          "text": "Question 43 — QCD\nLe séchage du matériel contribue à limiter la prolifération microbienne pendant le stockage.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "Il réduit aussi les risques de corrosion.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 35 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-44",
+          "type": "qcd",
+          "text": "Question 44 — QCD\nUn emballage de stérilisation déchiré garantit toujours le maintien de la stérilité.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "L’intégrité du conditionnement est nécessaire à la conservation de l’état stérile.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 35–37 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-45",
+          "type": "qcd",
+          "text": "Question 45 — QCD\nLa traçabilité permet de retrouver le traitement subi par un dispositif médical.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "La date, le lot et les contrôles sont notamment enregistrés.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 36 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-46",
+          "type": "qcd",
+          "text": "Question 46 — QCD\nLe tri des déchets sanitaires doit commencer à leur lieu de production.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "Le tri à la source permet de séparer immédiatement les filières.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 43 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-47",
+          "type": "qcd",
+          "text": "Question 47 — QCD\nUne aiguille usagée peut être jetée dans un sac souple si elle est courte.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "Les objets piquants et tranchants sont placés dans une boîte de sécurité adaptée.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 43,49 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-48",
+          "type": "qcd",
+          "text": "Question 48 — QCD\nLes déchets ménagers et assimilés constituent une catégorie du cours AS.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "Le cours distingue aussi les déchets médicaux infectieux et non infectieux.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 42 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-49",
+          "type": "qcd",
+          "text": "Question 49 — QCD\nTous les déchets hospitaliers sont nécessairement infectieux.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "Certains sont assimilables aux déchets ménagers, d’autres présentent des risques différents.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 42 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-50",
+          "type": "qcd",
+          "text": "Question 50 — QCD\nLa mauvaise gestion des déchets peut exposer la communauté à des risques.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "La récupération et la réutilisation de matériel contaminé sont notamment dangereuses.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 43 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-51",
+          "type": "qcd",
+          "text": "Question 51 — QCD\nLe brûlage des déchets à l’air libre est sans risque pour l’environnement.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "Les fumées et les produits toxiques peuvent polluer l’air et nuire à la santé.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 43 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-52",
+          "type": "qcd",
+          "text": "Question 52 — QCD\nLe personnel qui transporte les déchets doit porter les protections adaptées.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "Le cours prévoit des équipements de protection pendant ce transport.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 44 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-53",
+          "type": "qcd",
+          "text": "Question 53 — QCD\nLes déchets peuvent être stockés avec du matériel propre si les sacs sont fermés.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "Le local de stockage temporaire doit être distinct de celui du matériel propre.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 44 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-54",
+          "type": "qcd",
+          "text": "Question 54 — QCD\nAprès usage, le linge est considéré comme sale même sans tache visible.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "Il peut être contaminé par la flore du patient et les matières organiques.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 39 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-55",
+          "type": "qcd",
+          "text": "Question 55 — QCD\nSecouer le linge sale avant sa collecte limite la dispersion des micro-organismes.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "L’agitation favorise leur dispersion ; les gestes doivent être mesurés.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 39–40 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-56",
+          "type": "qcd",
+          "text": "Question 56 — QCD\nLe linge neuf doit être lavé avant sa première utilisation selon le cours AS.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "Le cours recommande un cycle complet de lavage.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 39 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-57",
+          "type": "qcd",
+          "text": "Question 57 — QCD\nUn sac de linge sale peut être traîné au sol pendant son transport.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "Il doit être fermé et transporté avec un équipement réservé à cet usage.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 40 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-58",
+          "type": "qcd",
+          "text": "Question 58 — QCD\nLe cours AS recommande de remplir les sacs de linge sale aux deux tiers.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "Cette limite facilite leur fermeture et leur manipulation.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 40 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-59",
+          "type": "qcd",
+          "text": "Question 59 — QCD\nLe linge propre déconditionné dans la chambre peut être remis systématiquement dans la réserve propre.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "Le cours demande de ne pas remettre en lingerie le linge défilmé pendant les soins.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 41 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-60",
+          "type": "qcd",
+          "text": "Question 60 — QCD\nLa protection du linge propre doit être maintenue jusqu’à son utilisation.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "Le transport couvert, le rangement et la limitation des manipulations évitent sa recontamination.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 40–41 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-61",
+          "type": "qcd",
+          "text": "Question 61 — QCD\nLes précautions standard s’appliquent à tous les patients, quel que soit leur statut infectieux connu.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "Elles assurent une protection systématique du personnel et des patients.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 48 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-62",
+          "type": "qcd",
+          "text": "Question 62 — QCD\nLes précautions complémentaires remplacent entièrement les précautions standard.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "Elles s’y ajoutent selon le mode de transmission et la situation.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 50 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-63",
+          "type": "qcd",
+          "text": "Question 63 — QCD\nL’isolement septique cherche à limiter la diffusion d’un agent infectieux à partir d’un patient.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "Il protège les autres patients, le personnel et les visiteurs contre la transmission.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 49 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-64",
+          "type": "qcd",
+          "text": "Question 64 — QCD\nL’isolement protecteur vise avant tout à protéger les autres patients contre un patient fragile.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "Il vise à protéger le patient immunodéprimé des agents venant de son entourage ou de l’environnement.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 51 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-65",
+          "type": "qcd",
+          "text": "Question 65 — QCD\nLa tuberculose pulmonaire transmissible fait partie des indications de précautions air du cours.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "Le cours la cite avec la rougeole et la varicelle.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 50 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-66",
+          "type": "qcd",
+          "text": "Question 66 — QCD\nLe cours classe la gale uniquement parmi les précautions gouttelettes.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "La gale figure parmi les indications des précautions contact.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 51 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-67",
+          "type": "qcd",
+          "text": "Question 67 — QCD\nUn matériel souillé doit subir un entretien approprié avant sa réutilisation.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "La désinfection ou la stérilisation requise dépend du dispositif et de son usage.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 49 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-68",
+          "type": "qcd",
+          "text": "Question 68 — QCD\nLes visiteurs n’ont aucune consigne à respecter dans une chambre d’isolement.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "Les mesures d’isolement et d’hygiène concernent aussi les visiteurs.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 9,23–24 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-69",
+          "type": "qcd",
+          "text": "Question 69 — QCD\nL’hygiène du patient participe à la prévention des infections.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "Le cours l’associe au respect des règles d’asepsie.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 9 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-70",
+          "type": "qcd",
+          "text": "Question 70 — QCD\nLa toilette d’un malade dépend de son degré d’autonomie.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "Le patient est encouragé à réaliser ce qu’il peut faire.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 18 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-71",
+          "type": "qcd",
+          "text": "Question 71 — QCD\nLa toilette peut être réalisée sans prévenir le patient puisqu’elle est utile.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "Informer le patient et respecter son intimité font partie de la préparation.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 18 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-72",
+          "type": "qcd",
+          "text": "Question 72 — QCD\nIl est approprié de protéger la pudeur du patient pendant la toilette.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "Le cours prévoit notamment de couvrir les parties du corps non lavées.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 18–20 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-73",
+          "type": "qcd",
+          "text": "Question 73 — QCD\nAprès un décès, toutes les précautions infectieuses sont immédiatement supprimées.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "Les précautions déjà instaurées doivent être poursuivies lorsque le défunt présente un risque infectieux.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 20 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-74",
+          "type": "qcd",
+          "text": "Question 74 — QCD\nL’hygiène des mains avant la distribution des repas contribue à la sécurité alimentaire.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "Elle fait partie des mesures prévues pour le soignant.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 46 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-75",
+          "type": "qcd",
+          "text": "Question 75 — QCD\nUn médicament contaminé peut devenir un vecteur d’infection.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "La qualité de sa conservation et de sa manipulation est donc importante.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 47 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-76",
+          "type": "qcd",
+          "text": "Question 76 — QCD\nUne projection de sang dans l’œil constitue un accident avec exposition au sang.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "L’œil est une muqueuse et cette projection nécessite une prise en charge immédiate.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 28,30 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-77",
+          "type": "qcd",
+          "text": "Question 77 — QCD\nUn AES ne peut survenir que chez un infirmier qui réalise une injection.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "Il peut aussi toucher un auxiliaire, un agent d’entretien ou un professionnel manipulant du matériel souillé.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 28–31 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-78",
+          "type": "qcd",
+          "text": "Question 78 — QCD\nUne piqûre par une aiguille usagée est une effraction cutanée.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "Elle constitue une voie d’exposition percutanée.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 28 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-79",
+          "type": "qcd",
+          "text": "Question 79 — QCD\nRecapuchonner une aiguille usagée réduit le risque d’AES.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "Cette manipulation peut provoquer une piqûre et doit être évitée.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 28,49 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-80",
+          "type": "qcd",
+          "text": "Question 80 — QCD\nUne aiguille creuse contenant du sang peut augmenter le risque de transmission.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "Le dispositif et la quantité de sang influencent l’évaluation du risque.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 29 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-81",
+          "type": "qcd",
+          "text": "Question 81 — QCD\nUne blessure profonde présente exactement le même risque que toute autre exposition.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "La profondeur fait partie des facteurs de risque à évaluer.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 29 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-82",
+          "type": "qcd",
+          "text": "Question 82 — QCD\nLes virus des hépatites B et C et le VIH sont notamment recherchés dans l’évaluation d’un AES.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "Le cours les cite comme principaux risques viraux.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 29–30 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-83",
+          "type": "qcd",
+          "text": "Question 83 — QCD\nAprès une piqûre, il faut attendre des symptômes avant de demander un avis médical.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "Les premiers soins et l’évaluation médicale doivent être réalisés sans délai.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 29–31 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-84",
+          "type": "qcd",
+          "text": "Question 84 — QCD\nAprès une exposition cutanée avec blessure, le lavage à l’eau et au savon fait partie des premiers soins.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "Il est suivi d’un rinçage puis d’une antisepsie adaptée.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 29–30 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-85",
+          "type": "qcd",
+          "text": "Question 85 — QCD\nEn cas de projection de sang dans l’œil, on y applique un désinfectant de surface.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "Il faut rincer abondamment à l’eau ou au sérum physiologique, sans désinfectant de surface.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 30 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-86",
+          "type": "qcd",
+          "text": "Question 86 — QCD\nL’information du supérieur hiérarchique fait partie de la conduite à tenir du cours AS.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "Elle accompagne les soins urgents et le contact médical.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 30 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-87",
+          "type": "qcd",
+          "text": "Question 87 — QCD\nLa vaccination contre l’hépatite B protège également contre le VIH.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "Elle cible l’hépatite B et ne protège pas du VIH.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 30 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-88",
+          "type": "qcd",
+          "text": "Question 88 — QCD\nL’ancienneté professionnelle élimine tout risque d’AES.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "Un accident peut survenir lors d’un geste habituel, même chez un professionnel expérimenté.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 31 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-89",
+          "type": "qcd",
+          "text": "Question 89 — QCD\nIl faut terminer la collecte des déchets avant de s’occuper d’une piqûre accidentelle.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "La prise en charge de l’exposition est urgente.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 29–31 du PDF.",
+          "answer": "Faux"
+        },
+        {
+          "id": "hygiene-as-90",
+          "type": "qcd",
+          "text": "Question 90 — QCD\nLa surveillance des AES aide à choisir des actions de prévention.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "L’analyse des accidents oriente la formation et le choix du matériel.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 30–31 du PDF.",
+          "answer": "Vrai"
+        },
+        {
+          "id": "hygiene-as-91",
+          "type": "qcm",
+          "text": "Question 91 — QCM\nQuels domaines participent à l’hygiène hospitalière ?\nChoisir les 3 bonnes réponses.",
+          "options": [
+            "Entretien des locaux",
+            "Gestion du linge",
+            "Gestion des déchets",
+            "Décoration seule"
+          ],
+          "correct": [
+            "Entretien des locaux",
+            "Gestion du linge",
+            "Gestion des déchets"
+          ],
+          "explanation": "Les trois premiers domaines contribuent à maîtriser le risque infectieux.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 4 du PDF.",
+          "answers": [
+            "Entretien des locaux",
+            "Gestion du linge",
+            "Gestion des déchets"
+          ]
+        },
+        {
+          "id": "hygiene-as-92",
+          "type": "qcm",
+          "text": "Question 92 — QCM\nQue signifie « infection nosocomiale » ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Toute maladie héréditaire",
+            "Infection associée aux soins acquise à l’hôpital",
+            "Toute infection communautaire",
+            "Toute allergie médicamenteuse"
+          ],
+          "correct": "Infection associée aux soins acquise à l’hôpital",
+          "explanation": "Le terme précise une acquisition en milieu hospitalier.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 6–7 du PDF.",
+          "answer": "Infection associée aux soins acquise à l’hôpital"
+        },
+        {
+          "id": "hygiene-as-93",
+          "type": "qcm",
+          "text": "Question 93 — QCM\nQuelles situations correspondent à des facteurs de vulnérabilité du patient ?\nChoisir les 3 bonnes réponses.",
+          "options": [
+            "Dénutrition",
+            "Diabète",
+            "Couleur de la tenue",
+            "Brûlures étendues"
+          ],
+          "correct": [
+            "Dénutrition",
+            "Diabète",
+            "Brûlures étendues"
+          ],
+          "explanation": "La dénutrition, le diabète et les brûlures figurent parmi les facteurs liés au patient.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 7 du PDF.",
+          "answers": [
+            "Dénutrition",
+            "Diabète",
+            "Brûlures étendues"
+          ]
+        },
+        {
+          "id": "hygiene-as-94",
+          "type": "qcm",
+          "text": "Question 94 — QCM\nDans la démarche des « 5 M », quels éléments sont cités dans le cours ?\nChoisir les 3 bonnes réponses.",
+          "options": [
+            "Matériel",
+            "Méthode",
+            "Monnaie",
+            "Milieu"
+          ],
+          "correct": [
+            "Matériel",
+            "Méthode",
+            "Milieu"
+          ],
+          "explanation": "Les deux autres M sont Matière et Main-d’œuvre.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 6 du PDF.",
+          "answers": [
+            "Matériel",
+            "Méthode",
+            "Milieu"
+          ]
+        },
+        {
+          "id": "hygiene-as-95",
+          "type": "qcm",
+          "text": "Question 95 — QCM\nQuelle action vise directement à interrompre une transmission par les mains ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Augmenter le volume de musique",
+            "Pratiquer l’hygiène des mains",
+            "Modifier le nom du service",
+            "Changer la couleur des murs"
+          ],
+          "correct": "Pratiquer l’hygiène des mains",
+          "explanation": "L’hygiène des mains réduit la transmission manuportée.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 14 du PDF.",
+          "answer": "Pratiquer l’hygiène des mains"
+        },
+        {
+          "id": "hygiene-as-96",
+          "type": "qcm",
+          "text": "Question 96 — QCM\nQuels éléments peuvent constituer des réservoirs de micro-organismes en milieu hospitalier ?\nChoisir les 3 bonnes réponses.",
+          "options": [
+            "Patient",
+            "Eau contaminée",
+            "Surface contaminée",
+            "Uniquement les aiguilles"
+          ],
+          "correct": [
+            "Patient",
+            "Eau contaminée",
+            "Surface contaminée"
+          ],
+          "explanation": "Les réservoirs humains et environnementaux sont multiples.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 8 du PDF.",
+          "answers": [
+            "Patient",
+            "Eau contaminée",
+            "Surface contaminée"
+          ]
+        },
+        {
+          "id": "hygiene-as-97",
+          "type": "qcm",
+          "text": "Question 97 — QCM\nUne transmission indirecte peut se faire par :\nChoisir les 2 bonnes réponses.",
+          "options": [
+            "Du matériel contaminé",
+            "Les mains contaminées d’un soignant",
+            "Une mutation génétique héréditaire",
+            "Un document administratif propre, sans contact avec le soin"
+          ],
+          "correct": [
+            "Du matériel contaminé",
+            "Les mains contaminées d’un soignant"
+          ],
+          "explanation": "Les mains et le matériel peuvent transporter l’agent entre la source et le patient.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 8 du PDF.",
+          "answers": [
+            "Du matériel contaminé",
+            "Les mains contaminées d’un soignant"
+          ]
+        },
+        {
+          "id": "hygiene-as-98",
+          "type": "qcm",
+          "text": "Question 98 — QCM\nQuelles conséquences peuvent résulter d’une infection nosocomiale ?\nChoisir les 3 bonnes réponses.",
+          "options": [
+            "Séjour prolongé",
+            "Coût accru",
+            "Complication clinique",
+            "Guérison garantie plus rapide"
+          ],
+          "correct": [
+            "Séjour prolongé",
+            "Coût accru",
+            "Complication clinique"
+          ],
+          "explanation": "Le cours décrit des conséquences sanitaires, économiques et organisationnelles.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 9 du PDF.",
+          "answers": [
+            "Séjour prolongé",
+            "Coût accru",
+            "Complication clinique"
+          ]
+        },
+        {
+          "id": "hygiene-as-99",
+          "type": "qcm",
+          "text": "Question 99 — QCM\nQuelle description correspond à une infection endogène ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Infection issue de la flore propre du patient",
+            "Infection nécessairement apportée par un visiteur",
+            "Infection exclusivement due à l’eau",
+            "Infection exclusivement due aux déchets"
+          ],
+          "correct": "Infection issue de la flore propre du patient",
+          "explanation": "L’origine endogène est interne au patient.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 7 du PDF.",
+          "answer": "Infection issue de la flore propre du patient"
+        },
+        {
+          "id": "hygiene-as-100",
+          "type": "qcm",
+          "text": "Question 100 — QCM\nQuelles catégories d’agents sont citées parmi les causes d’infections nosocomiales ?\nChoisir les 3 bonnes réponses.",
+          "options": [
+            "Bactéries",
+            "Virus",
+            "Champignons",
+            "Uniquement les insectes visibles"
+          ],
+          "correct": [
+            "Bactéries",
+            "Virus",
+            "Champignons"
+          ],
+          "explanation": "Le cours cite aussi des parasites et des prions.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 7 du PDF.",
+          "answers": [
+            "Bactéries",
+            "Virus",
+            "Champignons"
+          ]
+        },
+        {
+          "id": "hygiene-as-101",
+          "type": "qcm",
+          "text": "Question 101 — QCM\nQuel objectif est réaliste pour un programme d’hygiène ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Supprimer toute maladie en une journée",
+            "Réduire le risque infectieux",
+            "Garantir l’absence totale de germes partout",
+            "Remplacer tous les soins"
+          ],
+          "correct": "Réduire le risque infectieux",
+          "explanation": "Les mesures de prévention diminuent le risque sans garantir un risque nul.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 5–6 du PDF.",
+          "answer": "Réduire le risque infectieux"
+        },
+        {
+          "id": "hygiene-as-102",
+          "type": "qcm",
+          "text": "Question 102 — QCM\nParmi ces gestes, lesquels peuvent créer une porte d’entrée infectieuse ?\nChoisir les 2 bonnes réponses.",
+          "options": [
+            "Cathétérisme",
+            "Sondage",
+            "Lecture d’une affiche",
+            "Consultation d’un planning sans soin"
+          ],
+          "correct": [
+            "Cathétérisme",
+            "Sondage"
+          ],
+          "explanation": "Les gestes invasifs franchissent les barrières naturelles.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 8 du PDF.",
+          "answers": [
+            "Cathétérisme",
+            "Sondage"
+          ]
+        },
+        {
+          "id": "hygiene-as-103",
+          "type": "qcm",
+          "text": "Question 103 — QCM\nQuels acteurs doivent participer à la prévention des infections ?\nChoisir les 3 bonnes réponses.",
+          "options": [
+            "Personnel soignant",
+            "Personnel d’entretien",
+            "Patients et visiteurs selon les consignes",
+            "Uniquement le directeur"
+          ],
+          "correct": [
+            "Personnel soignant",
+            "Personnel d’entretien",
+            "Patients et visiteurs selon les consignes"
+          ],
+          "explanation": "La prévention exige l’implication des différents acteurs de l’établissement.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 4–9 du PDF.",
+          "answers": [
+            "Personnel soignant",
+            "Personnel d’entretien",
+            "Patients et visiteurs selon les consignes"
+          ]
+        },
+        {
+          "id": "hygiene-as-104",
+          "type": "qcm",
+          "text": "Question 104 — QCM\nUne infection absente et non en incubation au début des soins apparaît à leur suite. Quelle qualification peut être envisagée après évaluation du lien avec les soins ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Infection associée aux soins",
+            "Allergie certaine",
+            "Maladie héréditaire certaine",
+            "Infection obligatoirement présente à l’admission"
+          ],
+          "correct": "Infection associée aux soins",
+          "explanation": "La définition inclut les infections survenant à la suite de la prise en charge.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 6 du PDF.",
+          "answer": "Infection associée aux soins"
+        },
+        {
+          "id": "hygiene-as-105",
+          "type": "qcm",
+          "text": "Question 105 — QCM\nQuels axes figurent dans la prévention de la transmission ?\nChoisir les 3 bonnes réponses.",
+          "options": [
+            "Agir sur l’agent infectieux",
+            "Isoler le réservoir lorsque nécessaire",
+            "Protéger l’hôte",
+            "Ignorer les voies de transmission"
+          ],
+          "correct": [
+            "Agir sur l’agent infectieux",
+            "Isoler le réservoir lorsque nécessaire",
+            "Protéger l’hôte"
+          ],
+          "explanation": "Le cours associe ces axes au contrôle des modes de transmission.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 5 du PDF.",
+          "answers": [
+            "Agir sur l’agent infectieux",
+            "Isoler le réservoir lorsque nécessaire",
+            "Protéger l’hôte"
+          ]
+        },
+        {
+          "id": "hygiene-as-106",
+          "type": "qcm",
+          "text": "Question 106 — QCM\nAvant l’hygiène des mains, quelles préparations sont adaptées ?\nChoisir les 3 bonnes réponses.",
+          "options": [
+            "Retirer les bijoux",
+            "Garder des ongles courts",
+            "Ajouter de faux ongles",
+            "Dégager les avant-bras"
+          ],
+          "correct": [
+            "Retirer les bijoux",
+            "Garder des ongles courts",
+            "Dégager les avant-bras"
+          ],
+          "explanation": "Les bijoux et faux ongles gênent une hygiène efficace.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 14,17 du PDF.",
+          "answers": [
+            "Retirer les bijoux",
+            "Garder des ongles courts",
+            "Dégager les avant-bras"
+          ]
+        },
+        {
+          "id": "hygiene-as-107",
+          "type": "qcm",
+          "text": "Question 107 — QCM\nAprès retrait de gants utilisés pour une toilette, que faut-il faire ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Mettre les gants dans sa poche",
+            "Pratiquer l’hygiène des mains",
+            "Toucher immédiatement le repas",
+            "Réutiliser les gants"
+          ],
+          "correct": "Pratiquer l’hygiène des mains",
+          "explanation": "Le retrait des gants est suivi d’une hygiène des mains.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 24,49 du PDF.",
+          "answer": "Pratiquer l’hygiène des mains"
+        },
+        {
+          "id": "hygiene-as-108",
+          "type": "qcm",
+          "text": "Question 108 — QCM\nQuelle est la durée totale habituelle d’une friction hydroalcoolique selon l’affiche OMS ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "2 à 3 secondes",
+            "20 à 30 secondes",
+            "10 minutes",
+            "Une heure"
+          ],
+          "correct": "20 à 30 secondes",
+          "explanation": "Actualisation : l’affiche OMS indique 20 à 30 secondes pour la procédure complète ; le cours donne une durée différente. Respecter aussi les instructions du produit.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 16 du PDF. / Organisation mondiale de la Santé, How to Handrub? et How to Handwash?, affiches, 2009, page 1. https://www.who.int/publications/m/item/how-to-handrub ; https://www.who.int/publications/m/item/how-to-handwash",
+          "answer": "20 à 30 secondes"
+        },
+        {
+          "id": "hygiene-as-109",
+          "type": "qcm",
+          "text": "Question 109 — QCM\nQuelle est la durée totale du lavage des mains selon l’affiche OMS ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "40 à 60 secondes",
+            "3 secondes",
+            "20 minutes",
+            "Sans durée minimale"
+          ],
+          "correct": "40 à 60 secondes",
+          "explanation": "Il s’agit de l’ensemble de la procédure, et non uniquement du temps de frottement.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 14 du PDF. / Organisation mondiale de la Santé, How to Handrub? et How to Handwash?, affiches, 2009, page 1. https://www.who.int/publications/m/item/how-to-handrub ; https://www.who.int/publications/m/item/how-to-handwash",
+          "answer": "40 à 60 secondes"
+        },
+        {
+          "id": "hygiene-as-110",
+          "type": "qcm",
+          "text": "Question 110 — QCM\nQuand l’hygiène des mains est-elle indiquée selon les cinq moments OMS ?\nChoisir les 3 bonnes réponses.",
+          "options": [
+            "Avant de toucher le patient",
+            "Après un risque d’exposition à un liquide biologique",
+            "Après avoir touché l’environnement du patient",
+            "Seulement en début de journée"
+          ],
+          "correct": [
+            "Avant de toucher le patient",
+            "Après un risque d’exposition à un liquide biologique",
+            "Après avoir touché l’environnement du patient"
+          ],
+          "explanation": "Ces moments complètent les indications avant un geste aseptique et après contact avec le patient.",
+          "source": "Organisation mondiale de la Santé, Five moments for hand hygiene, affiche, 2021, page 1. https://www.who.int/publications/m/item/five-moments-for-hand-hygiene",
+          "answers": [
+            "Avant de toucher le patient",
+            "Après un risque d’exposition à un liquide biologique",
+            "Après avoir touché l’environnement du patient"
+          ]
+        },
+        {
+          "id": "hygiene-as-111",
+          "type": "qcm",
+          "text": "Question 111 — QCM\nDans quelle situation le lavage à l’eau et au savon est-il clairement indiqué ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Mains visiblement sales",
+            "Simple changement de couleur de blouse",
+            "Lecture d’un dossier sans contact",
+            "Port de chaussures propres"
+          ],
+          "correct": "Mains visiblement sales",
+          "explanation": "Les salissures visibles nécessitent une élimination par lavage.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 14 du PDF.",
+          "answer": "Mains visiblement sales"
+        },
+        {
+          "id": "hygiene-as-112",
+          "type": "qcm",
+          "text": "Question 112 — QCM\nComment terminer une friction hydroalcoolique ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Rincer immédiatement",
+            "Essuyer le produit encore humide",
+            "Frictionner jusqu’au séchage complet",
+            "Mettre les mains humides dans les gants"
+          ],
+          "correct": "Frictionner jusqu’au séchage complet",
+          "explanation": "La friction se poursuit jusqu’au séchage, sans rinçage.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 16 du PDF.",
+          "answer": "Frictionner jusqu’au séchage complet"
+        },
+        {
+          "id": "hygiene-as-113",
+          "type": "qcm",
+          "text": "Question 113 — QCM\nQuels équipements sont adaptés à un risque de projection de sang vers le visage ?\nChoisir les 2 bonnes réponses.",
+          "options": [
+            "Protection oculaire",
+            "Masque adapté à la projection",
+            "Sandales",
+            "Bijoux de poignet"
+          ],
+          "correct": [
+            "Protection oculaire",
+            "Masque adapté à la projection"
+          ],
+          "explanation": "Les yeux, le nez et la bouche doivent être protégés selon le risque.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 23,49 du PDF.",
+          "answers": [
+            "Protection oculaire",
+            "Masque adapté à la projection"
+          ]
+        },
+        {
+          "id": "hygiene-as-114",
+          "type": "qcm",
+          "text": "Question 114 — QCM\nQuels critères correspondent aux chaussures professionnelles décrites dans le cours ?\nChoisir les 3 bonnes réponses.",
+          "options": [
+            "Lavables",
+            "Antidérapantes",
+            "Ouvertes sur l’avant",
+            "Fermées sur l’avant"
+          ],
+          "correct": [
+            "Lavables",
+            "Antidérapantes",
+            "Fermées sur l’avant"
+          ],
+          "explanation": "Ces propriétés facilitent l’entretien et la sécurité.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 21 du PDF.",
+          "answers": [
+            "Lavables",
+            "Antidérapantes",
+            "Fermées sur l’avant"
+          ]
+        },
+        {
+          "id": "hygiene-as-115",
+          "type": "qcm",
+          "text": "Question 115 — QCM\nDans quelles situations faut-il changer de gants ?\nChoisir les 3 bonnes réponses.",
+          "options": [
+            "Entre deux patients",
+            "Lorsqu’ils sont détériorés",
+            "Entre activités incompatibles, du sale vers le propre",
+            "Seulement à la fin du mois"
+          ],
+          "correct": [
+            "Entre deux patients",
+            "Lorsqu’ils sont détériorés",
+            "Entre activités incompatibles, du sale vers le propre"
+          ],
+          "explanation": "Une même paire ne doit pas transporter une contamination vers une autre tâche.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 24,49 du PDF.",
+          "answers": [
+            "Entre deux patients",
+            "Lorsqu’ils sont détériorés",
+            "Entre activités incompatibles, du sale vers le propre"
+          ]
+        },
+        {
+          "id": "hygiene-as-116",
+          "type": "qcm",
+          "text": "Question 116 — QCM\nComment doit être porté un masque chirurgical ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Sous le menton",
+            "Sur la bouche seulement",
+            "Sur le nez, la bouche et le menton",
+            "Dans la poche pendant le soin exposant"
+          ],
+          "correct": "Sur le nez, la bouche et le menton",
+          "explanation": "Le cours précise cette couverture du visage.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 22 du PDF.",
+          "answer": "Sur le nez, la bouche et le menton"
+        },
+        {
+          "id": "hygiene-as-117",
+          "type": "qcm",
+          "text": "Question 117 — QCM\nQuelle tenue facilite l’hygiène des mains et des avant-bras ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Tenue à manches courtes",
+            "Vêtements avec bijoux aux poignets",
+            "Manches longues couvrant les mains",
+            "Gants permanents toute la journée"
+          ],
+          "correct": "Tenue à manches courtes",
+          "explanation": "Les manches courtes dégagent les avant-bras.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 22 du PDF.",
+          "answer": "Tenue à manches courtes"
+        },
+        {
+          "id": "hygiene-as-118",
+          "type": "qcm",
+          "text": "Question 118 — QCM\nUne blouse vient d’être souillée par du sang. Quelle conduite est adaptée ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "La conserver une semaine",
+            "La changer",
+            "Masquer la tache avec un badge",
+            "La porter à domicile"
+          ],
+          "correct": "La changer",
+          "explanation": "Le cours recommande le changement dès qu’une tenue est souillée.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 23 du PDF.",
+          "answer": "La changer"
+        },
+        {
+          "id": "hygiene-as-119",
+          "type": "qcm",
+          "text": "Question 119 — QCM\nQuels contacts justifient le port de gants selon le risque ?\nChoisir les 3 bonnes réponses.",
+          "options": [
+            "Sang",
+            "Muqueuse",
+            "Peau lésée",
+            "Uniquement peau saine sans autre risque"
+          ],
+          "correct": [
+            "Sang",
+            "Muqueuse",
+            "Peau lésée"
+          ],
+          "explanation": "Le port de gants dépend de l’exposition prévisible.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 24,49 du PDF.",
+          "answers": [
+            "Sang",
+            "Muqueuse",
+            "Peau lésée"
+          ]
+        },
+        {
+          "id": "hygiene-as-120",
+          "type": "qcm",
+          "text": "Question 120 — QCM\nPendant une toilette, quels objectifs doivent être respectés ?\nChoisir les 3 bonnes réponses.",
+          "options": [
+            "Confort",
+            "Intimité",
+            "Participation du patient selon ses capacités",
+            "Exposition inutile du corps"
+          ],
+          "correct": [
+            "Confort",
+            "Intimité",
+            "Participation du patient selon ses capacités"
+          ],
+          "explanation": "La toilette associe hygiène, observation et respect de la personne.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 17–19 du PDF.",
+          "answers": [
+            "Confort",
+            "Intimité",
+            "Participation du patient selon ses capacités"
+          ]
+        },
+        {
+          "id": "hygiene-as-121",
+          "type": "qcm",
+          "text": "Question 121 — QCM\nQuel produit est destiné principalement à enlever les salissures ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Détergent",
+            "Antibiotique",
+            "Vaccin",
+            "Analgésique"
+          ],
+          "correct": "Détergent",
+          "explanation": "Le détergent facilite l’élimination des salissures ; cette action ne garantit pas une désinfection.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 10 du PDF.",
+          "answer": "Détergent"
+        },
+        {
+          "id": "hygiene-as-122",
+          "type": "qcm",
+          "text": "Question 122 — QCM\nQuelle association est correcte ?\nChoisir les 2 bonnes réponses.",
+          "options": [
+            "Antiseptique : tissu vivant",
+            "Désinfectant : surface inerte",
+            "Désinfectant de surface : œil",
+            "Détergent : vaccin"
+          ],
+          "correct": [
+            "Antiseptique : tissu vivant",
+            "Désinfectant : surface inerte"
+          ],
+          "explanation": "Le support d’utilisation distingue l’antiseptique du désinfectant.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 10–11 du PDF.",
+          "answers": [
+            "Antiseptique : tissu vivant",
+            "Désinfectant : surface inerte"
+          ]
+        },
+        {
+          "id": "hygiene-as-123",
+          "type": "qcm",
+          "text": "Question 123 — QCM\nQuelles informations faut-il respecter pour utiliser un désinfectant ?\nChoisir les 3 bonnes réponses.",
+          "options": [
+            "Dilution",
+            "Temps de contact",
+            "Compatibilité avec le support",
+            "Seulement couleur du flacon"
+          ],
+          "correct": [
+            "Dilution",
+            "Temps de contact",
+            "Compatibilité avec le support"
+          ],
+          "explanation": "Ces paramètres conditionnent l’efficacité et la sécurité.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 11–12 du PDF.",
+          "answers": [
+            "Dilution",
+            "Temps de contact",
+            "Compatibilité avec le support"
+          ]
+        },
+        {
+          "id": "hygiene-as-124",
+          "type": "qcm",
+          "text": "Question 124 — QCM\nQuelle pratique est adaptée aux flacons de produits ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Ajouter du produit neuf dans un reste ancien",
+            "Fermer après usage",
+            "Mélanger tous les produits",
+            "Retirer l’étiquette"
+          ],
+          "correct": "Fermer après usage",
+          "explanation": "Les flacons restent identifiés et fermés ; le remplissage sur un reste est déconseillé.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 11 du PDF.",
+          "answer": "Fermer après usage"
+        },
+        {
+          "id": "hygiene-as-125",
+          "type": "qcm",
+          "text": "Question 125 — QCM\nQuel ordre de nettoyage limite le transfert de salissures ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Du sale vers le propre",
+            "Du bas vers le haut",
+            "Du propre vers le sale",
+            "Au hasard"
+          ],
+          "correct": "Du propre vers le sale",
+          "explanation": "Le cours recommande aussi de progresser du haut vers le bas.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 27 du PDF.",
+          "answer": "Du propre vers le sale"
+        },
+        {
+          "id": "hygiene-as-126",
+          "type": "qcm",
+          "text": "Question 126 — QCM\nAvant une désinfection séparée, quelle étape est habituellement nécessaire ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Nettoyage",
+            "Application de parfum",
+            "Décoration",
+            "Suppression du temps de contact"
+          ],
+          "correct": "Nettoyage",
+          "explanation": "Les salissures doivent être éliminées selon le protocole avant la désinfection.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 27–28 du PDF.",
+          "answer": "Nettoyage"
+        },
+        {
+          "id": "hygiene-as-127",
+          "type": "qcm",
+          "text": "Question 127 — QCM\nPour préparer 1 litre de solution à 0,5 % à partir d’une solution à 5 %, quel volume de solution mère faut-il prélever ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "10 mL",
+            "100 mL",
+            "500 mL",
+            "1 000 mL"
+          ],
+          "correct": "100 mL",
+          "explanation": "C₁V₁ = C₂V₂ : V₁ = (0,5 × 1 000)/5 = 100 mL ; compléter avec de l’eau jusqu’à 1 000 mL selon le protocole.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 12 du PDF.",
+          "answer": "100 mL"
+        },
+        {
+          "id": "hygiene-as-128",
+          "type": "qcm",
+          "text": "Question 128 — QCM\nPour préparer 500 mL à 1 % à partir d’une solution à 5 %, quel volume de solution mère faut-il prélever ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "50 mL",
+            "100 mL",
+            "250 mL",
+            "500 mL"
+          ],
+          "correct": "100 mL",
+          "explanation": "V₁ = (1 × 500)/5 = 100 mL ; compléter jusqu’à 500 mL, soit environ 400 mL d’eau.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 12 du PDF.",
+          "answer": "100 mL"
+        },
+        {
+          "id": "hygiene-as-129",
+          "type": "qcm",
+          "text": "Question 129 — QCM\nQuelle valeur de pH correspond à une solution neutre ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "2",
+            "5",
+            "7",
+            "13"
+          ],
+          "correct": "7",
+          "explanation": "Le tableau du cours situe la neutralité à pH 7.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 10 du PDF.",
+          "answer": "7"
+        },
+        {
+          "id": "hygiene-as-130",
+          "type": "qcm",
+          "text": "Question 130 — QCM\nQue signifie le bionettoyage dans le cours ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Seulement parfumer",
+            "Associer l’élimination des salissures et la réduction des micro-organismes",
+            "Ne jamais nettoyer",
+            "Uniquement ouvrir les fenêtres"
+          ],
+          "correct": "Associer l’élimination des salissures et la réduction des micro-organismes",
+          "explanation": "Le bionettoyage combine les objectifs de nettoyage et de maîtrise microbienne.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 26–28 du PDF.",
+          "answer": "Associer l’élimination des salissures et la réduction des micro-organismes"
+        },
+        {
+          "id": "hygiene-as-131",
+          "type": "qcm",
+          "text": "Question 131 — QCM\nQuels paramètres sont pertinents pour choisir un désinfectant ?\nChoisir les 3 bonnes réponses.",
+          "options": [
+            "Spectre d’activité",
+            "Compatibilité avec le matériel",
+            "Toxicité",
+            "Popularité de la publicité uniquement"
+          ],
+          "correct": [
+            "Spectre d’activité",
+            "Compatibilité avec le matériel",
+            "Toxicité"
+          ],
+          "explanation": "Le cours cite également la stabilité, l’environnement et le coût.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 11 du PDF.",
+          "answers": [
+            "Spectre d’activité",
+            "Compatibilité avec le matériel",
+            "Toxicité"
+          ]
+        },
+        {
+          "id": "hygiene-as-132",
+          "type": "qcm",
+          "text": "Question 132 — QCM\nUn dispositif pénètre dans le système vasculaire. Quel traitement est requis avant réutilisation ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Simple essuyage sec",
+            "Stérilisation adaptée",
+            "Parfumage",
+            "Rangement immédiat sans traitement"
+          ],
+          "correct": "Stérilisation adaptée",
+          "explanation": "Un dispositif critique réutilisable doit être stérilisé selon une procédure validée.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 32–36 du PDF. / Centers for Disease Control and Prevention, Recommendations for Disinfection and Sterilization in Healthcare Facilities, rubriques 2 et 3, 2023. https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/summary-recommendations.html",
+          "answer": "Stérilisation adaptée"
+        },
+        {
+          "id": "hygiene-as-133",
+          "type": "qcm",
+          "text": "Question 133 — QCM\nPour un dispositif semi-critique réutilisable en contact avec une muqueuse, quel niveau minimal indique la recommandation CDC ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Aucun traitement",
+            "Désinfection de haut niveau",
+            "Désinfection de bas niveau seule",
+            "Dépoussiérage seul"
+          ],
+          "correct": "Désinfection de haut niveau",
+          "explanation": "Actualisation : la recommandation impose au minimum une désinfection de haut niveau ; la classification du cours AS est à corriger sur ce point.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 32 du PDF. / Centers for Disease Control and Prevention, Recommendations for Disinfection and Sterilization in Healthcare Facilities, rubriques 2 et 3, 2023. https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/summary-recommendations.html",
+          "answer": "Désinfection de haut niveau"
+        },
+        {
+          "id": "hygiene-as-134",
+          "type": "qcm",
+          "text": "Question 134 — QCM\nAprès nettoyage et rinçage d’un dispositif, pourquoi le sécher avant conditionnement ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Limiter l’humidité et la corrosion",
+            "Éviter toute traçabilité",
+            "Remplacer la stérilisation",
+            "Faciliter un stockage humide"
+          ],
+          "correct": "Limiter l’humidité et la corrosion",
+          "explanation": "Le séchage fait partie du traitement et ne remplace pas les autres étapes.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 35–37 du PDF.",
+          "answer": "Limiter l’humidité et la corrosion"
+        },
+        {
+          "id": "hygiene-as-135",
+          "type": "qcm",
+          "text": "Question 135 — QCM\nUn emballage de matériel stérile est déchiré. Que faire ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "L’utiliser comme stérile",
+            "Le retirer du circuit stérile et appliquer le protocole",
+            "Coller un autocollant et garantir la stérilité",
+            "Ignorer la déchirure"
+          ],
+          "correct": "Le retirer du circuit stérile et appliquer le protocole",
+          "explanation": "L’intégrité de l’emballage conditionne le maintien de la stérilité.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 35–37 du PDF.",
+          "answer": "Le retirer du circuit stérile et appliquer le protocole"
+        },
+        {
+          "id": "hygiene-as-136",
+          "type": "qcm",
+          "text": "Question 136 — QCM\nÀ quel moment faut-il trier les déchets de soins ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Au lieu de production",
+            "Après mélange dans la décharge",
+            "Uniquement une fois par mois",
+            "Après transport avec le linge propre"
+          ],
+          "correct": "Au lieu de production",
+          "explanation": "Le tri à la source évite les mélanges et les manipulations dangereuses.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 43 du PDF.",
+          "answer": "Au lieu de production"
+        },
+        {
+          "id": "hygiene-as-137",
+          "type": "qcm",
+          "text": "Question 137 — QCM\nOù jeter immédiatement une aiguille usagée ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Dans un sac souple",
+            "Dans un collecteur adapté aux objets piquants et coupants",
+            "Dans une poche",
+            "Dans le panier de linge"
+          ],
+          "correct": "Dans un collecteur adapté aux objets piquants et coupants",
+          "explanation": "Le collecteur doit être accessible près du lieu d’utilisation.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 43,49 du PDF.",
+          "answer": "Dans un collecteur adapté aux objets piquants et coupants"
+        },
+        {
+          "id": "hygiene-as-138",
+          "type": "qcm",
+          "text": "Question 138 — QCM\nQuelles manipulations augmentent le risque de piqûre ?\nChoisir les 3 bonnes réponses.",
+          "options": [
+            "Recapuchonner une aiguille usagée",
+            "La démonter à la main",
+            "La jeter dans un sac souple",
+            "L’éliminer directement dans le collecteur adapté"
+          ],
+          "correct": [
+            "Recapuchonner une aiguille usagée",
+            "La démonter à la main",
+            "La jeter dans un sac souple"
+          ],
+          "explanation": "Ces manipulations exposent le personnel aux objets piquants.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 28,49 du PDF.",
+          "answers": [
+            "Recapuchonner une aiguille usagée",
+            "La démonter à la main",
+            "La jeter dans un sac souple"
+          ]
+        },
+        {
+          "id": "hygiene-as-139",
+          "type": "qcm",
+          "text": "Question 139 — QCM\nQuels risques sont liés à une mauvaise gestion des déchets sanitaires ?\nChoisir les 3 bonnes réponses.",
+          "options": [
+            "Infectieux",
+            "Chimiques",
+            "Environnementaux",
+            "Amélioration garantie de la qualité de l’eau"
+          ],
+          "correct": [
+            "Infectieux",
+            "Chimiques",
+            "Environnementaux"
+          ],
+          "explanation": "Le cours décrit des risques pour les personnes et l’environnement.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 42–43 du PDF.",
+          "answers": [
+            "Infectieux",
+            "Chimiques",
+            "Environnementaux"
+          ]
+        },
+        {
+          "id": "hygiene-as-140",
+          "type": "qcm",
+          "text": "Question 140 — QCM\nQuel moyen est adapté au transport interne des déchets selon le cours ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Chariot dédié entretenu",
+            "Panier de repas",
+            "Bras du personnel sans contenant",
+            "Chariot de linge propre non protégé"
+          ],
+          "correct": "Chariot dédié entretenu",
+          "explanation": "Le transport doit préserver les circuits et permettre l’entretien du matériel.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 44 du PDF.",
+          "answer": "Chariot dédié entretenu"
+        },
+        {
+          "id": "hygiene-as-141",
+          "type": "qcm",
+          "text": "Question 141 — QCM\nQuels éléments ne doivent pas être mélangés au linge utilisé ?\nChoisir les 3 bonnes réponses.",
+          "options": [
+            "Aiguilles",
+            "Instruments de soins",
+            "Objets coupants",
+            "Uniquement les draps utilisés"
+          ],
+          "correct": [
+            "Aiguilles",
+            "Instruments de soins",
+            "Objets coupants"
+          ],
+          "explanation": "Ces objets créent des risques et doivent suivre leur propre circuit.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 38–40 du PDF.",
+          "answers": [
+            "Aiguilles",
+            "Instruments de soins",
+            "Objets coupants"
+          ]
+        },
+        {
+          "id": "hygiene-as-142",
+          "type": "qcm",
+          "text": "Question 142 — QCM\nComment manipuler le linge utilisé ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Le secouer fortement",
+            "Limiter son agitation",
+            "Le plaquer contre sa tenue",
+            "Le poser au sol"
+          ],
+          "correct": "Limiter son agitation",
+          "explanation": "Le cours demande une manipulation limitée, sans contact avec la tenue ni le sol.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 39–40 du PDF.",
+          "answer": "Limiter son agitation"
+        },
+        {
+          "id": "hygiene-as-143",
+          "type": "qcm",
+          "text": "Question 143 — QCM\nSelon le cours AS, quelle limite de remplissage convient au sac de linge utilisé ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Environ deux tiers",
+            "Au-delà de sa fermeture",
+            "Sans limite",
+            "Jusqu’à rupture du sac"
+          ],
+          "correct": "Environ deux tiers",
+          "explanation": "Le sac rempli aux deux tiers est fermé pour le transport.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 40 du PDF.",
+          "answer": "Environ deux tiers"
+        },
+        {
+          "id": "hygiene-as-144",
+          "type": "qcm",
+          "text": "Question 144 — QCM\nOù doit être placé le linge propre en attente d’utilisation ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Dans un endroit protégé",
+            "Au sol à côté des déchets",
+            "Sous du linge utilisé",
+            "Dans un collecteur d’aiguilles"
+          ],
+          "correct": "Dans un endroit protégé",
+          "explanation": "Le stockage doit protéger le linge propre de la contamination.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 40–41 du PDF.",
+          "answer": "Dans un endroit protégé"
+        },
+        {
+          "id": "hygiene-as-145",
+          "type": "qcm",
+          "text": "Question 145 — QCM\nQuelle gestion des stocks de linge correspond au cours ?\nChoisir les 2 bonnes réponses.",
+          "options": [
+            "Utiliser les stocks les plus anciens en premier",
+            "Placer les arrivages récents sous les anciens",
+            "Remettre tout linge sorti dans la réserve",
+            "Mélanger propre et utilisé"
+          ],
+          "correct": [
+            "Utiliser les stocks les plus anciens en premier",
+            "Placer les arrivages récents sous les anciens"
+          ],
+          "explanation": "La rotation évite l’accumulation des stocks et le retour de linge exposé.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 41 du PDF.",
+          "answers": [
+            "Utiliser les stocks les plus anciens en premier",
+            "Placer les arrivages récents sous les anciens"
+          ]
+        },
+        {
+          "id": "hygiene-as-146",
+          "type": "qcm",
+          "text": "Question 146 — QCM\nQuelle quantité de linge propre faut-il apporter dans la chambre ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Uniquement ce qui est nécessaire",
+            "Toute la réserve du service",
+            "Le linge d’une semaine pour tous les patients",
+            "Le linge utilisé d’autres chambres"
+          ],
+          "correct": "Uniquement ce qui est nécessaire",
+          "explanation": "Limiter les apports préserve le stock propre.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 41 du PDF.",
+          "answer": "Uniquement ce qui est nécessaire"
+        },
+        {
+          "id": "hygiene-as-147",
+          "type": "qcm",
+          "text": "Question 147 — QCM\nPourquoi fermer les contenants de linge utilisé avant transport ?\nChoisir les 2 bonnes réponses.",
+          "options": [
+            "Limiter la dissémination",
+            "Maintenir la séparation des circuits",
+            "Faciliter le mélange avec les repas",
+            "Permettre de transporter des aiguilles en vrac"
+          ],
+          "correct": [
+            "Limiter la dissémination",
+            "Maintenir la séparation des circuits"
+          ],
+          "explanation": "Le contenant fermé protège l’environnement du circuit.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 40 du PDF.",
+          "answers": [
+            "Limiter la dissémination",
+            "Maintenir la séparation des circuits"
+          ]
+        },
+        {
+          "id": "hygiene-as-148",
+          "type": "qcm",
+          "text": "Question 148 — QCM\nUn déchet médicamenteux doit suivre :\nChoisir une seule bonne réponse.",
+          "options": [
+            "Le circuit défini pour ce déchet selon le protocole",
+            "Toujours la poubelle des repas",
+            "Toujours le lavabo",
+            "Le panier de linge"
+          ],
+          "correct": "Le circuit défini pour ce déchet selon le protocole",
+          "explanation": "Le cours distingue les déchets médicamenteux et chimiques des déchets assimilables aux ordures ménagères.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 42–44 du PDF.",
+          "answer": "Le circuit défini pour ce déchet selon le protocole"
+        },
+        {
+          "id": "hygiene-as-149",
+          "type": "qcm",
+          "text": "Question 149 — QCM\nQue doit-on faire d’un chariot de collecte après usage ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "L’entretenir selon le protocole",
+            "Le laisser souillé",
+            "Le ranger avec le matériel stérile sans entretien",
+            "Le remplir de repas immédiatement"
+          ],
+          "correct": "L’entretenir selon le protocole",
+          "explanation": "Le matériel de transport doit être nettoyé et entretenu.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 40,44 du PDF.",
+          "answer": "L’entretenir selon le protocole"
+        },
+        {
+          "id": "hygiene-as-150",
+          "type": "qcm",
+          "text": "Question 150 — QCM\nPourquoi porter les protections prévues lors de la collecte ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Limiter l’exposition aux déchets et aux souillures",
+            "Remplacer le tri",
+            "Autoriser le recapuchonnage",
+            "Supprimer tout risque de manière absolue"
+          ],
+          "correct": "Limiter l’exposition aux déchets et aux souillures",
+          "explanation": "Les équipements protègent le personnel mais ne remplacent ni le tri ni les bonnes pratiques.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 43–44 du PDF.",
+          "answer": "Limiter l’exposition aux déchets et aux souillures"
+        },
+        {
+          "id": "hygiene-as-151",
+          "type": "qcm",
+          "text": "Question 151 — QCM\nÀ quels patients s’appliquent les précautions standard ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Seulement patients connus VIH positifs",
+            "Tous les patients",
+            "Seulement patients opérés",
+            "Seulement patients fébriles"
+          ],
+          "correct": "Tous les patients",
+          "explanation": "Elles constituent la base de prévention pour tout patient.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 48–49 du PDF.",
+          "answer": "Tous les patients"
+        },
+        {
+          "id": "hygiene-as-152",
+          "type": "qcm",
+          "text": "Question 152 — QCM\nQuels éléments appartiennent aux précautions standard du cours ?\nChoisir les 3 bonnes réponses.",
+          "options": [
+            "Hygiène des mains",
+            "Gestion sûre des objets piquants",
+            "Équipements adaptés au risque",
+            "Réutilisation de gants entre patients"
+          ],
+          "correct": [
+            "Hygiène des mains",
+            "Gestion sûre des objets piquants",
+            "Équipements adaptés au risque"
+          ],
+          "explanation": "Ces mesures préviennent l’exposition et la transmission.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 48–49 du PDF.",
+          "answers": [
+            "Hygiène des mains",
+            "Gestion sûre des objets piquants",
+            "Équipements adaptés au risque"
+          ]
+        },
+        {
+          "id": "hygiene-as-153",
+          "type": "qcm",
+          "text": "Question 153 — QCM\nQuel est l’objectif de l’isolement septique ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Limiter la diffusion des agents d’un patient infecté ou colonisé",
+            "Punir le patient",
+            "Supprimer toute communication",
+            "Remplacer son traitement"
+          ],
+          "correct": "Limiter la diffusion des agents d’un patient infecté ou colonisé",
+          "explanation": "Il protège les autres personnes d’une transmission.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 49–50 du PDF.",
+          "answer": "Limiter la diffusion des agents d’un patient infecté ou colonisé"
+        },
+        {
+          "id": "hygiene-as-154",
+          "type": "qcm",
+          "text": "Question 154 — QCM\nQuel est l’objectif de l’isolement protecteur ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Protéger un patient particulièrement vulnérable",
+            "Protéger uniquement les déchets",
+            "Interdire tout soin",
+            "Supprimer l’hygiène des mains"
+          ],
+          "correct": "Protéger un patient particulièrement vulnérable",
+          "explanation": "Il limite l’exposition d’une personne fragilisée aux agents infectieux.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 51 du PDF.",
+          "answer": "Protéger un patient particulièrement vulnérable"
+        },
+        {
+          "id": "hygiene-as-155",
+          "type": "qcm",
+          "text": "Question 155 — QCM\nQuelles catégories de précautions complémentaires figurent dans le cours ?\nChoisir les 3 bonnes réponses.",
+          "options": [
+            "Contact",
+            "Gouttelettes",
+            "Air",
+            "Décoratives"
+          ],
+          "correct": [
+            "Contact",
+            "Gouttelettes",
+            "Air"
+          ],
+          "explanation": "Elles complètent les précautions standard selon la transmission.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 50–51 du PDF.",
+          "answers": [
+            "Contact",
+            "Gouttelettes",
+            "Air"
+          ]
+        },
+        {
+          "id": "hygiene-as-156",
+          "type": "qcm",
+          "text": "Question 156 — QCM\nQuel exemple est associé à une transmission aérienne dans le cours ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Tuberculose pulmonaire",
+            "Fracture fermée",
+            "Diabète sans infection",
+            "Entorse"
+          ],
+          "correct": "Tuberculose pulmonaire",
+          "explanation": "La tuberculose est citée parmi les situations relevant des précautions Air.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 50 du PDF.",
+          "answer": "Tuberculose pulmonaire"
+        },
+        {
+          "id": "hygiene-as-157",
+          "type": "qcm",
+          "text": "Question 157 — QCM\nQuel exemple figure dans la catégorie des précautions Gouttelettes du cours ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Coqueluche",
+            "Hypertension isolée",
+            "Anémie nutritionnelle",
+            "Calcul rénal sans infection"
+          ],
+          "correct": "Coqueluche",
+          "explanation": "La coqueluche est citée dans cette catégorie.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 50 du PDF.",
+          "answer": "Coqueluche"
+        },
+        {
+          "id": "hygiene-as-158",
+          "type": "qcm",
+          "text": "Question 158 — QCM\nQuel exemple figure dans les précautions Contact du cours ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Gale",
+            "Myopie",
+            "Migraine",
+            "Luxation"
+          ],
+          "correct": "Gale",
+          "explanation": "Les précautions visent la transmission par contact.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 51 du PDF.",
+          "answer": "Gale"
+        },
+        {
+          "id": "hygiene-as-159",
+          "type": "qcm",
+          "text": "Question 159 — QCM\nQuelles actions protègent l’intimité pendant une toilette ?\nChoisir les 3 bonnes réponses.",
+          "options": [
+            "Fermer le rideau ou la porte selon la situation",
+            "Découvrir seulement la zone lavée",
+            "Expliquer le soin",
+            "Exposer entièrement le patient sans nécessité"
+          ],
+          "correct": [
+            "Fermer le rideau ou la porte selon la situation",
+            "Découvrir seulement la zone lavée",
+            "Expliquer le soin"
+          ],
+          "explanation": "La toilette doit préserver la pudeur et la dignité.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 18–19 du PDF.",
+          "answers": [
+            "Fermer le rideau ou la porte selon la situation",
+            "Découvrir seulement la zone lavée",
+            "Expliquer le soin"
+          ]
+        },
+        {
+          "id": "hygiene-as-160",
+          "type": "qcm",
+          "text": "Question 160 — QCM\nQuel sens convient à la toilette de la région génitale vers la région anale ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Du moins contaminé vers le plus contaminé",
+            "De l’anus vers les organes génitaux à chaque passage",
+            "Sans changer de matériel malgré les souillures",
+            "Toujours avec le linge de visage"
+          ],
+          "correct": "Du moins contaminé vers le plus contaminé",
+          "explanation": "Cette progression limite le transfert de contamination fécale.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 18–20 du PDF.",
+          "answer": "Du moins contaminé vers le plus contaminé"
+        },
+        {
+          "id": "hygiene-as-161",
+          "type": "qcm",
+          "text": "Question 161 — QCM\nQue faut-il faire avant d’aider un patient à manger ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Pratiquer l’hygiène des mains",
+            "Utiliser les gants souillés de la toilette",
+            "Poser le repas sur le sac de déchets",
+            "Secouer du linge sale près du plateau"
+          ],
+          "correct": "Pratiquer l’hygiène des mains",
+          "explanation": "La distribution et l’aide au repas exigent une hygiène adaptée.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 46 du PDF.",
+          "answer": "Pratiquer l’hygiène des mains"
+        },
+        {
+          "id": "hygiene-as-162",
+          "type": "qcm",
+          "text": "Question 162 — QCM\nQuels principes participent à l’hygiène des médicaments du cours ?\nChoisir les 3 bonnes réponses.",
+          "options": [
+            "Conserver l’identification du produit",
+            "Vérifier la péremption",
+            "Maintenir un rangement propre",
+            "Mélanger les produits sans étiquette"
+          ],
+          "correct": [
+            "Conserver l’identification du produit",
+            "Vérifier la péremption",
+            "Maintenir un rangement propre"
+          ],
+          "explanation": "Le circuit doit préserver l’identité et la qualité des produits.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 47–48 du PDF.",
+          "answers": [
+            "Conserver l’identification du produit",
+            "Vérifier la péremption",
+            "Maintenir un rangement propre"
+          ]
+        },
+        {
+          "id": "hygiene-as-163",
+          "type": "qcm",
+          "text": "Question 163 — QCM\nPourquoi limiter le matériel apporté dans la chambre à ce qui est nécessaire ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Réduire les objets exposés à la contamination",
+            "Remplacer tous les soins",
+            "Supprimer la traçabilité",
+            "Rendre inutile l’entretien"
+          ],
+          "correct": "Réduire les objets exposés à la contamination",
+          "explanation": "Le cours applique ce principe notamment au linge propre.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 41 du PDF.",
+          "answer": "Réduire les objets exposés à la contamination"
+        },
+        {
+          "id": "hygiene-as-164",
+          "type": "qcm",
+          "text": "Question 164 — QCM\nLes précautions complémentaires :\nChoisir une seule bonne réponse.",
+          "options": [
+            "Remplacent toujours l’hygiène des mains",
+            "S’ajoutent aux précautions standard",
+            "Concernent uniquement les vêtements",
+            "Autorisent à réutiliser les aiguilles"
+          ],
+          "correct": "S’ajoutent aux précautions standard",
+          "explanation": "La protection spécifique ne supprime pas les mesures de base.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 48–51 du PDF.",
+          "answer": "S’ajoutent aux précautions standard"
+        },
+        {
+          "id": "hygiene-as-165",
+          "type": "qcm",
+          "text": "Question 165 — QCM\nQuels patients sont cités pour l’isolement protecteur ?\nChoisir les 3 bonnes réponses.",
+          "options": [
+            "Certains prématurés",
+            "Certains grands brûlés",
+            "Certains patients greffés",
+            "Tous les visiteurs sans distinction"
+          ],
+          "correct": [
+            "Certains prématurés",
+            "Certains grands brûlés",
+            "Certains patients greffés"
+          ],
+          "explanation": "Le cours cite ces personnes particulièrement vulnérables.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 51 du PDF.",
+          "answers": [
+            "Certains prématurés",
+            "Certains grands brûlés",
+            "Certains patients greffés"
+          ]
+        },
+        {
+          "id": "hygiene-as-166",
+          "type": "qcm",
+          "text": "Question 166 — QCM\nQuelles situations correspondent à un AES ?\nChoisir les 3 bonnes réponses.",
+          "options": [
+            "Piqûre avec aiguille souillée de sang",
+            "Projection de sang dans l’œil",
+            "Contact de sang avec une peau lésée",
+            "Lecture d’un dossier propre"
+          ],
+          "correct": [
+            "Piqûre avec aiguille souillée de sang",
+            "Projection de sang dans l’œil",
+            "Contact de sang avec une peau lésée"
+          ],
+          "explanation": "L’exposition implique une effraction ou un contact avec une muqueuse ou une peau lésée.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 28 du PDF.",
+          "answers": [
+            "Piqûre avec aiguille souillée de sang",
+            "Projection de sang dans l’œil",
+            "Contact de sang avec une peau lésée"
+          ]
+        },
+        {
+          "id": "hygiene-as-167",
+          "type": "qcm",
+          "text": "Question 167 — QCM\nQuels virus sont particulièrement recherchés dans l’évaluation d’un AES ?\nChoisir les 3 bonnes réponses.",
+          "options": [
+            "VIH",
+            "Virus de l’hépatite B",
+            "Virus de l’hépatite C",
+            "Uniquement virus de la rougeole"
+          ],
+          "correct": [
+            "VIH",
+            "Virus de l’hépatite B",
+            "Virus de l’hépatite C"
+          ],
+          "explanation": "Ces trois infections sont les principaux risques viraux cités.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 29 du PDF.",
+          "answers": [
+            "VIH",
+            "Virus de l’hépatite B",
+            "Virus de l’hépatite C"
+          ]
+        },
+        {
+          "id": "hygiene-as-168",
+          "type": "qcm",
+          "text": "Question 168 — QCM\nAprès une piqûre, quelle première séquence de soins locaux est adaptée ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Laver à l’eau et au savon puis rincer",
+            "Sucer la plaie",
+            "Appliquer un désinfectant de sol",
+            "Attendre le lendemain"
+          ],
+          "correct": "Laver à l’eau et au savon puis rincer",
+          "explanation": "Le lavage et le rinçage précèdent l’antisepsie adaptée.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 29–30 du PDF.",
+          "answer": "Laver à l’eau et au savon puis rincer"
+        },
+        {
+          "id": "hygiene-as-169",
+          "type": "qcm",
+          "text": "Question 169 — QCM\nAprès une piqûre, que faut-il éviter ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Faire saigner volontairement la plaie",
+            "Nettoyer la plaie",
+            "Demander une évaluation urgente",
+            "Signaler l’accident"
+          ],
+          "correct": "Faire saigner volontairement la plaie",
+          "explanation": "Il ne faut pas faire saigner la plaie.",
+          "source": "Institut national de recherche et de sécurité, Hépatite B, fiche Eficatt, janvier 2026, rubrique Que faire en cas d’exposition ? https://www.inrs.fr/publications/bdd/eficatt/fiche.html?refINRS=EFICATT_H%C3%A9patite+B&section=queFaireExposition",
+          "answer": "Faire saigner volontairement la plaie"
+        },
+        {
+          "id": "hygiene-as-170",
+          "type": "qcm",
+          "text": "Question 170 — QCM\nAprès projection de sang dans l’œil, quelle conduite est adaptée ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Rinçage abondant à l’eau ou au sérum physiologique",
+            "Application de Javel de surface",
+            "Frottement avec un chiffon souillé",
+            "Absence de soins"
+          ],
+          "correct": "Rinçage abondant à l’eau ou au sérum physiologique",
+          "explanation": "La muqueuse doit être rincée ; un désinfectant de surface ne s’applique pas dans l’œil.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 30 du PDF.",
+          "answer": "Rinçage abondant à l’eau ou au sérum physiologique"
+        },
+        {
+          "id": "hygiene-as-171",
+          "type": "qcm",
+          "text": "Question 171 — QCM\nQuels facteurs peuvent augmenter le risque lors d’une piqûre ?\nChoisir les 3 bonnes réponses.",
+          "options": [
+            "Piqûre profonde",
+            "Aiguille creuse ayant contenu du sang",
+            "Source avec charge virale élevée",
+            "Ancienneté seule comme protection absolue"
+          ],
+          "correct": [
+            "Piqûre profonde",
+            "Aiguille creuse ayant contenu du sang",
+            "Source avec charge virale élevée"
+          ],
+          "explanation": "L’évaluation considère le type d’exposition et la source.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 29 du PDF.",
+          "answers": [
+            "Piqûre profonde",
+            "Aiguille creuse ayant contenu du sang",
+            "Source avec charge virale élevée"
+          ]
+        },
+        {
+          "id": "hygiene-as-172",
+          "type": "qcm",
+          "text": "Question 172 — QCM\nQui décide des mesures médicales après l’exposition ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Un professionnel habilité après évaluation",
+            "L’AS seul sans avis",
+            "Un visiteur",
+            "Le fournisseur de sacs"
+          ],
+          "correct": "Un professionnel habilité après évaluation",
+          "explanation": "L’AS réalise les gestes immédiats et sollicite une évaluation médicale urgente.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 30–31 du PDF.",
+          "answer": "Un professionnel habilité après évaluation"
+        },
+        {
+          "id": "hygiene-as-173",
+          "type": "qcm",
+          "text": "Question 173 — QCM\nSi une prophylaxie post-exposition VIH est indiquée, quel délai maximal d’initiation donne l’OMS ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "72 heures",
+            "Deux semaines",
+            "Un mois",
+            "Six mois"
+          ],
+          "correct": "72 heures",
+          "explanation": "Elle doit commencer au plus vite, idéalement dans les 24 heures et au plus tard dans les 72 heures ; ce maximum ne justifie aucune attente.",
+          "source": "Organisation mondiale de la Santé, Guidelines for HIV post-exposure prophylaxis, 2024, présentation et recommandations sur le délai et la durée. https://www.who.int/publications/i/item/9789240095137",
+          "answer": "72 heures"
+        },
+        {
+          "id": "hygiene-as-174",
+          "type": "qcm",
+          "text": "Question 174 — QCM\nQuelle durée de prophylaxie VIH recommande l’OMS lorsqu’elle est prescrite ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "28 jours",
+            "Un seul jour",
+            "Deux heures",
+            "Sans durée prévue"
+          ],
+          "correct": "28 jours",
+          "explanation": "La recommandation prévoit une prescription de 28 jours, avec suivi médical.",
+          "source": "Organisation mondiale de la Santé, Guidelines for HIV post-exposure prophylaxis, 2024, présentation et recommandations sur le délai et la durée. https://www.who.int/publications/i/item/9789240095137",
+          "answer": "28 jours"
+        },
+        {
+          "id": "hygiene-as-175",
+          "type": "qcm",
+          "text": "Question 175 — QCM\nQuelle vaccination contribue à la prévention professionnelle d’une infection transmise par le sang ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Vaccination contre l’hépatite B",
+            "Vaccination contre le VIH disponible en routine",
+            "Vaccination contre l’hépatite C disponible en routine",
+            "Vaccination uniquement antigrippale"
+          ],
+          "correct": "Vaccination contre l’hépatite B",
+          "explanation": "Le cours cite la vaccination contre l’hépatite B dans la prévention des AES.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 30 du PDF.",
+          "answer": "Vaccination contre l’hépatite B"
+        },
+        {
+          "id": "hygiene-as-176",
+          "type": "qcm",
+          "text": "Question 176 — QCM\nQuelles mesures réduisent les AES liés aux aiguilles ?\nChoisir les 3 bonnes réponses.",
+          "options": [
+            "Ne pas recapuchonner",
+            "Éliminer immédiatement dans le collecteur adapté",
+            "Placer le collecteur à proximité",
+            "Démonter à la main l’aiguille souillée"
+          ],
+          "correct": [
+            "Ne pas recapuchonner",
+            "Éliminer immédiatement dans le collecteur adapté",
+            "Placer le collecteur à proximité"
+          ],
+          "explanation": "Ces mesures limitent les manipulations après le geste.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 49 du PDF.",
+          "answers": [
+            "Ne pas recapuchonner",
+            "Éliminer immédiatement dans le collecteur adapté",
+            "Placer le collecteur à proximité"
+          ]
+        },
+        {
+          "id": "hygiene-as-177",
+          "type": "qcm",
+          "text": "Question 177 — QCM\nUne personne s’est piquée pendant la collecte. Que doit-elle faire ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Interrompre la tâche pour les soins immédiats et l’évaluation",
+            "Terminer obligatoirement toutes les chambres",
+            "Cacher l’accident",
+            "Attendre une douleur intense"
+          ],
+          "correct": "Interrompre la tâche pour les soins immédiats et l’évaluation",
+          "explanation": "La prise en charge de l’exposition est urgente.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 29–31 du PDF.",
+          "answer": "Interrompre la tâche pour les soins immédiats et l’évaluation"
+        },
+        {
+          "id": "hygiene-as-178",
+          "type": "qcm",
+          "text": "Question 178 — QCM\nPourquoi analyser les AES survenus dans un service ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Améliorer les pratiques et le matériel",
+            "Blâmer systématiquement la victime",
+            "Supprimer les déclarations",
+            "Conclure que les accidents sont impossibles"
+          ],
+          "correct": "Améliorer les pratiques et le matériel",
+          "explanation": "La surveillance aide à choisir des actions préventives.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 30–31 du PDF.",
+          "answer": "Améliorer les pratiques et le matériel"
+        },
+        {
+          "id": "hygiene-as-179",
+          "type": "qcm",
+          "text": "Question 179 — QCM\nAprès un AES, quelles actions accompagnent les soins immédiats ?\nChoisir les 3 bonnes réponses.",
+          "options": [
+            "Informer le responsable selon la procédure",
+            "Obtenir un avis médical urgent",
+            "Organiser le suivi prescrit",
+            "Ignorer le statut vaccinal"
+          ],
+          "correct": [
+            "Informer le responsable selon la procédure",
+            "Obtenir un avis médical urgent",
+            "Organiser le suivi prescrit"
+          ],
+          "explanation": "L’évaluation et le suivi complètent les gestes locaux.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 30–31 du PDF.",
+          "answers": [
+            "Informer le responsable selon la procédure",
+            "Obtenir un avis médical urgent",
+            "Organiser le suivi prescrit"
+          ]
+        },
+        {
+          "id": "hygiene-as-180",
+          "type": "qcm",
+          "text": "Question 180 — QCM\nLorsqu’un collecteur atteint sa limite de remplissage indiquée, que faire ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Le fermer et le remplacer selon le protocole",
+            "Tasser les aiguilles à la main",
+            "Forcer l’ajout d’objets",
+            "Vider son contenu dans un sac souple"
+          ],
+          "correct": "Le fermer et le remplacer selon le protocole",
+          "explanation": "Le collecteur ne doit pas être utilisé au-delà de sa limite.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 49 du PDF.",
+          "answer": "Le fermer et le remplacer selon le protocole"
+        },
+        {
+          "id": "hygiene-as-181",
+          "type": "qcd",
+          "text": "Question 181 — QCD\nLes précautions Contact prescrites dispensent l’AS des précautions standard.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "Elles s’ajoutent aux mesures de base.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 48–51 du PDF.",
+          "answer": "Faux",
+          "caseContext": "Étude de cas 1 : toilette, linge et repas\nUne AS aide Mme K., hospitalisée et présentant une diarrhée, à faire sa toilette. Un protocole de précautions Contact est prescrit. Le sac de linge utilisé est disponible à proximité. Après la toilette, l’AS doit entretenir le matériel puis aider Mme K. à manger."
+        },
+        {
+          "id": "hygiene-as-182",
+          "type": "qcd",
+          "text": "Question 182 — QCD\nL’AS doit préserver l’intimité de Mme K. pendant la toilette.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "Elle protège la pudeur et ne découvre que la zone nécessaire.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 18–19 du PDF.",
+          "answer": "Vrai",
+          "caseContext": "Étude de cas 1 : toilette, linge et repas\nUne AS aide Mme K., hospitalisée et présentant une diarrhée, à faire sa toilette. Un protocole de précautions Contact est prescrit. Le sac de linge utilisé est disponible à proximité. Après la toilette, l’AS doit entretenir le matériel puis aider Mme K. à manger."
+        },
+        {
+          "id": "hygiene-as-183",
+          "type": "qcd",
+          "text": "Question 183 — QCD\nLe linge utilisé peut être secoué dans la chambre pour en retirer les salissures.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "Il faut limiter l’agitation et utiliser le circuit prévu.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 39–40 du PDF.",
+          "answer": "Faux",
+          "caseContext": "Étude de cas 1 : toilette, linge et repas\nUne AS aide Mme K., hospitalisée et présentant une diarrhée, à faire sa toilette. Un protocole de précautions Contact est prescrit. Le sac de linge utilisé est disponible à proximité. Après la toilette, l’AS doit entretenir le matériel puis aider Mme K. à manger."
+        },
+        {
+          "id": "hygiene-as-184",
+          "type": "qcd",
+          "text": "Question 184 — QCD\nLes gants utilisés pour la toilette peuvent être conservés pour aider Mme K. à manger.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "Il faut retirer les gants, pratiquer l’hygiène des mains et préparer l’aide au repas proprement.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 24,46,49 du PDF.",
+          "answer": "Faux",
+          "caseContext": "Étude de cas 1 : toilette, linge et repas\nUne AS aide Mme K., hospitalisée et présentant une diarrhée, à faire sa toilette. Un protocole de précautions Contact est prescrit. Le sac de linge utilisé est disponible à proximité. Après la toilette, l’AS doit entretenir le matériel puis aider Mme K. à manger."
+        },
+        {
+          "id": "hygiene-as-185",
+          "type": "qcd",
+          "text": "Question 185 — QCD\nL’AS peut encourager Mme K. à participer à la toilette selon ses capacités.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "La participation respecte l’autonomie et favorise le confort.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 17–18 du PDF.",
+          "answer": "Vrai",
+          "caseContext": "Étude de cas 1 : toilette, linge et repas\nUne AS aide Mme K., hospitalisée et présentant une diarrhée, à faire sa toilette. Un protocole de précautions Contact est prescrit. Le sac de linge utilisé est disponible à proximité. Après la toilette, l’AS doit entretenir le matériel puis aider Mme K. à manger."
+        },
+        {
+          "id": "hygiene-as-186",
+          "type": "qcm",
+          "text": "Question 186 — QCM\nPour la toilette intime de Mme K., quelle progression limite la contamination fécale ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "De la région génitale vers la région anale",
+            "De l’anus vers le visage",
+            "Sans distinction entre zones",
+            "Avec le même linge souillé pour toutes les zones"
+          ],
+          "correct": "De la région génitale vers la région anale",
+          "explanation": "Le cours recommande une progression du moins contaminé vers le plus contaminé.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 18–20 du PDF.",
+          "answer": "De la région génitale vers la région anale",
+          "caseContext": "Étude de cas 1 : toilette, linge et repas\nUne AS aide Mme K., hospitalisée et présentant une diarrhée, à faire sa toilette. Un protocole de précautions Contact est prescrit. Le sac de linge utilisé est disponible à proximité. Après la toilette, l’AS doit entretenir le matériel puis aider Mme K. à manger."
+        },
+        {
+          "id": "hygiene-as-187",
+          "type": "qcm",
+          "text": "Question 187 — QCM\nQuelles actions conviennent au linge utilisé de Mme K. ?\nChoisir les 2 bonnes réponses.",
+          "options": [
+            "Le placer dans le contenant prévu",
+            "Éviter de le plaquer contre la tenue",
+            "Le déposer au sol",
+            "Le mélanger au linge propre"
+          ],
+          "correct": [
+            "Le placer dans le contenant prévu",
+            "Éviter de le plaquer contre la tenue"
+          ],
+          "explanation": "Le linge utilisé suit un circuit séparé et doit être manipulé le moins possible.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 39–40 du PDF.",
+          "answers": [
+            "Le placer dans le contenant prévu",
+            "Éviter de le plaquer contre la tenue"
+          ],
+          "caseContext": "Étude de cas 1 : toilette, linge et repas\nUne AS aide Mme K., hospitalisée et présentant une diarrhée, à faire sa toilette. Un protocole de précautions Contact est prescrit. Le sac de linge utilisé est disponible à proximité. Après la toilette, l’AS doit entretenir le matériel puis aider Mme K. à manger."
+        },
+        {
+          "id": "hygiene-as-188",
+          "type": "qcm",
+          "text": "Question 188 — QCM\nLes mains de l’AS sont visiblement souillées après la tâche. Que faire ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Lavage à l’eau et au savon",
+            "Essuyage sur la blouse",
+            "Port immédiat de gants sans lavage",
+            "Attendre la fin du repas"
+          ],
+          "correct": "Lavage à l’eau et au savon",
+          "explanation": "Le lavage élimine les salissures visibles.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 14 du PDF.",
+          "answer": "Lavage à l’eau et au savon",
+          "caseContext": "Étude de cas 1 : toilette, linge et repas\nUne AS aide Mme K., hospitalisée et présentant une diarrhée, à faire sa toilette. Un protocole de précautions Contact est prescrit. Le sac de linge utilisé est disponible à proximité. Après la toilette, l’AS doit entretenir le matériel puis aider Mme K. à manger."
+        },
+        {
+          "id": "hygiene-as-189",
+          "type": "qcm",
+          "text": "Question 189 — QCM\nAvant le repas, quelles actions sont adaptées ?\nChoisir les 2 bonnes réponses.",
+          "options": [
+            "Préparer un environnement propre",
+            "Pratiquer l’hygiène des mains",
+            "Déposer le plateau sur le sac de linge utilisé",
+            "Réutiliser les gants souillés"
+          ],
+          "correct": [
+            "Préparer un environnement propre",
+            "Pratiquer l’hygiène des mains"
+          ],
+          "explanation": "Le repas doit être protégé des contaminations provenant de la toilette.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 46 du PDF.",
+          "answers": [
+            "Préparer un environnement propre",
+            "Pratiquer l’hygiène des mains"
+          ],
+          "caseContext": "Étude de cas 1 : toilette, linge et repas\nUne AS aide Mme K., hospitalisée et présentant une diarrhée, à faire sa toilette. Un protocole de précautions Contact est prescrit. Le sac de linge utilisé est disponible à proximité. Après la toilette, l’AS doit entretenir le matériel puis aider Mme K. à manger."
+        },
+        {
+          "id": "hygiene-as-190",
+          "type": "qcm",
+          "text": "Question 190 — QCM\nAprès la toilette, que faire du matériel réutilisable ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Appliquer le traitement prévu selon son usage",
+            "Le ranger encore souillé",
+            "L’utiliser directement pour une autre patiente",
+            "Le mélanger aux repas"
+          ],
+          "correct": "Appliquer le traitement prévu selon son usage",
+          "explanation": "Le nettoyage et, si nécessaire, la désinfection suivent le protocole du matériel.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 33–37 du PDF.",
+          "answer": "Appliquer le traitement prévu selon son usage",
+          "caseContext": "Étude de cas 1 : toilette, linge et repas\nUne AS aide Mme K., hospitalisée et présentant une diarrhée, à faire sa toilette. Un protocole de précautions Contact est prescrit. Le sac de linge utilisé est disponible à proximité. Après la toilette, l’AS doit entretenir le matériel puis aider Mme K. à manger."
+        },
+        {
+          "id": "hygiene-as-191",
+          "type": "qcd",
+          "text": "Question 191 — QCD\nLe port de gants exclut tout AES après cette piqûre.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "Les gants ne garantissent pas l’absence d’effraction cutanée.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 28–29 du PDF.",
+          "answer": "Faux",
+          "caseContext": "Étude de cas 2 : piqûre pendant la collecte\nPendant la collecte, un AS se pique profondément avec une aiguille creuse souillée de sang, abandonnée dans un sac souple. Il porte des gants. Le patient source n’est pas encore identifié. Le collecteur d’objets piquants du secteur a dépassé sa limite de remplissage. Le service dispose d’une procédure AES et d’un accès à une évaluation médicale urgente."
+        },
+        {
+          "id": "hygiene-as-192",
+          "type": "qcd",
+          "text": "Question 192 — QCD\nL’AS doit faire saigner volontairement la plaie pour évacuer le virus.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "Il ne faut pas faire saigner la plaie ; réaliser les soins locaux puis obtenir un avis urgent.",
+          "source": "Institut national de recherche et de sécurité, Hépatite B, fiche Eficatt, janvier 2026, rubrique Que faire en cas d’exposition ? https://www.inrs.fr/publications/bdd/eficatt/fiche.html?refINRS=EFICATT_H%C3%A9patite+B&section=queFaireExposition",
+          "answer": "Faux",
+          "caseContext": "Étude de cas 2 : piqûre pendant la collecte\nPendant la collecte, un AS se pique profondément avec une aiguille creuse souillée de sang, abandonnée dans un sac souple. Il porte des gants. Le patient source n’est pas encore identifié. Le collecteur d’objets piquants du secteur a dépassé sa limite de remplissage. Le service dispose d’une procédure AES et d’un accès à une évaluation médicale urgente."
+        },
+        {
+          "id": "hygiene-as-193",
+          "type": "qcd",
+          "text": "Question 193 — QCD\nL’absence d’identification immédiate du patient source justifie d’attendre avant de consulter.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "L’évaluation médicale doit commencer sans attendre ; elle tient compte de l’incertitude.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 30–31 du PDF.",
+          "answer": "Faux",
+          "caseContext": "Étude de cas 2 : piqûre pendant la collecte\nPendant la collecte, un AS se pique profondément avec une aiguille creuse souillée de sang, abandonnée dans un sac souple. Il porte des gants. Le patient source n’est pas encore identifié. Le collecteur d’objets piquants du secteur a dépassé sa limite de remplissage. Le service dispose d’une procédure AES et d’un accès à une évaluation médicale urgente."
+        },
+        {
+          "id": "hygiene-as-194",
+          "type": "qcd",
+          "text": "Question 194 — QCD\nCette piqûre profonde avec aiguille creuse est un élément important de l’évaluation du risque.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "La profondeur et la nature de l’aiguille sont des facteurs cités.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 29 du PDF.",
+          "answer": "Vrai",
+          "caseContext": "Étude de cas 2 : piqûre pendant la collecte\nPendant la collecte, un AS se pique profondément avec une aiguille creuse souillée de sang, abandonnée dans un sac souple. Il porte des gants. Le patient source n’est pas encore identifié. Le collecteur d’objets piquants du secteur a dépassé sa limite de remplissage. Le service dispose d’une procédure AES et d’un accès à une évaluation médicale urgente."
+        },
+        {
+          "id": "hygiene-as-195",
+          "type": "qcd",
+          "text": "Question 195 — QCD\nLe sac souple était un contenant adapté pour cette aiguille usagée.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "L’aiguille devait être éliminée immédiatement dans un collecteur pour piquants et coupants.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 43,49 du PDF.",
+          "answer": "Faux",
+          "caseContext": "Étude de cas 2 : piqûre pendant la collecte\nPendant la collecte, un AS se pique profondément avec une aiguille creuse souillée de sang, abandonnée dans un sac souple. Il porte des gants. Le patient source n’est pas encore identifié. Le collecteur d’objets piquants du secteur a dépassé sa limite de remplissage. Le service dispose d’une procédure AES et d’un accès à une évaluation médicale urgente."
+        },
+        {
+          "id": "hygiene-as-196",
+          "type": "qcm",
+          "text": "Question 196 — QCM\nQuelle action locale doit commencer immédiatement ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Laver à l’eau et au savon, puis rincer",
+            "Sucer la plaie",
+            "Appliquer un produit de sol",
+            "Attendre le prochain service"
+          ],
+          "correct": "Laver à l’eau et au savon, puis rincer",
+          "explanation": "Le lavage et le rinçage sont suivis de l’antisepsie adaptée.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 29–30 du PDF.",
+          "answer": "Laver à l’eau et au savon, puis rincer",
+          "caseContext": "Étude de cas 2 : piqûre pendant la collecte\nPendant la collecte, un AS se pique profondément avec une aiguille creuse souillée de sang, abandonnée dans un sac souple. Il porte des gants. Le patient source n’est pas encore identifié. Le collecteur d’objets piquants du secteur a dépassé sa limite de remplissage. Le service dispose d’une procédure AES et d’un accès à une évaluation médicale urgente."
+        },
+        {
+          "id": "hygiene-as-197",
+          "type": "qcm",
+          "text": "Question 197 — QCM\nAprès les premiers soins, quelles actions sont indiquées ?\nChoisir les 2 bonnes réponses.",
+          "options": [
+            "Solliciter une évaluation médicale urgente",
+            "Informer le responsable selon la procédure",
+            "Cacher l’accident",
+            "Reprendre sans avis médical"
+          ],
+          "correct": [
+            "Solliciter une évaluation médicale urgente",
+            "Informer le responsable selon la procédure"
+          ],
+          "explanation": "L’exposition nécessite une évaluation et un signalement selon la procédure.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 30–31 du PDF.",
+          "answers": [
+            "Solliciter une évaluation médicale urgente",
+            "Informer le responsable selon la procédure"
+          ],
+          "caseContext": "Étude de cas 2 : piqûre pendant la collecte\nPendant la collecte, un AS se pique profondément avec une aiguille creuse souillée de sang, abandonnée dans un sac souple. Il porte des gants. Le patient source n’est pas encore identifié. Le collecteur d’objets piquants du secteur a dépassé sa limite de remplissage. Le service dispose d’une procédure AES et d’un accès à une évaluation médicale urgente."
+        },
+        {
+          "id": "hygiene-as-198",
+          "type": "qcm",
+          "text": "Question 198 — QCM\nQuels virus doivent être considérés lors de cette évaluation ?\nChoisir les 3 bonnes réponses.",
+          "options": [
+            "VIH",
+            "Virus de l’hépatite B",
+            "Virus de l’hépatite C",
+            "Uniquement virus grippal"
+          ],
+          "correct": [
+            "VIH",
+            "Virus de l’hépatite B",
+            "Virus de l’hépatite C"
+          ],
+          "explanation": "Le cours identifie ces trois risques viraux.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 29 du PDF.",
+          "answers": [
+            "VIH",
+            "Virus de l’hépatite B",
+            "Virus de l’hépatite C"
+          ],
+          "caseContext": "Étude de cas 2 : piqûre pendant la collecte\nPendant la collecte, un AS se pique profondément avec une aiguille creuse souillée de sang, abandonnée dans un sac souple. Il porte des gants. Le patient source n’est pas encore identifié. Le collecteur d’objets piquants du secteur a dépassé sa limite de remplissage. Le service dispose d’une procédure AES et d’un accès à une évaluation médicale urgente."
+        },
+        {
+          "id": "hygiene-as-199",
+          "type": "qcm",
+          "text": "Question 199 — QCM\nQue faut-il faire du collecteur trop rempli ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "Appliquer sa procédure de fermeture et de remplacement",
+            "Tasser avec la main",
+            "Transvaser dans un sac souple",
+            "Continuer à forcer les aiguilles"
+          ],
+          "correct": "Appliquer sa procédure de fermeture et de remplacement",
+          "explanation": "La limite de remplissage doit être respectée.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 49 du PDF.",
+          "answer": "Appliquer sa procédure de fermeture et de remplacement",
+          "caseContext": "Étude de cas 2 : piqûre pendant la collecte\nPendant la collecte, un AS se pique profondément avec une aiguille creuse souillée de sang, abandonnée dans un sac souple. Il porte des gants. Le patient source n’est pas encore identifié. Le collecteur d’objets piquants du secteur a dépassé sa limite de remplissage. Le service dispose d’une procédure AES et d’un accès à une évaluation médicale urgente."
+        },
+        {
+          "id": "hygiene-as-200",
+          "type": "qcm",
+          "text": "Question 200 — QCM\nQuelle amélioration prévient une répétition de cet accident ?\nChoisir les 3 bonnes réponses.",
+          "options": [
+            "Collecteur adapté accessible au lieu du geste",
+            "Élimination immédiate de l’aiguille après usage",
+            "Rappel des consignes de non-recapuchonnage",
+            "Mélange des aiguilles au linge"
+          ],
+          "correct": [
+            "Collecteur adapté accessible au lieu du geste",
+            "Élimination immédiate de l’aiguille après usage",
+            "Rappel des consignes de non-recapuchonnage"
+          ],
+          "explanation": "La prévention repose sur le circuit sûr et la réduction des manipulations.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 43,49 du PDF.",
+          "answers": [
+            "Collecteur adapté accessible au lieu du geste",
+            "Élimination immédiate de l’aiguille après usage",
+            "Rappel des consignes de non-recapuchonnage"
+          ],
+          "caseContext": "Étude de cas 2 : piqûre pendant la collecte\nPendant la collecte, un AS se pique profondément avec une aiguille creuse souillée de sang, abandonnée dans un sac souple. Il porte des gants. Le patient source n’est pas encore identifié. Le collecteur d’objets piquants du secteur a dépassé sa limite de remplissage. Le service dispose d’une procédure AES et d’un accès à une évaluation médicale urgente."
+        },
+        {
+          "id": "hygiene-as-201",
+          "type": "qcd",
+          "text": "Question 201 — QCD\nLa solution mère à 5 % peut être utilisée pure à la place de la solution prescrite à 0,5 %.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "La concentration prévue doit être respectée ; une solution plus concentrée n’est pas automatiquement adaptée.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 11–12 du PDF.",
+          "answer": "Faux",
+          "caseContext": "Étude de cas 3 : entretien et contrôle des stocks\nUne AS prépare l’entretien d’une salle et vérifie les stocks. Le protocole demande 1 000 mL d’une solution à 0,5 %, préparée avec une solution mère à 5 % ; ces concentrations sont exprimées dans la même unité. Elle trouve aussi du linge propre non protégé près du linge utilisé, un emballage stérile déchiré et du matériel réutilisable encore souillé. Aucun produit ne doit être mélangé à un autre produit chimique."
+        },
+        {
+          "id": "hygiene-as-202",
+          "type": "qcd",
+          "text": "Question 202 — QCD\nL’AS doit mélanger le produit chloré avec un autre produit d’entretien pour accroître son efficacité.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "Les produits ne doivent pas être mélangés ; suivre les instructions et le protocole.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 11–12 du PDF.",
+          "answer": "Faux",
+          "caseContext": "Étude de cas 3 : entretien et contrôle des stocks\nUne AS prépare l’entretien d’une salle et vérifie les stocks. Le protocole demande 1 000 mL d’une solution à 0,5 %, préparée avec une solution mère à 5 % ; ces concentrations sont exprimées dans la même unité. Elle trouve aussi du linge propre non protégé près du linge utilisé, un emballage stérile déchiré et du matériel réutilisable encore souillé. Aucun produit ne doit être mélangé à un autre produit chimique."
+        },
+        {
+          "id": "hygiene-as-203",
+          "type": "qcd",
+          "text": "Question 203 — QCD\nL’emballage déchiré permet de garantir la stérilité du matériel qu’il contient.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "L’intégrité de la barrière stérile n’est plus garantie.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 35–37 du PDF.",
+          "answer": "Faux",
+          "caseContext": "Étude de cas 3 : entretien et contrôle des stocks\nUne AS prépare l’entretien d’une salle et vérifie les stocks. Le protocole demande 1 000 mL d’une solution à 0,5 %, préparée avec une solution mère à 5 % ; ces concentrations sont exprimées dans la même unité. Elle trouve aussi du linge propre non protégé près du linge utilisé, un emballage stérile déchiré et du matériel réutilisable encore souillé. Aucun produit ne doit être mélangé à un autre produit chimique."
+        },
+        {
+          "id": "hygiene-as-204",
+          "type": "qcd",
+          "text": "Question 204 — QCD\nLe linge propre doit être protégé et séparé du linge utilisé.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Vrai",
+          "explanation": "La séparation évite sa contamination pendant le stockage.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 40–41 du PDF.",
+          "answer": "Vrai",
+          "caseContext": "Étude de cas 3 : entretien et contrôle des stocks\nUne AS prépare l’entretien d’une salle et vérifie les stocks. Le protocole demande 1 000 mL d’une solution à 0,5 %, préparée avec une solution mère à 5 % ; ces concentrations sont exprimées dans la même unité. Elle trouve aussi du linge propre non protégé près du linge utilisé, un emballage stérile déchiré et du matériel réutilisable encore souillé. Aucun produit ne doit être mélangé à un autre produit chimique."
+        },
+        {
+          "id": "hygiene-as-205",
+          "type": "qcd",
+          "text": "Question 205 — QCD\nLe matériel encore souillé peut être rangé directement dans le stock propre.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "correct": "Faux",
+          "explanation": "Il doit d’abord suivre la procédure de traitement correspondant à son usage.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 33–37 du PDF.",
+          "answer": "Faux",
+          "caseContext": "Étude de cas 3 : entretien et contrôle des stocks\nUne AS prépare l’entretien d’une salle et vérifie les stocks. Le protocole demande 1 000 mL d’une solution à 0,5 %, préparée avec une solution mère à 5 % ; ces concentrations sont exprimées dans la même unité. Elle trouve aussi du linge propre non protégé près du linge utilisé, un emballage stérile déchiré et du matériel réutilisable encore souillé. Aucun produit ne doit être mélangé à un autre produit chimique."
+        },
+        {
+          "id": "hygiene-as-206",
+          "type": "qcm",
+          "text": "Question 206 — QCM\nQuel volume de solution mère à 5 % faut-il pour obtenir 1 000 mL à 0,5 % ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "100 mL",
+            "10 mL",
+            "500 mL",
+            "1 000 mL"
+          ],
+          "correct": "100 mL",
+          "explanation": "V₁ = C₂V₂/C₁ = 0,5 × 1 000/5 = 100 mL.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 12 du PDF.",
+          "answer": "100 mL",
+          "caseContext": "Étude de cas 3 : entretien et contrôle des stocks\nUne AS prépare l’entretien d’une salle et vérifie les stocks. Le protocole demande 1 000 mL d’une solution à 0,5 %, préparée avec une solution mère à 5 % ; ces concentrations sont exprimées dans la même unité. Elle trouve aussi du linge propre non protégé près du linge utilisé, un emballage stérile déchiré et du matériel réutilisable encore souillé. Aucun produit ne doit être mélangé à un autre produit chimique."
+        },
+        {
+          "id": "hygiene-as-207",
+          "type": "qcm",
+          "text": "Question 207 — QCM\nAprès le prélèvement de solution mère, quel volume final faut-il atteindre avec l’eau ?\nChoisir une seule bonne réponse.",
+          "options": [
+            "1 000 mL au total",
+            "1 100 mL au total",
+            "100 mL au total",
+            "5 000 mL au total"
+          ],
+          "correct": "1 000 mL au total",
+          "explanation": "Compléter jusqu’à 1 000 mL ; cela correspond à environ 900 mL d’eau pour 100 mL de solution mère.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 12 du PDF.",
+          "answer": "1 000 mL au total",
+          "caseContext": "Étude de cas 3 : entretien et contrôle des stocks\nUne AS prépare l’entretien d’une salle et vérifie les stocks. Le protocole demande 1 000 mL d’une solution à 0,5 %, préparée avec une solution mère à 5 % ; ces concentrations sont exprimées dans la même unité. Elle trouve aussi du linge propre non protégé près du linge utilisé, un emballage stérile déchiré et du matériel réutilisable encore souillé. Aucun produit ne doit être mélangé à un autre produit chimique."
+        },
+        {
+          "id": "hygiene-as-208",
+          "type": "qcm",
+          "text": "Question 208 — QCM\nQuelle progression convient à l’entretien de la salle ?\nChoisir les 2 bonnes réponses.",
+          "options": [
+            "Du propre vers le sale",
+            "Du haut vers le bas",
+            "Du sale vers le propre",
+            "Du sol vers les surfaces hautes"
+          ],
+          "correct": [
+            "Du propre vers le sale",
+            "Du haut vers le bas"
+          ],
+          "explanation": "Cette progression limite le transfert des salissures.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 27 du PDF.",
+          "answers": [
+            "Du propre vers le sale",
+            "Du haut vers le bas"
+          ],
+          "caseContext": "Étude de cas 3 : entretien et contrôle des stocks\nUne AS prépare l’entretien d’une salle et vérifie les stocks. Le protocole demande 1 000 mL d’une solution à 0,5 %, préparée avec une solution mère à 5 % ; ces concentrations sont exprimées dans la même unité. Elle trouve aussi du linge propre non protégé près du linge utilisé, un emballage stérile déchiré et du matériel réutilisable encore souillé. Aucun produit ne doit être mélangé à un autre produit chimique."
+        },
+        {
+          "id": "hygiene-as-209",
+          "type": "qcm",
+          "text": "Question 209 — QCM\nQuels éléments doivent être vérifiés avant l’utilisation de la solution préparée ?\nChoisir les 3 bonnes réponses.",
+          "options": [
+            "Identification de la solution",
+            "Concentration et temps de contact prescrits",
+            "Compatibilité du support",
+            "Seulement l’odeur"
+          ],
+          "correct": [
+            "Identification de la solution",
+            "Concentration et temps de contact prescrits",
+            "Compatibilité du support"
+          ],
+          "explanation": "L’identification et le respect des conditions d’emploi sont essentiels.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 11–12 du PDF.",
+          "answers": [
+            "Identification de la solution",
+            "Concentration et temps de contact prescrits",
+            "Compatibilité du support"
+          ],
+          "caseContext": "Étude de cas 3 : entretien et contrôle des stocks\nUne AS prépare l’entretien d’une salle et vérifie les stocks. Le protocole demande 1 000 mL d’une solution à 0,5 %, préparée avec une solution mère à 5 % ; ces concentrations sont exprimées dans la même unité. Elle trouve aussi du linge propre non protégé près du linge utilisé, un emballage stérile déchiré et du matériel réutilisable encore souillé. Aucun produit ne doit être mélangé à un autre produit chimique."
+        },
+        {
+          "id": "hygiene-as-210",
+          "type": "qcm",
+          "text": "Question 210 — QCM\nQue faire du matériel contenu dans l’emballage stérile déchiré ?\nChoisir les 2 bonnes réponses.",
+          "options": [
+            "Le retirer du stock utilisable comme stérile",
+            "Appliquer la procédure de retraitement adaptée",
+            "L’utiliser sans contrôle",
+            "Garantir la stérilité après un simple essuyage"
+          ],
+          "correct": [
+            "Le retirer du stock utilisable comme stérile",
+            "Appliquer la procédure de retraitement adaptée"
+          ],
+          "explanation": "La perte d’intégrité impose une prise en charge selon le protocole.",
+          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 35–37 du PDF.",
+          "answers": [
+            "Le retirer du stock utilisable comme stérile",
+            "Appliquer la procédure de retraitement adaptée"
+          ],
+          "caseContext": "Étude de cas 3 : entretien et contrôle des stocks\nUne AS prépare l’entretien d’une salle et vérifie les stocks. Le protocole demande 1 000 mL d’une solution à 0,5 %, préparée avec une solution mère à 5 % ; ces concentrations sont exprimées dans la même unité. Elle trouve aussi du linge propre non protégé près du linge utilisé, un emballage stérile déchiré et du matériel réutilisable encore souillé. Aucun produit ne doit être mélangé à un autre produit chimique."
+        }
+      ]
     }
   ]
 };
@@ -2504,12 +5816,12 @@ const CONFIG = {
           </div>
           <p class="student-evaluation-meta"><strong>Matière :</strong> ${escapeHTML(availableSubject.matter)}</p>
           <p class="student-evaluation-meta"><strong>Durée :</strong> ${availableSubject.duration} min</p>
-          <p class="student-evaluation-meta"><strong>Questions :</strong> ${getQuizQuestionCount()} — ${getQuizTypeLabel()} — ${quizSettings.displayMode === "all" ? "toutes sur une page" : "question par question"}</p>
+          <p class="student-evaluation-meta"><strong>Questions :</strong> ${Math.min(getQuizQuestionCount(), getQuestionsForSelectedType(availableSubject.questions).length)} sur ${availableSubject.questions.length} — ${getQuizTypeLabel()} — ${quizSettings.displayMode === "all" ? "toutes sur une page" : "question par question"}</p>
           <p class="student-evaluation-meta"><strong>Fermeture :</strong> ${formatDateTime(availableSubject.closeDate, availableSubject.closeTime)}</p>
           <button class="student-start-btn" onclick="startQuickEvaluation('${availableSubject.id}')">Commencer</button>
         </div>
       `).join("") : `
-        <div class="student-empty-state">Évaluation test sera disponible le dimanche 20 septembre 2026 de 21 h à 21 h 30.</div>
+        <div class="student-empty-state">Choisissez le sujet que vous souhaitez traiter.</div>
       `;
 
       homeView.innerHTML = `
@@ -2523,8 +5835,8 @@ const CONFIG = {
           </section>
 
           <section id="studentAvailableSection" class="student-section-card">
-            <h3>Sujet disponible</h3>
-            <p class="student-section-note">Évaluation test sera disponible le dimanche 20 septembre 2026 de 21 h à 21 h 30.</p>
+            <h3>Sujets disponibles</h3>
+            <p class="student-section-note">Choisissez le sujet que vous souhaitez traiter.</p>
             ${availableHtml}
           </section>
 
@@ -2544,7 +5856,7 @@ const CONFIG = {
     }
 
     function getMaximumQuestionCount(type = quizSettings.questionType) {
-      const bank = subjects[0]?.questions || CONFIG.subjects[0]?.questions || [];
+      const bank = (subjects.length ? subjects : CONFIG.subjects).flatMap(subject => subject.questions || []);
       if (type === "qcd") return bank.filter(q => getQuestionCategory(q) === "trueFalse").length;
       if (type === "qcm") return bank.filter(q => getQuestionCategory(q) !== "trueFalse").length;
       return bank.length;
