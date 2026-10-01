@@ -1,0 +1,7 @@
+PÉDIATRIE ASO ASI 2024
+120 questions : 43 QCD, 38 QCM première série, 39 QCM deuxième série.
+Toutes les questions sélectionnées par défaut.
+Durée : 30 minutes. Temps par question : 30 secondes.
+Bonne réponse : +1 ; mauvaise réponse QCD : −1 ; mauvaise réponse QCM : 0 ; absence de réponse : 0.
+Affichage et sélection configurables dans Paramètres.
+Correction finale avec réponses, explications et sources.
