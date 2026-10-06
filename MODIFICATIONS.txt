@@ -1,3 +1,1 @@
-Ajout du sujet unique Hygiène hospitalière AS : 210 questions.
-Conservation des 120 questions de pédiatrie.
-Les trois textes des études de cas accompagnent chacune de leurs dix questions.
+Sujet remplacé par Stomatologie : 60 questions (30 QCD et 30 QCM), durée 90 minutes.

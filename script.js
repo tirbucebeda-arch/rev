@@ -7,12 +7,12 @@ const CONFIG = {
   },
   "subjects": [
     {
-      "id": "pediatrie-aso-asi-2024",
-      "title": "Pédiatrie ASO ASI 2024",
-      "matter": "Pédiatrie",
-      "description": "120 questions : QCD et deux séries de QCM.",
-      "instructions": "Répondez aux QCD puis aux deux séries de QCM. Respectez le nombre de bonnes réponses indiqué dans chaque question. Bonne réponse : +1 ; mauvaise réponse QCD : −1 ; mauvaise réponse QCM et absence de réponse : 0.",
-      "duration": 30,
+      "id": "stomatologie-60",
+      "title": "Stomatologie — 60 questions QCD et QCM",
+      "matter": "Stomatologie",
+      "description": "30 QCD et 30 QCM — Document de référence : stoma.pdf.",
+      "instructions": "QCD : choisir Vrai ou Faux. QCM : sélectionner le nombre de réponses indiqué. Bonne réponse : +1 ; mauvaise réponse QCD : −1 ; mauvaise réponse QCM ou absence de réponse : 0.",
+      "duration": 90,
       "programmed": true,
       "openDate": "2026-01-01",
       "openTime": "00:00",
@@ -25,2078 +25,973 @@ const CONFIG = {
       },
       "questions": [
         {
-          "id": "pediatrie-as-1",
           "type": "qcd",
-          "text": "QCD · Question 1\nLes signes suivants peuvent évoquer une fièvre chez l’enfant : frissons, augmentation de la température, agitation ou prostration, modification de la couleur des téguments, cri, pâleur et douleur.",
+          "text": "La cavité buccale participe à la mastication, à la déglutition et à la phonation.",
           "options": [
             "Vrai",
             "Faux"
           ],
-          "correct": "Vrai",
-          "explanation": "Ces manifestations peuvent accompagner la fièvre, sans être toutes présentes ni spécifiques. La température doit être mesurée.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 3 (énoncé).Documentation AS : pediatrie.pdf, pages 47–48 du PDF.",
-          "section": "QCD",
-          "originalNumber": 1,
-          "answer": "Vrai"
+          "explanation": "La bouche intervient dans la préparation des aliments, leur déglutition et la production de la parole.",
+          "source": "stoma.pdf, partie anatomie de la cavité buccale.",
+          "answer": "Vrai",
+          "correct": "Vrai"
         },
         {
-          "id": "pediatrie-as-2",
           "type": "qcd",
-          "text": "QCD · Question 2\nDans la subdivision de ce diaporama, le petit prématuré naît entre 34 SA et 36 SA + 6 jours.",
+          "text": "Le palais constitue la paroi inférieure de la cavité buccale.",
           "options": [
             "Vrai",
             "Faux"
           ],
-          "correct": "Vrai",
-          "explanation": "Selon la subdivision du diaporama, le petit prématuré correspond à la prématurité tardive : de 34 SA à moins de 37 SA. À 37 SA révolues, il n’est plus prématuré.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 3 (énoncé).Documentation AS : pediatrie.pdf, pages 34 du PDF.Organisation mondiale de la Santé, Preterm birth. https://www.who.int/news-room/fact-sheets/detail/preterm-birth Documentation DE : Pédiatrie L1.pdf, pages 63 du PDF.",
-          "section": "QCD",
-          "originalNumber": 2,
-          "answer": "Vrai"
+          "explanation": "Le palais constitue la paroi supérieure ; le plancher buccal ferme la cavité en bas.",
+          "source": "stoma.pdf, partie anatomie de la cavité buccale.",
+          "answer": "Faux",
+          "correct": "Faux"
         },
         {
-          "id": "pediatrie-as-3",
           "type": "qcd",
-          "text": "QCD · Question 3\nLa détresse respiratoire est une insuffisance respiratoire aigüe s’accompagnant d’une anoxie et des troubles métaboliques chez le nouveau-né",
+          "text": "Le palais dur est situé en avant du palais mou.",
           "options": [
             "Vrai",
             "Faux"
           ],
-          "correct": "Faux",
-          "explanation": "Une détresse respiratoire est reconnue par des signes de difficulté respiratoire. Elle peut entraîner une hypoxémie puis des troubles métaboliques, mais l’anoxie complète n’est pas obligatoire pour la définir.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 3 (énoncé).Inter-rater reliability of the Silverman and Andersen index—a measure of respiratory distress in preterm infants, étude publiée en 2023, rubrique The Silverman and Andersen index. https://pmc.ncbi.nlm.nih.gov/articles/PMC10313036/",
-          "section": "QCD",
-          "originalNumber": 3,
-          "answer": "Faux"
+          "explanation": "La voûte palatine osseuse est antérieure et le voile du palais est postérieur.",
+          "source": "stoma.pdf, partie anatomie de la cavité buccale.",
+          "answer": "Vrai",
+          "correct": "Vrai"
         },
         {
-          "id": "pediatrie-as-4",
           "type": "qcd",
-          "text": "QCD · Question 4\nLe score de Silverman permet d’apprécier la gravité de la détresse respiratoire",
+          "text": "La langue intervient uniquement dans la perception du goût.",
           "options": [
             "Vrai",
             "Faux"
           ],
-          "correct": "Vrai",
-          "explanation": "Il apprécie la sévérité des signes de lutte respiratoire ; cinq éléments cotés de 0 à 2 donnent un total de 0 à 10.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 3 (énoncé).Inter-rater reliability of the Silverman and Andersen index—a measure of respiratory distress in preterm infants, étude publiée en 2023, rubrique The Silverman and Andersen index. https://pmc.ncbi.nlm.nih.gov/articles/PMC10313036/",
-          "section": "QCD",
-          "originalNumber": 4,
-          "answer": "Vrai"
+          "explanation": "Elle participe également à la mastication, à la déglutition et à la phonation.",
+          "source": "stoma.pdf, partie anatomie de la cavité buccale.",
+          "answer": "Faux",
+          "correct": "Faux"
         },
         {
-          "id": "pediatrie-as-5",
           "type": "qcd",
-          "text": "QCD · Question 5\nSelon la classification du cours AS, la diarrhée chronique évolue depuis plus de 21 jours.",
+          "text": "Il existe trois paires de glandes salivaires principales.",
           "options": [
             "Vrai",
             "Faux"
           ],
-          "correct": "Vrai",
-          "explanation": "Le cours AS définit la diarrhée chronique au-delà de 21 jours. Cette limite est pédagogique : l’OMS définit une diarrhée persistante à partir de 14 jours, sans borne supérieure de 21 jours.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 6 (énoncé).Documentation AS : pediatrie.pdf, pages 55 du PDF.Organisation mondiale de la Santé, Diarrhoeal disease, rubriques définition, prévention et traitement. https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease",
-          "section": "QCD",
-          "originalNumber": 5,
-          "answer": "Vrai"
+          "explanation": "Ce sont les parotides, les sous-mandibulaires et les sublinguales.",
+          "source": "stoma.pdf, partie glandes salivaires principales.",
+          "answer": "Vrai",
+          "correct": "Vrai"
         },
         {
-          "id": "pediatrie-as-6",
           "type": "qcd",
-          "text": "QCD · Question 6\nLe vomissement désigne le rejet par la bouche d’une partie ou de la totalité du contenu gastrique avec ou non la participation des muscles abdominaux, du diaphragme et des muscles du thorax",
+          "text": "La couronne dentaire correspond à la partie implantée dans l’alvéole osseuse.",
           "options": [
             "Vrai",
             "Faux"
           ],
-          "correct": "Faux",
-          "explanation": "Le vomissement est une expulsion active du contenu gastrique. Un rejet passif sans contractions correspond plutôt à une régurgitation.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 6 (énoncé).Documentation AS : pediatrie.pdf, pages 58 du PDF.Documentation DE : Pédiatrie L1.pdf, pages 167–169 du PDF.",
-          "section": "QCD",
-          "originalNumber": 6,
-          "answer": "Faux"
+          "explanation": "La racine est implantée dans l’alvéole ; la couronne constitue la partie visible de la dent.",
+          "source": "stoma.pdf, chapitre 2 : L’organe dentaire.",
+          "answer": "Faux",
+          "correct": "Faux"
         },
         {
-          "id": "pediatrie-as-7",
           "type": "qcd",
-          "text": "QCD · Question 7\nLa réhydratation orale est un volet du traitement curatif de la diarrhée chez l’enfant",
+          "text": "Le collet se situe à la jonction entre la couronne et la racine.",
           "options": [
             "Vrai",
             "Faux"
           ],
-          "correct": "Vrai",
-          "explanation": "La réhydratation orale remplace l’eau et les électrolytes perdus ; la voie de réhydratation dépend de l’état clinique.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 6 (énoncé).Documentation AS : pediatrie.pdf, pages 56–57 du PDF.Organisation mondiale de la Santé, Diarrhoeal disease, rubriques définition, prévention et traitement. https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease",
-          "section": "QCD",
-          "originalNumber": 7,
-          "answer": "Vrai"
+          "explanation": "Il représente la zone de transition entre ces deux parties.",
+          "source": "stoma.pdf, chapitre 2 : L’organe dentaire.",
+          "answer": "Vrai",
+          "correct": "Vrai"
         },
         {
-          "id": "pediatrie-as-8",
           "type": "qcd",
-          "text": "QCD · Question 8\nLes vomissements sont des rejets volontaires par la bouche de la totalité ou d’une partie du contenu gastrique",
+          "text": "L’émail, la dentine et le cément sont des tissus minéralisés.",
           "options": [
             "Vrai",
             "Faux"
           ],
-          "correct": "Faux",
-          "explanation": "Les vomissements sont habituellement involontaires ; « volontaires » doit être remplacé par « involontaires ».",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 6 (énoncé).Documentation AS : pediatrie.pdf, pages 58 du PDF.Documentation DE : Pédiatrie L1.pdf, pages 167–169 du PDF.",
-          "section": "QCD",
-          "originalNumber": 8,
-          "answer": "Faux"
+          "explanation": "Ces trois tissus constituent les parties minéralisées de la dent.",
+          "source": "stoma.pdf, chapitre 2 : L’organe dentaire.",
+          "answer": "Vrai",
+          "correct": "Vrai"
         },
         {
-          "id": "pediatrie-as-9",
           "type": "qcd",
-          "text": "QCD · Question 9\nDans le cours DE, l’âge inférieur à trois mois est classé comme facteur environnemental des infections respiratoires aiguës.",
+          "text": "La pulpe dentaire contient des vaisseaux et des nerfs.",
           "options": [
             "Vrai",
             "Faux"
           ],
-          "correct": "Faux",
-          "explanation": "Le cours DE classe l’âge inférieur à trois mois parmi les facteurs de gravité liés à l’enfant. Il ne s’agit pas d’un facteur environnemental.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 9 (énoncé).Documentation DE : Pédiatrie L2.pdf, page imprimée 97, page 98 du PDF, facteurs favorisants et facteurs de gravité.",
-          "section": "QCD",
-          "originalNumber": 9,
-          "answer": "Faux"
+          "explanation": "La pulpe assure notamment la vascularisation et l’innervation de la dent.",
+          "source": "stoma.pdf, chapitre 2 : L’organe dentaire.",
+          "answer": "Vrai",
+          "correct": "Vrai"
         },
         {
-          "id": "pediatrie-as-10",
           "type": "qcd",
-          "text": "QCD · Question 10\nLes indicateurs de croissance permettent de suivre le développement somatique de l’enfant à partir de 1 an jusqu’à l’adolescence.",
+          "text": "La denture temporaire complète comprend 32 dents.",
           "options": [
             "Vrai",
             "Faux"
           ],
-          "correct": "Faux",
-          "explanation": "La surveillance commence dès la naissance, et non à partir d’un an.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 9 (énoncé).Documentation AS : pediatrie.pdf, pages 9 du PDF.",
-          "section": "QCD",
-          "originalNumber": 10,
-          "answer": "Faux"
+          "explanation": "Elle comprend 20 dents ; la denture permanente complète en comprend 32.",
+          "source": "stoma.pdf, chapitre 2 : L’organe dentaire.",
+          "answer": "Faux",
+          "correct": "Faux"
         },
         {
-          "id": "pediatrie-as-11",
           "type": "qcd",
-          "text": "QCD · Question 11\nLa fièvre est définie comme une élévation de la température corporelle au-dessus de 37º5 Celsius le matin et 39º Celsius le soir",
+          "text": "La dentition désigne le processus de formation et d’éruption des dents.",
           "options": [
             "Vrai",
             "Faux"
           ],
-          "correct": "Faux",
-          "explanation": "39 °C le soir n’est pas le seuil de définition de la fièvre. Le support AS indique plus de 37,5 °C le matin et 38 °C le soir ; en pratique pédiatrique actuelle, le repère usuel est une température d’au moins 38 °C, avec méthode de mesure précisée.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 9 (énoncé).Documentation AS : pediatrie.pdf, pages 47 du PDF.National Institute for Health and Care Excellence, Fever in under 5s: assessment and initial management, NG143, recommandations. https://www.nice.org.uk/guidance/ng143/chapter/recommendations",
-          "section": "QCD",
-          "originalNumber": 11,
-          "answer": "Faux"
+          "explanation": "La denture désigne, quant à elle, l’ensemble des dents présentes.",
+          "source": "stoma.pdf, chapitre 2 : L’organe dentaire.",
+          "answer": "Vrai",
+          "correct": "Vrai"
         },
         {
-          "id": "pediatrie-as-12",
           "type": "qcd",
-          "text": "QCD · Question 12\nLe poids moyen à la naissance d’un nouveau-né à terme est de 4,5 kg.",
+          "text": "Une carie limitée à l’émail provoque toujours une douleur spontanée intense.",
           "options": [
             "Vrai",
             "Faux"
           ],
-          "correct": "Faux",
-          "explanation": "L’expression « en moyenne 3 kg et 4,5 kg » est incohérente. Le poids moyen d’un nouveau-né à terme est de l’ordre de 3 à 3,5 kg ; 4,5 kg ne représente pas une moyenne.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 9 (énoncé).Documentation DE : Pédiatrie L1.pdf, pages 32, 130 du PDF.",
-          "section": "QCD",
-          "originalNumber": 12,
-          "answer": "Faux"
+          "explanation": "L’atteinte de l’émail est souvent asymptomatique.",
+          "source": "stoma.pdf, partie carie dentaire.",
+          "answer": "Faux",
+          "correct": "Faux"
         },
         {
-          "id": "pediatrie-as-13",
           "type": "qcd",
-          "text": "QCD · Question 13\nParmi les mensurations citées dans le cours AS, les indicateurs de croissance sont au nombre de quatre.",
+          "text": "Une atteinte carieuse de la dentine peut provoquer une douleur au contact des aliments sucrés.",
           "options": [
             "Vrai",
             "Faux"
           ],
-          "correct": "Faux",
-          "explanation": "Le cours AS cite cinq mensurations : poids, taille, périmètres crânien, thoracique et brachial. Il ne s’agit pas du nombre universel de tous les indicateurs possibles.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 13 (énoncé).Documentation AS : pediatrie.pdf, pages 9 du PDF.",
-          "section": "QCD",
-          "originalNumber": 13,
-          "answer": "Faux"
+          "explanation": "La douleur peut être déclenchée par le sucre, les aliments acides et les variations thermiques.",
+          "source": "stoma.pdf, partie carie de la dentine.",
+          "answer": "Vrai",
+          "correct": "Vrai"
         },
         {
-          "id": "pediatrie-as-14",
           "type": "qcd",
-          "text": "QCD · Question 14\nLe pèse-bébé doit être nettoyé avec un antiseptique entre deux pesées.",
+          "text": "La pulpite est une inflammation de la gencive.",
           "options": [
             "Vrai",
             "Faux"
           ],
-          "correct": "Faux",
-          "explanation": "Le principe du nettoyage entre les enfants est correct ; pour une balance, on choisit un produit de nettoyage/désinfection compatible avec le matériel. L’antisepsie concerne les tissus vivants.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 13 (énoncé).Documentation AS : pediatrie.pdf, pages 10–11 du PDF.Centers for Disease Control and Prevention, Recommendations for Environmental Infection Control in Health-Care Facilities, entretien du matériel non critique. https://www.cdc.gov/infection-control/hcp/environmental-control/recommendations.html",
-          "section": "QCD",
-          "originalNumber": 14,
-          "answer": "Faux"
+          "explanation": "La pulpite touche la pulpe dentaire ; l’inflammation de la gencive est une gingivite.",
+          "source": "stoma.pdf, parties pulpopathies et stomatites.",
+          "answer": "Faux",
+          "correct": "Faux"
         },
         {
-          "id": "pediatrie-as-15",
           "type": "qcd",
-          "text": "QCD · Question 15\nEn début de tétée, pendant la mise au sein, le lait est riche en eau et en sucre",
+          "text": "Une infection dentaire peut entraîner des complications à distance.",
           "options": [
             "Vrai",
             "Faux"
           ],
-          "correct": "Vrai",
-          "explanation": "Le lait de début de tétée est riche en eau et contient du lactose ; sa teneur en graisses tend à augmenter au cours de la tétée. Il ne s’agit pas de deux laits totalement distincts.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 13 (énoncé).Documentation AS : pediatrie.pdf, pages 73 du PDF.",
-          "section": "QCD",
-          "originalNumber": 15,
-          "answer": "Vrai"
+          "explanation": "Le document cite notamment l’endocardite et la septicémie.",
+          "source": "stoma.pdf, partie complications de la carie dentaire.",
+          "answer": "Vrai",
+          "correct": "Vrai"
         },
         {
-          "id": "pediatrie-as-16",
           "type": "qcd",
-          "text": "QCD · Question 16\nIl ne faut pas déshabiller l’enfant avant de le peser",
+          "text": "La desmodontite correspond à une inflammation du ligament alvéolo-dentaire.",
           "options": [
             "Vrai",
             "Faux"
           ],
-          "correct": "Faux",
-          "explanation": "Pour une mesure fiable chez le nourrisson, on le pèse nu, après avoir taré le linge de protection, tout en évitant le refroidissement et les chutes.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 13 (énoncé).Documentation AS : pediatrie.pdf, pages 11 du PDF.",
-          "section": "QCD",
-          "originalNumber": 16,
-          "answer": "Faux"
+          "explanation": "Ce ligament, également appelé desmodonte, relie la racine à l’alvéole.",
+          "source": "stoma.pdf, partie desmodontite.",
+          "answer": "Vrai",
+          "correct": "Vrai"
         },
         {
-          "id": "pediatrie-as-17",
           "type": "qcd",
-          "text": "QCD · Question 17\nLa taille d’un enfant de 1 an est 93 cm",
+          "text": "Une cellulite d’origine dentaire peut atteindre les tissus de la face et du cou.",
           "options": [
             "Vrai",
             "Faux"
           ],
-          "correct": "Faux",
-          "explanation": "À un an, le repère du support est environ 70 à 75 cm ; 93 cm est associé à environ trois ans. Les mensurations doivent être interprétées sur une courbe.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 13 (énoncé).RÉVISION ASO ASI 2024.pptx, diapositives 11 et 17 ; Documentation DE : Pédiatrie L1.pdf, pages 130 du PDF.",
-          "section": "QCD",
-          "originalNumber": 17,
-          "answer": "Faux"
+          "explanation": "L’infection peut diffuser dans les espaces cellulaires cervico-faciaux.",
+          "source": "stoma.pdf, chapitre 4 : Les cellulites d’origine dentaire.",
+          "answer": "Vrai",
+          "correct": "Vrai"
         },
         {
-          "id": "pediatrie-as-18",
           "type": "qcd",
-          "text": "QCD · Question 18\nÀ 3 mois et demi, un nourrisson allaité doit être limité à cinq tétées par jour.",
+          "text": "La carie compliquée constitue une cause majeure de cellulite dentaire.",
           "options": [
             "Vrai",
             "Faux"
           ],
-          "correct": "Faux",
-          "explanation": "L’allaitement maternel est proposé à la demande. Le nombre de cinq repas du tableau correspond à un rythme programmé et ne doit pas limiter les tétées d’un nourrisson allaité.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 18 (énoncé).Documentation AS : pediatrie.pdf, pages 69–74 du PDF.Organisation mondiale de la Santé, Breastfeeding, allaitement à la demande. https://www.who.int/health-topics/breastfeeding",
-          "section": "QCD",
-          "originalNumber": 18,
-          "answer": "Faux"
+          "explanation": "Une infection issue de la dent peut se propager aux tissus voisins.",
+          "source": "stoma.pdf, chapitre 4, étiologie dentaire.",
+          "answer": "Vrai",
+          "correct": "Vrai"
         },
         {
-          "id": "pediatrie-as-19",
           "type": "qcd",
-          "text": "QCD · Question 19\nLa diarrhée aigue est une diarrhée qui évolue de plus de 14 jours",
+          "text": "La fistulisation d’un foyer infectieux dentaire garantit sa guérison définitive.",
           "options": [
             "Vrai",
             "Faux"
           ],
-          "correct": "Faux",
-          "explanation": "Une diarrhée aiguë dure moins de 14 jours. À partir de 14 jours, elle est persistante selon l’OMS.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 18 (énoncé).Documentation AS : pediatrie.pdf, pages 55 du PDF.Organisation mondiale de la Santé, Diarrhoeal disease, rubriques définition, prévention et traitement. https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease",
-          "section": "QCD",
-          "originalNumber": 19,
-          "answer": "Faux"
+          "explanation": "Elle peut soulager les symptômes alors que le foyer infectieux persiste.",
+          "source": "stoma.pdf, chapitre 4, évolution des cellulites.",
+          "answer": "Faux",
+          "correct": "Faux"
         },
         {
-          "id": "pediatrie-as-20",
           "type": "qcd",
-          "text": "QCD · Question 20\nPour le dépistage standardisé de la malnutrition aiguë chez l’enfant de 6 à 59 mois, le périmètre brachial est utilisé à partir de six mois.",
+          "text": "La cellulite diffuse peut engager le pronostic vital.",
           "options": [
             "Vrai",
             "Faux"
           ],
-          "correct": "Vrai",
-          "explanation": "Le périmètre brachial est utilisé pour le dépistage standardisé de la malnutrition aiguë chez les enfants de 6 à 59 mois. Cela ne signifie pas qu’il est physiquement impossible de le mesurer avant six mois.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 18 (énoncé).Documentation AS : pediatrie.pdf, pages 14–15 du PDF.Organisation mondiale de la Santé, Identification of severe acute malnutrition in children 6–59 months of age. https://www.who.int/tools/elena/interventions/sam-identification",
-          "section": "QCD",
-          "originalNumber": 20,
-          "answer": "Vrai"
+          "explanation": "Son extension rapide et ses complications générales justifient une prise en charge urgente.",
+          "source": "stoma.pdf, chapitre 4, cellulites diffuses.",
+          "answer": "Vrai",
+          "correct": "Vrai"
         },
         {
-          "id": "pediatrie-as-21",
           "type": "qcd",
-          "text": "QCD · Question 21\nLa dénutrition est une complication des vomissements aigus du nourrisson",
+          "text": "La subluxation dentaire entraîne obligatoirement une expulsion complète de la dent.",
           "options": [
             "Vrai",
             "Faux"
           ],
-          "correct": "Vrai",
-          "explanation": "Des vomissements répétés ou prolongés diminuent les apports et peuvent entraîner une dénutrition ; une déshydratation peut survenir plus rapidement. Une dénutrition n’est pas automatique après quelques vomissements.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 18 (énoncé).Documentation AS : pediatrie.pdf, pages 58–60 du PDF.Documentation DE : Pédiatrie L1.pdf, pages 171 du PDF.",
-          "section": "QCD",
-          "originalNumber": 21,
-          "answer": "Vrai"
+          "explanation": "La subluxation donne une mobilité anormale sans déplacement de la dent.",
+          "source": "stoma.pdf, partie traumatismes alvéolo-dentaires.",
+          "answer": "Faux",
+          "correct": "Faux"
         },
         {
-          "id": "pediatrie-as-22",
           "type": "qcd",
-          "text": "QCD · Question 22\nLa diarrhée est définie comme l’émission de plus de trois selles dures ou molles par 24 heures",
+          "text": "L’intrusion correspond à l’enfoncement d’une dent dans son alvéole.",
           "options": [
             "Vrai",
             "Faux"
           ],
-          "correct": "Faux",
-          "explanation": "La diarrhée correspond à au moins trois selles molles ou liquides en 24 heures, ou à des selles plus fréquentes que d’habitude. Les selles dures ne la définissent pas.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 22 (énoncé).Documentation AS : pediatrie.pdf, pages 55 du PDF.Organisation mondiale de la Santé, Diarrhoeal disease, rubriques définition, prévention et traitement. https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease",
-          "section": "QCD",
-          "originalNumber": 22,
-          "answer": "Faux"
+          "explanation": "Le déplacement se fait vers l’intérieur de l’alvéole.",
+          "source": "stoma.pdf, partie luxations axiales.",
+          "answer": "Vrai",
+          "correct": "Vrai"
         },
         {
-          "id": "pediatrie-as-23",
           "type": "qcd",
-          "text": "QCD · Question 23\nL’examen physique systématique des vomissements prend en compte le degré de déshydratation, de dénutrition et d’amaigrissement",
+          "text": "L’avulsion dentaire correspond à une expulsion complète de la dent.",
           "options": [
             "Vrai",
             "Faux"
           ],
-          "correct": "Vrai",
-          "explanation": "Il faut rechercher les conséquences des vomissements : déshydratation, perte de poids et altération nutritionnelle.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 22 (énoncé).Documentation AS : pediatrie.pdf, pages 58–60 du PDF.Documentation DE : Pédiatrie L1.pdf, pages 171 du PDF.",
-          "section": "QCD",
-          "originalNumber": 23,
-          "answer": "Vrai"
+          "explanation": "La dent est totalement sortie de son alvéole.",
+          "source": "stoma.pdf, partie traumatismes alvéolo-dentaires.",
+          "answer": "Vrai",
+          "correct": "Vrai"
         },
         {
-          "id": "pediatrie-as-24",
           "type": "qcd",
-          "text": "QCD · Question 24\nLa pesée est une technique qui permet de mesurer la croissance pondérale de l’enfant.",
+          "text": "Toutes les stomatites sont d’origine bactérienne.",
           "options": [
             "Vrai",
             "Faux"
           ],
-          "correct": "Vrai",
-          "explanation": "Des pesées successives permettent de suivre la croissance pondérale ; une pesée isolée donne seulement le poids du jour.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 24 (énoncé).Documentation AS : pediatrie.pdf, pages 9–11 du PDF.",
-          "section": "QCD",
-          "originalNumber": 24,
-          "answer": "Vrai"
+          "explanation": "Elles peuvent aussi être virales, fongiques, allergiques, traumatiques ou médicamenteuses.",
+          "source": "stoma.pdf, chapitre 6 : Les stomatites.",
+          "answer": "Faux",
+          "correct": "Faux"
         },
         {
-          "id": "pediatrie-as-25",
           "type": "qcd",
-          "text": "QCD · Question 25\nUn nourrisson né à terme double généralement son poids de naissance vers 4 à 6 mois.",
+          "text": "La chéilite est une inflammation des lèvres.",
           "options": [
             "Vrai",
             "Faux"
           ],
-          "correct": "Vrai",
-          "explanation": "Le doublement du poids de naissance autour de cinq mois est un repère moyen, avec des variations individuelles. Il ne dépend pas d’une règle obligatoire opposant lait maternel et préparation pour nourrisson.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 24 (énoncé).Manuel MSD, Nutrition and Feeding in Infants, reprise et doublement du poids. https://www.msdmanuals.com/professional/pediatrics/care-of-newborns-and-infants/nutrition-and-feeding-in-infants",
-          "section": "QCD",
-          "originalNumber": 25,
-          "answer": "Vrai"
+          "explanation": "Le terme désigne une atteinte inflammatoire labiale.",
+          "source": "stoma.pdf, chapitre 6, classification topographique.",
+          "answer": "Vrai",
+          "correct": "Vrai"
         },
         {
-          "id": "pediatrie-as-26",
           "type": "qcd",
-          "text": "QCD · Question 26\nAvant la pesée d’un nourrisson au pèse-bébé, il faut le déshabiller partiellement et faire la toilette du siège, si nécessaire.",
+          "text": "Le muguet buccal est une forme de candidose.",
           "options": [
             "Vrai",
             "Faux"
           ],
-          "correct": "Faux",
-          "explanation": "Le cours demande de déshabiller complètement le nourrisson et de faire la toilette du siège si nécessaire. Pour un enfant plus grand, des vêtements légers peuvent être tolérés selon la technique.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 24 (énoncé).Documentation AS : pediatrie.pdf, pages 11 du PDF.",
-          "section": "QCD",
-          "originalNumber": 26,
-          "answer": "Faux"
+          "explanation": "Il correspond à une infection fongique de la muqueuse buccale.",
+          "source": "stoma.pdf, chapitre 6, stomatite crémeuse ou muguet.",
+          "answer": "Vrai",
+          "correct": "Vrai"
         },
         {
-          "id": "pediatrie-as-27",
           "type": "qcd",
-          "text": "QCD · Question 27\nLa mesure du périmètre crânien se fait avec une toise.",
+          "text": "Les fentes labio-alvéolo-palatines sont des malformations congénitales.",
           "options": [
             "Vrai",
             "Faux"
           ],
-          "correct": "Faux",
-          "explanation": "Le périmètre crânien se mesure avec un mètre ruban non extensible ; la toise sert à la longueur/taille.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 26 (énoncé).Documentation AS : pediatrie.pdf, pages 13–14 du PDF.",
-          "section": "QCD",
-          "originalNumber": 27,
-          "answer": "Faux"
+          "explanation": "Elles résultent d’un défaut de fusion de structures embryonnaires de la face.",
+          "source": "stoma.pdf, chapitre 7 : Les fentes labio-alvéolo-palatines.",
+          "answer": "Vrai",
+          "correct": "Vrai"
         },
         {
-          "id": "pediatrie-as-28",
           "type": "qcd",
-          "text": "QCD · Question 28\nPendant l’épisode de diarrhée, il faut conseiller la mère de poursuivre l’alimentation",
+          "text": "Une ulcération linguale persistante peut être négligée lorsqu’elle est peu douloureuse.",
           "options": [
             "Vrai",
             "Faux"
           ],
-          "correct": "Vrai",
-          "explanation": "L’allaitement et une alimentation adaptée doivent être poursuivis pour limiter la dénutrition.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 26 (énoncé).Documentation AS : pediatrie.pdf, pages 57 du PDF.Organisation mondiale de la Santé, Diarrhoeal disease, rubriques définition, prévention et traitement. https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease",
-          "section": "QCD",
-          "originalNumber": 28,
-          "answer": "Vrai"
+          "explanation": "Sa persistance nécessite une recherche diagnostique, même si la douleur est faible.",
+          "source": "stoma.pdf, chapitre 8 : Diagnostic des ulcérations linguales.",
+          "answer": "Faux",
+          "correct": "Faux"
         },
         {
-          "id": "pediatrie-as-29",
           "type": "qcd",
-          "text": "QCD · Question 29\nLa détresse respiratoire du nouveau-né est la difficulté pour le nouveau-né de respirer",
+          "text": "Devant un traumatisme facial, la recherche d’une obstruction respiratoire est prioritaire.",
           "options": [
             "Vrai",
             "Faux"
           ],
-          "correct": "Vrai",
-          "explanation": "Elle se manifeste par une difficulté respiratoire ; les signes de lutte et l’état du nouveau-né doivent être évalués.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 26 (énoncé).Inter-rater reliability of the Silverman and Andersen index—a measure of respiratory distress in preterm infants, étude publiée en 2023, rubrique The Silverman and Andersen index. https://pmc.ncbi.nlm.nih.gov/articles/PMC10313036/",
-          "section": "QCD",
-          "originalNumber": 29,
-          "answer": "Vrai"
+          "explanation": "L’asphyxie constitue une urgence vitale.",
+          "source": "stoma.pdf, chapitre 9 : Les urgences traumatiques maxillo-faciales.",
+          "answer": "Vrai",
+          "correct": "Vrai"
         },
         {
-          "id": "pediatrie-as-30",
           "type": "qcd",
-          "text": "QCD · Question 30\nLa pédiatrie est la branche de la Médecine qui s’occupe uniquement du traitement curatif des maladies des enfants jusqu’à l’âge de 21 ans",
+          "text": "L’aspect clinique seul permet toujours de distinguer une tumeur bénigne d’une tumeur maligne des maxillaires.",
           "options": [
             "Vrai",
             "Faux"
           ],
-          "correct": "Faux",
-          "explanation": "La pédiatrie comprend prévention, suivi du développement, diagnostic et traitement. « Uniquement curatif » rend l’affirmation fausse ; la limite d’âge varie selon les services.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 26 (énoncé).Documentation AS : pediatrie.pdf, pages 4 du PDF.",
-          "section": "QCD",
-          "originalNumber": 30,
-          "answer": "Faux"
+          "explanation": "L’imagerie et l’examen anatomopathologique peuvent être nécessaires.",
+          "source": "stoma.pdf, chapitre 10 : Tumeurs des maxillaires.",
+          "answer": "Faux",
+          "correct": "Faux"
         },
         {
-          "id": "pediatrie-as-31",
-          "type": "qcd",
-          "text": "QCD · Question 31\nLa fièvre est définie comme une élévation de la température corporelle au-dessus de 37º5 Celsius le matin et 39º 5 Celsius le soir",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Le seuil de 39,5 °C le soir n’est pas une définition correcte. Voir la distinction entre le seuil du support et le repère actuel d’au moins 38 °C.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 28 (énoncé).Documentation AS : pediatrie.pdf, pages 47 du PDF.National Institute for Health and Care Excellence, Fever in under 5s: assessment and initial management, NG143, recommandations. https://www.nice.org.uk/guidance/ng143/chapter/recommendations",
-          "section": "QCD",
-          "originalNumber": 31,
-          "answer": "Faux"
-        },
-        {
-          "id": "pediatrie-as-32",
-          "type": "qcd",
-          "text": "QCD · Question 32\nL’extraction manuelle est plus sûre et comporte plus de risques d’infection que l’extraction par pompe",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Le risque infectieux dépend de l’hygiène des mains, du récipient et du matériel. L’expression manuelle n’entraîne pas, par principe, davantage d’infections ; la pompe doit être correctement nettoyée.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 28 (énoncé).Documentation AS : pediatrie.pdf, pages 75–76 du PDF.",
-          "section": "QCD",
-          "originalNumber": 32,
-          "answer": "Faux"
-        },
-        {
-          "id": "pediatrie-as-33",
-          "type": "qcd",
-          "text": "QCD · Question 33\nÀ 8 mois et demi, le nombre de prises alimentaires doit tenir compte du lait reçu et des repas complémentaires.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "Après six mois, le nombre de prises alimentaires dépend de l’allaitement ou du lait de remplacement et des repas complémentaires. Un nombre fixe de quatre repas doit préciser ce qui est compté.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 28 (énoncé).Documentation AS : pediatrie.pdf, pages 69–74, 86–89 du PDF.Organisation mondiale de la Santé, Alimentation du nourrisson et du jeune enfant. https://www.who.int/fr/news-room/fact-sheets/detail/infant-and-young-child-feeding",
-          "section": "QCD",
-          "originalNumber": 33,
-          "answer": "Vrai"
-        },
-        {
-          "id": "pediatrie-as-34",
-          "type": "qcd",
-          "text": "QCD · Question 34\nLa pédiatrie est la branche de la Médecine qui s’occupe uniquement du traitement curatif des maladies des enfants jusqu’à l’âge de 21 ans",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Même affirmation que la QCD 30 : la pédiatrie comporte aussi des soins préventifs et le suivi du développement.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 31 (énoncé).Documentation AS : pediatrie.pdf, pages 4 du PDF.",
-          "section": "QCD",
-          "originalNumber": 34,
-          "answer": "Faux"
-        },
-        {
-          "id": "pediatrie-as-35",
-          "type": "qcd",
-          "text": "QCD · Question 35\nÀ la naissance, le poids moyen d’un nouveau-né à terme est de l’ordre de 3 à 3,5 kg.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "Il s’agit d’un ordre de grandeur moyen chez le nouveau-né à terme, pas d’une norme exclusive pour chaque enfant.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 31 (énoncé).Documentation DE : Pédiatrie L1.pdf, pages 32, 130 du PDF.",
-          "section": "QCD",
-          "originalNumber": 35,
-          "answer": "Vrai"
-        },
-        {
-          "id": "pediatrie-as-36",
-          "type": "qcd",
-          "text": "QCD · Question 36\nCertains antibiotiques font partie des causes médicamenteuses possibles de vomissements aigus du nourrisson.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "Certains antibiotiques peuvent provoquer des nausées ou vomissements comme effet indésirable ; ils ne provoquent pas tous systématiquement ce symptôme.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 31 (énoncé).Connaissance pharmacologique vérifiée : National Health Service, Antibiotics — Side effects. https://www.nhs.uk/medicines/antibiotics/side-effects/",
-          "section": "QCD",
-          "originalNumber": 36,
-          "answer": "Vrai"
-        },
-        {
-          "id": "pediatrie-as-37",
-          "type": "qcd",
-          "text": "QCD · Question 37\nL’enfant né à terme et correctement nourri au substitut du lait maternel (lait artificiel) double son poids de naissance à 3 mois",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Le doublement à trois mois n’est pas une échéance imposée aux nourrissons nourris avec une préparation. Le repère général est autour de cinq mois, avec variabilité individuelle.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 31 (énoncé).Manuel MSD, Nutrition and Feeding in Infants, reprise et doublement du poids. https://www.msdmanuals.com/professional/pediatrics/care-of-newborns-and-infants/nutrition-and-feeding-in-infants",
-          "section": "QCD",
-          "originalNumber": 37,
-          "answer": "Faux"
-        },
-        {
-          "id": "pediatrie-as-38",
-          "type": "qcd",
-          "text": "QCD · Question 38\nUn nouveau-né d’une semaine, nourri au sein qui émet quatre (4) selles par jour, souffre d’une diarrhée",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Chez un nouveau-né allaité, quatre selles par jour peuvent être normales. Il faut apprécier leur aspect, une modification par rapport à l’habitude et l’état de l’enfant.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 33 (énoncé).Documentation AS : pediatrie.pdf, pages 56 du PDF.Organisation mondiale de la Santé, Diarrhoeal disease, rubriques définition, prévention et traitement. https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease",
-          "section": "QCD",
-          "originalNumber": 38,
-          "answer": "Faux"
-        },
-        {
-          "id": "pediatrie-as-39",
-          "type": "qcd",
-          "text": "QCD · Question 39\nLa fontanelle postérieure de l’enfant se ferme à 12 mois",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "La fontanelle postérieure se ferme dans les premiers mois ; le cours DE indique 2–3 mois, et non 12 mois.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 33 (énoncé).Documentation DE : Pédiatrie L1.pdf, pages 134 du PDF.",
-          "section": "QCD",
-          "originalNumber": 39,
-          "answer": "Faux"
-        },
-        {
-          "id": "pediatrie-as-40",
-          "type": "qcd",
-          "text": "QCD · Question 40\nUn nouveau-né d’une semaine, nourri au sein qui émet quatre (4) selles par jour, souffre d’une diarrhée",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Même situation que la QCD 38 : la fréquence seule ne permet pas d’affirmer une diarrhée chez un nouveau-né allaité.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 33 (énoncé).Documentation AS : pediatrie.pdf, pages 56 du PDF.Organisation mondiale de la Santé, Diarrhoeal disease, rubriques définition, prévention et traitement. https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease",
-          "section": "QCD",
-          "originalNumber": 40,
-          "answer": "Faux"
-        },
-        {
-          "id": "pediatrie-as-41",
-          "type": "qcd",
-          "text": "QCD · Question 42\nÀ 3 ans, l’enfant a une taille entre 85 à 86 cm",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "85–86 cm correspond approximativement à deux ans dans le support. À trois ans, le repère est environ 93–95 cm.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 33 (énoncé).RÉVISION ASO ASI 2024.pptx, diapositives 35–36 ; Documentation DE : Pédiatrie L1.pdf, pages 130 du PDF.",
-          "section": "QCD",
-          "originalNumber": 42,
-          "answer": "Faux"
-        },
-        {
-          "id": "pediatrie-as-42",
-          "type": "qcd",
-          "text": "QCD · Question 43\nLa vomique comme les vomissements est une expectoration brutale par la bouche de pus ou de sérosité provenant des voies respiratoires",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "La vomique est l’expulsion de pus ou de liquide provenant des voies respiratoires. Le vomissement expulse du contenu digestif.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 33 (énoncé).Documentation AS : pediatrie.pdf, pages 58 du PDF.Documentation DE : Pédiatrie L1.pdf, pages 169 du PDF.",
-          "section": "QCD",
-          "originalNumber": 43,
-          "answer": "Faux"
-        },
-        {
-          "id": "pediatrie-as-43",
-          "type": "qcd",
-          "text": "QCD · Question 44\nLa dénutrition est une complication des vomissements aigus du nourrisson",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "Des vomissements répétés peuvent altérer les apports et entraîner une dénutrition.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 33 (énoncé).Documentation AS : pediatrie.pdf, pages 58–60 du PDF.Documentation DE : Pédiatrie L1.pdf, pages 171 du PDF.",
-          "section": "QCD",
-          "originalNumber": 44,
-          "answer": "Vrai"
-        },
-        {
-          "id": "pediatrie-as-44",
           "type": "qcm",
-          "text": "QCM Première série · Question 22\nParmi les facteurs liés au contexte des repas cités dans le cours AS, lequel peut être retrouvé à l’interrogatoire devant des vomissements ?\nChoisir la bonne réponse.",
+          "text": "Quelles structures limitent respectivement la cavité buccale en haut et en bas ? Choisir deux réponses.",
           "options": [
-            "Un bon régime alimentaire",
-            "Une mauvaise relation mère-enfant au moment de la toilette",
-            "Une anxiété excessive",
-            "Une intolérance au lait de femme"
+            "Le palais",
+            "Le plancher buccal",
+            "La parotide",
+            "La racine dentaire"
           ],
-          "correct": "Une anxiété excessive",
-          "explanation": "Le cours classe cette situation parmi les facteurs associés à l’alimentation ; c’est davantage un facteur relationnel que diététique au sens strict.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 38 (énoncé).Documentation AS : pediatrie.pdf, pages 59 du PDF.",
-          "section": "QCM Première série",
-          "originalNumber": 22,
-          "answer": "Une anxiété excessive"
-        },
-        {
-          "id": "pediatrie-as-45",
-          "type": "qcm",
-          "text": "QCM Première série · Question 23\nLe traitement préventif de la diarrhée consiste à\nChoisir les 2 bonnes réponses.",
-          "options": [
-            "Faire la promotion de l’allaitement maternel.",
-            "Améliorer uniquement l’hygiène buccale.",
-            "Observer une bonne hygiène du milieu.",
-            "Déparasiter systématiquement tous les enfants dès huit mois."
+          "explanation": "Le palais forme la paroi supérieure et le plancher buccal la paroi inférieure.",
+          "source": "stoma.pdf, partie anatomie de la cavité buccale.",
+          "answers": [
+            "Le palais",
+            "Le plancher buccal"
           ],
           "correct": [
-            "Faire la promotion de l’allaitement maternel.",
-            "Observer une bonne hygiène du milieu."
-          ],
-          "explanation": "La promotion de l’allaitement maternel et les règles d’hygiène lors de la préparation des aliments contribuent à prévenir les diarrhées. En cas de diarrhée, poursuivre une alimentation adaptée et corriger la déshydratation.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 40 (énoncé).Documentation AS : pediatrie.pdf, pages 56–57 du PDF.Organisation mondiale de la Santé, Diarrhoeal disease, rubriques définition, prévention et traitement. https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease",
-          "section": "QCM Première série",
-          "originalNumber": 23,
-          "answers": [
-            "Faire la promotion de l’allaitement maternel.",
-            "Observer une bonne hygiène du milieu."
+            "Le palais",
+            "Le plancher buccal"
           ]
         },
         {
-          "id": "pediatrie-as-46",
           "type": "qcm",
-          "text": "QCM Première série · Question 24\nParmi ces propositions, choisir les deux conséquences nutritionnelles de vomissements répétés.\nChoisir les 2 bonnes réponses.",
+          "text": "Quelles glandes appartiennent aux glandes salivaires principales ? Choisir trois réponses.",
           "options": [
-            "Une réhydratation",
-            "Une malnutrition",
-            "Convulsions",
-            "Une dénutrition",
-            "Une mauvaise relation mère-enfant au moment de l’alimentation"
+            "Les parotides",
+            "Les sous-mandibulaires",
+            "Les sublinguales",
+            "Les lacrymales",
+            "La thyroïde"
+          ],
+          "explanation": "Ces trois types de glandes existent par paires.",
+          "source": "stoma.pdf, partie glandes salivaires principales.",
+          "answers": [
+            "Les parotides",
+            "Les sous-mandibulaires",
+            "Les sublinguales"
           ],
           "correct": [
-            "Une malnutrition",
-            "Une dénutrition"
-          ],
-          "explanation": "Les vomissements répétés réduisent les apports et peuvent entraîner une malnutrition par déficit, appelée dénutrition. Les convulsions sont une complication neurologique possible, pas une conséquence nutritionnelle.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 42 (énoncé).Documentation AS : pediatrie.pdf, pages 58–60 du PDF.Documentation DE : Pédiatrie L1.pdf, pages 171 du PDF.",
-          "section": "QCM Première série",
-          "originalNumber": 24,
-          "answers": [
-            "Une malnutrition",
-            "Une dénutrition"
+            "Les parotides",
+            "Les sous-mandibulaires",
+            "Les sublinguales"
           ]
         },
         {
-          "id": "pediatrie-as-47",
           "type": "qcm",
-          "text": "QCM Première série · Question 25\nLa technique de mesure du périmètre brachial consiste à\nChoisir la bonne réponse.",
+          "text": "Quelles fonctions impliquent la langue ? Choisir trois réponses.",
           "options": [
-            "Faire le tour du bras à mi-distance entre le coude et le poignet",
-            "Mesurer le bras de l’enfant de l’épaule au coude",
-            "Faire le tour du bras a mi-distance entre le coude et l’épaule"
+            "La mastication",
+            "La déglutition",
+            "La phonation",
+            "La filtration du sang",
+            "La production de bile"
           ],
-          "correct": "Faire le tour du bras a mi-distance entre le coude et l’épaule",
-          "explanation": "Le ruban entoure le bras à mi-distance entre l’épaule et le coude, sans comprimer les tissus.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 44 (énoncé).Documentation AS : pediatrie.pdf, pages 15 du PDF.",
-          "section": "QCM Première série",
-          "originalNumber": 25,
-          "answer": "Faire le tour du bras a mi-distance entre le coude et l’épaule"
-        },
-        {
-          "id": "pediatrie-as-48",
-          "type": "qcm",
-          "text": "QCM Première série · Question 26\nLe but de la mesure du périmètre crânien est\nChoisir la bonne réponse.",
-          "options": [
-            "Suivre la croissance crânienne et dépister une anomalie.",
-            "Dépister un spina bifida.",
-            "Apprécier une bosse sérosanguine"
-          ],
-          "correct": "Suivre la croissance crânienne et dépister une anomalie.",
-          "explanation": "Le périmètre crânien suit la croissance de la tête et contribue au dépistage d’anomalies ; il ne mesure pas directement le volume cérébral.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 46 (énoncé).Documentation AS : pediatrie.pdf, pages 13–14 du PDF.",
-          "section": "QCM Première série",
-          "originalNumber": 26,
-          "answer": "Suivre la croissance crânienne et dépister une anomalie."
-        },
-        {
-          "id": "pediatrie-as-49",
-          "type": "qcm",
-          "text": "QCM Première série · Question 28\nLa technique de pesée consiste à\nChoisir les 3 bonnes réponses.",
-          "options": [
-            "Installer l’enfant dans la position adaptée à son âge et à la balance, en présence d’une personne familière.",
-            "Maintenir l’enfant",
-            "Repérer le poids",
-            "Lire le poids lorsque l’indicateur de la balance se stabilise, puis l’inscrire immédiatement."
+          "explanation": "La langue mobilise les aliments, participe à leur déglutition et à l’articulation des sons.",
+          "source": "stoma.pdf, partie langue.",
+          "answers": [
+            "La mastication",
+            "La déglutition",
+            "La phonation"
           ],
           "correct": [
-            "Installer l’enfant dans la position adaptée à son âge et à la balance, en présence d’une personne familière.",
-            "Repérer le poids",
-            "Lire le poids lorsque l’indicateur de la balance se stabilise, puis l’inscrire immédiatement."
-          ],
-          "explanation": "Installer l’enfant correctement, lire une valeur stable et la noter permettent une pesée fiable. Ne pas exercer de pression sur l’enfant pendant la lecture.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 49 (énoncé).Documentation AS : pediatrie.pdf, pages 11 du PDF.",
-          "section": "QCM Première série",
-          "originalNumber": 28,
-          "answers": [
-            "Installer l’enfant dans la position adaptée à son âge et à la balance, en présence d’une personne familière.",
-            "Repérer le poids",
-            "Lire le poids lorsque l’indicateur de la balance se stabilise, puis l’inscrire immédiatement."
+            "La mastication",
+            "La déglutition",
+            "La phonation"
           ]
         },
         {
-          "id": "pediatrie-as-50",
           "type": "qcm",
-          "text": "QCM Première série · Question 29\nLes buts de la pesée sont\nChoisir les 2 bonnes réponses.",
+          "text": "Quel tissu recouvre la racine dentaire ? Choisir une réponse.",
           "options": [
-            "Suivre l’évolution de la courbe de poids.",
-            "Dépister une pathologie et enrayer l’évolution",
-            "Faire une réanimation"
+            "L’émail",
+            "Le cément",
+            "La pulpe",
+            "La muqueuse palatine"
+          ],
+          "explanation": "Le cément recouvre la racine ; l’émail recouvre la couronne.",
+          "source": "stoma.pdf, chapitre 2 : L’organe dentaire.",
+          "answer": "Le cément",
+          "correct": "Le cément"
+        },
+        {
+          "type": "qcm",
+          "text": "Quels éléments constituent le parodonte ? Choisir quatre réponses.",
+          "options": [
+            "La gencive",
+            "Le ligament alvéolo-dentaire",
+            "Le cément",
+            "L’os alvéolaire",
+            "La pulpe"
+          ],
+          "explanation": "Le parodonte regroupe les tissus de soutien de la dent.",
+          "source": "stoma.pdf, chapitre 2 : L’organe dentaire.",
+          "answers": [
+            "La gencive",
+            "Le ligament alvéolo-dentaire",
+            "Le cément",
+            "L’os alvéolaire"
           ],
           "correct": [
-            "Suivre l’évolution de la courbe de poids.",
-            "Dépister une pathologie et enrayer l’évolution"
-          ],
-          "explanation": "La pesée suit la croissance pondérale et aide à repérer une anomalie nécessitant une prise en charge.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 51 (énoncé).Documentation AS : pediatrie.pdf, pages 10 du PDF.",
-          "section": "QCM Première série",
-          "originalNumber": 29,
-          "answers": [
-            "Suivre l’évolution de la courbe de poids.",
-            "Dépister une pathologie et enrayer l’évolution"
+            "La gencive",
+            "Le ligament alvéolo-dentaire",
+            "Le cément",
+            "L’os alvéolaire"
           ]
         },
         {
-          "id": "pediatrie-as-51",
           "type": "qcm",
-          "text": "QCM Première série · Question 30\nParmi ces propositions, choisir deux causes possibles de fièvre ou d’élévation thermique.\nChoisir les 2 bonnes réponses.",
+          "text": "Quelle proposition décrit correctement la denture permanente complète ? Choisir une réponse.",
           "options": [
-            "Toutes les maladies viscérales, sans exception.",
-            "Certaines infections bactériennes.",
-            "Une déshydratation aiguë importante."
+            "Elle comprend 20 dents.",
+            "Elle comprend 24 dents.",
+            "Elle comprend 32 dents.",
+            "Elle comprend uniquement des incisives et des canines."
+          ],
+          "explanation": "La denture permanente complète comprend 32 dents, dents de sagesse incluses.",
+          "source": "stoma.pdf, chapitre 2, dentures temporaire et permanente.",
+          "answer": "Elle comprend 32 dents.",
+          "correct": "Elle comprend 32 dents."
+        },
+        {
+          "type": "qcm",
+          "text": "Dans la numérotation dentaire à deux chiffres, que désigne le premier chiffre ? Choisir une réponse.",
+          "options": [
+            "Le nombre de racines",
+            "Le quadrant dentaire",
+            "Le degré de mobilité",
+            "La profondeur de la carie"
+          ],
+          "explanation": "Le second chiffre indique la position de la dent dans ce quadrant.",
+          "source": "stoma.pdf, partie nomenclature des dents.",
+          "answer": "Le quadrant dentaire",
+          "correct": "Le quadrant dentaire"
+        },
+        {
+          "type": "qcm",
+          "text": "Quels stimuli peuvent déclencher une douleur lors d’une carie dentinaire ? Choisir trois réponses.",
+          "options": [
+            "Le froid",
+            "Les aliments sucrés",
+            "Les aliments acides",
+            "La lumière",
+            "Le bruit"
+          ],
+          "explanation": "La dentine atteinte peut être sensible aux stimuli thermiques et alimentaires.",
+          "source": "stoma.pdf, partie carie de la dentine.",
+          "answers": [
+            "Le froid",
+            "Les aliments sucrés",
+            "Les aliments acides"
           ],
           "correct": [
-            "Certaines infections bactériennes.",
-            "Une déshydratation aiguë importante."
-          ],
-          "explanation": "Certaines infections bactériennes provoquent une fièvre. Une déshydratation importante peut s’accompagner d’une élévation thermique. Toutes les maladies viscérales ne provoquent pas systématiquement une fièvre.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 53 (énoncé).Documentation AS : pediatrie.pdf, pages 47 du PDF.",
-          "section": "QCM Première série",
-          "originalNumber": 30,
-          "answers": [
-            "Certaines infections bactériennes.",
-            "Une déshydratation aiguë importante."
+            "Le froid",
+            "Les aliments sucrés",
+            "Les aliments acides"
           ]
         },
         {
-          "id": "pediatrie-as-52",
           "type": "qcm",
-          "text": "QCM Première série · Question 31\nLe score de Silverman est coté de\nChoisir la bonne réponse.",
+          "text": "Quelle affection correspond à une inflammation de la pulpe dentaire ? Choisir une réponse.",
           "options": [
-            "De 0 à 2",
-            "De 0 à 8",
-            "De 0 à 10",
-            "De 1 à 2"
+            "Une glossite",
+            "Une pulpite",
+            "Une chéilite",
+            "Une ouranite"
           ],
-          "correct": "De 0 à 10",
-          "explanation": "Le total résulte de cinq signes cotés chacun 0, 1 ou 2. La diapositive de réponse 56 indique à tort « de 2 à 10 ».",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 55 (énoncé).Inter-rater reliability of the Silverman and Andersen index—a measure of respiratory distress in preterm infants, étude publiée en 2023, rubrique The Silverman and Andersen index. https://pmc.ncbi.nlm.nih.gov/articles/PMC10313036/",
-          "section": "QCM Première série",
-          "originalNumber": 31,
-          "answer": "De 0 à 10"
+          "explanation": "La pulpite touche le tissu vasculo-nerveux contenu dans la dent.",
+          "source": "stoma.pdf, partie pulpopathies.",
+          "answer": "Une pulpite",
+          "correct": "Une pulpite"
         },
         {
-          "id": "pediatrie-as-53",
           "type": "qcm",
-          "text": "QCM Première série · Question 32\nChoisir deux causes directement liées à l’utilisation ou à la composition du lait préparé au biberon.\nChoisir les 2 bonnes réponses.",
+          "text": "Un patient présente une douleur dentaire à la mastication, à la percussion et une sensation de « dent longue ». Quelle affection évoque ce tableau ? Choisir une réponse.",
           "options": [
-            "Au manque d’hygiene",
-            "A une intolérance au substitut du lait de mère",
-            "Au lavements coutumiers aux piments ou aux plantes",
-            "À une intolérance au lait de mère"
+            "Une desmodontite aiguë",
+            "Une fente palatine",
+            "Une chéilite",
+            "Un muguet"
+          ],
+          "explanation": "Ces manifestations orientent vers une inflammation du ligament alvéolo-dentaire.",
+          "source": "stoma.pdf, partie desmodontite aiguë.",
+          "answer": "Une desmodontite aiguë",
+          "correct": "Une desmodontite aiguë"
+        },
+        {
+          "type": "qcm",
+          "text": "Quelles complications régionales peuvent provenir d’un foyer infectieux dentaire ? Choisir trois réponses.",
+          "options": [
+            "Une sinusite maxillaire",
+            "Une cellulite cervico-faciale",
+            "Une adénite",
+            "Une fente labiale congénitale",
+            "Une agénésie dentaire"
+          ],
+          "explanation": "L’infection dentaire peut s’étendre aux structures régionales.",
+          "source": "stoma.pdf, partie complications de la carie dentaire.",
+          "answers": [
+            "Une sinusite maxillaire",
+            "Une cellulite cervico-faciale",
+            "Une adénite"
           ],
           "correct": [
-            "Au manque d’hygiene",
-            "A une intolérance au substitut du lait de mère"
-          ],
-          "explanation": "Une contamination et une intolérance à la préparation peuvent provoquer une diarrhée. Les lavements irritants de C peuvent également provoquer des troubles, indépendamment du biberon.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 57 (énoncé).Documentation AS : pediatrie.pdf, pages 56 du PDF.",
-          "section": "QCM Première série",
-          "originalNumber": 32,
-          "answers": [
-            "Au manque d’hygiene",
-            "A une intolérance au substitut du lait de mère"
+            "Une sinusite maxillaire",
+            "Une cellulite cervico-faciale",
+            "Une adénite"
           ]
         },
         {
-          "id": "pediatrie-as-54",
           "type": "qcm",
-          "text": "QCM Première série · Question 33\nSelon la subdivision du diaporama ASO–ASI 2024, quel intervalle correspond au moyen prématuré ?\nChoisir la bonne réponse.",
+          "text": "Quelles mesures participent à la prévention des caries ? Choisir trois réponses.",
           "options": [
-            "De 22 - 25 semaines d’aménorrhée",
-            "De 25 - 27 semaines d’aménorrhée",
-            "De 28 - 32 semaines d’aménorrhée",
-            "De 32 SA à moins de 34 SA."
+            "Une hygiène buccodentaire régulière",
+            "La limitation des prises sucrées répétées",
+            "Des contrôles dentaires réguliers",
+            "L’attente systématique d’une douleur intense",
+            "L’arrêt du brossage en l’absence de douleur"
           ],
-          "correct": "De 32 SA à moins de 34 SA.",
-          "explanation": "Le diaporama distingue moyen prématuré 32–34 et petit prématuré 34–37. Le cours DE utilise d’autres bornes ; la classification doit être nommée.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 59 (énoncé).Documentation AS : pediatrie.pdf, pages 34 du PDF.RÉVISION ASO ASI 2024.pptx, diapositives 5 et 61 ; Organisation mondiale de la Santé, Preterm birth. https://www.who.int/news-room/fact-sheets/detail/preterm-birth",
-          "section": "QCM Première série",
-          "originalNumber": 33,
-          "answer": "De 32 SA à moins de 34 SA."
-        },
-        {
-          "id": "pediatrie-as-55",
-          "type": "qcm",
-          "text": "QCM Première série · Question 34\nSelon la classification du cours AS, quand une fièvre est-elle dite chronique ?\nChoisir la bonne réponse.",
-          "options": [
-            "Une élévation de la température corporelle au-dessus de la normale depuis une semaine et moins d’un mois",
-            "Une élévation de la température corporelle au-dessus de la normale depuis moins d’un mois",
-            "Une élévation de la température corporelle au-dessus de la normale depuis plus d’un mois"
-          ],
-          "correct": "Une élévation de la température corporelle au-dessus de la normale depuis plus d’un mois",
-          "explanation": "C’est la définition de la fièvre au long cours ou chronique dans le cours AS.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 62 (énoncé).Documentation AS : pediatrie.pdf, pages 47 du PDF.",
-          "section": "QCM Première série",
-          "originalNumber": 34,
-          "answer": "Une élévation de la température corporelle au-dessus de la normale depuis plus d’un mois"
-        },
-        {
-          "id": "pediatrie-as-56",
-          "type": "qcm",
-          "text": "QCM Première série · Question 35\nSelon l’OMS, quelle est la limite de l’extrême prématurité ?\nChoisir la bonne réponse.",
-          "options": [
-            "Moins de 28 SA.",
-            "De 28 SA à moins de 32 SA.",
-            "De 32 SA à moins de 37 SA.",
-            "À partir de 37 SA."
-          ],
-          "correct": "Moins de 28 SA.",
-          "explanation": "L’OMS définit l’extrême prématurité par une naissance avant 28 semaines d’aménorrhée. Les subdivisions du diaporama emploient d’autres appellations.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 65 (énoncé).Documentation AS : pediatrie.pdf, pages 34 du PDF.Organisation mondiale de la Santé, Preterm birth. https://www.who.int/news-room/fact-sheets/detail/preterm-birth",
-          "section": "QCM Première série",
-          "originalNumber": 35,
-          "answer": "Moins de 28 SA."
-        },
-        {
-          "id": "pediatrie-as-57",
-          "type": "qcm",
-          "text": "QCM Première série · Question 36\nQuel terme général regroupe notamment les septicémies et les pneumonies néonatales ?\nChoisir la bonne réponse.",
-          "options": [
-            "Paludisme",
-            "Pneumonie",
-            "Infections",
-            "Diarrhée"
-          ],
-          "correct": "Infections",
-          "explanation": "Les infections constituent le terme général qui inclut les septicémies et les pneumonies néonatales.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 68 (énoncé).Documentation AS : pediatrie.pdf, pages 5 du PDF.Documentation DE : Pédiatrie L1.pdf, pages 13 du PDF.",
-          "section": "QCM Première série",
-          "originalNumber": 36,
-          "answer": "Infections"
-        },
-        {
-          "id": "pediatrie-as-58",
-          "type": "qcm",
-          "text": "QCM Première série · Question 37\nParmi ces propositions, quelle est une cause fœtale possible de retard de croissance ?\nChoisir la bonne réponse.",
-          "options": [
-            "L’anomalie du placenta",
-            "L’anomalie chromosomique",
-            "Les médicaments."
-          ],
-          "correct": "L’anomalie chromosomique",
-          "explanation": "Elle constitue un facteur fœtal. Une anomalie du placenta est placentaire ; une exposition médicamenteuse est un facteur maternel/environnemental.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 70 (énoncé).Documentation AS : pediatrie.pdf, pages 34–35 du PDF.Connaissance générale : distinction entre causes fœtales, placentaires et maternelles. Le diaporama classe l’anomalie chromosomique comme cause fœtale, diapositive 71 ; aucun passage distinct détaillant cette proposition n’a été confirmé dans le cours AS consulté.",
-          "section": "QCM Première série",
-          "originalNumber": 37,
-          "answer": "L’anomalie chromosomique"
-        },
-        {
-          "id": "pediatrie-as-59",
-          "type": "qcm",
-          "text": "QCM Première série · Question 38\nLes fonctions principales de l’incubateur sont\nChoisir la bonne réponse.",
-          "options": [
-            "Maintenir l’enfant dans un environnement thermique adapté.",
-            "Assurer la respiration d’un air filtré et sec",
-            "Assurer la surveillance paraclinique",
-            "Assurer à lui seul la ventilation assistée."
-          ],
-          "correct": "Maintenir l’enfant dans un environnement thermique adapté.",
-          "explanation": "La fonction fondamentale est de maintenir un environnement thermique adapté. L’air est filtré et peut être humidifié ; une assistance ventilatoire nécessite un équipement distinct.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 72 (énoncé).Documentation AS : pediatrie.pdf, pages 44–45 du PDF.",
-          "section": "QCM Première série",
-          "originalNumber": 38,
-          "answer": "Maintenir l’enfant dans un environnement thermique adapté."
-        },
-        {
-          "id": "pediatrie-as-60",
-          "type": "qcm",
-          "text": "QCM Première série · Question 39\nSelon les incidents répertoriés dans le cours AS, lequel peut survenir à court terme pendant la photothérapie ?\nChoisir la bonne réponse.",
-          "options": [
-            "Une hypoactivité de l'enfant",
-            "Une diminution du transit intestinal",
-            "Augmentation de la prise de poids",
-            "Une conjonctivite"
-          ],
-          "correct": "Une conjonctivite",
-          "explanation": "Le cours AS cite la conjonctivite parmi les incidents possibles. Il mentionne aussi une accélération, et non une diminution, du transit ; la prise de poids n’est pas systématiquement augmentée.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 74 (énoncé).Documentation AS : pediatrie.pdf, pages 42 du PDF.",
-          "section": "QCM Première série",
-          "originalNumber": 39,
-          "answer": "Une conjonctivite"
-        },
-        {
-          "id": "pediatrie-as-61",
-          "type": "qcm",
-          "text": "QCM Première série · Question 40\nSelon le cours AS, quelle durée d’évolution correspond à l’otite aiguë ?\nChoisir la bonne réponse.",
-          "options": [
-            "La maladie évolue depuis plus de 15 jours",
-            "La maladie évolue depuis moins de 15 jours",
-            "Entre 15 et 30 jours.",
-            "La maladie évolue depuis plus d’un mois"
-          ],
-          "correct": "La maladie évolue depuis moins de 15 jours",
-          "explanation": "La limite de 15 jours est celle du support. Une classification clinique actuelle des otites ne doit pas être déduite uniquement de cette durée.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 76 (énoncé).Documentation AS : pediatrie.pdf, pages 52 du PDF.",
-          "section": "QCM Première série",
-          "originalNumber": 40,
-          "answer": "La maladie évolue depuis moins de 15 jours"
-        },
-        {
-          "id": "pediatrie-as-62",
-          "type": "qcm",
-          "text": "QCM Première série · Question 41\nLa diarrhée est définie comme l’émission\nChoisir la bonne réponse.",
-          "options": [
-            "De plus de trois selles molles ou liquides par 12 heures",
-            "Au moins trois selles molles ou liquides en 24 heures, ou davantage que d’habitude.",
-            "De plus de trois selles molles ou liquides par 72 heures",
-            "De plus de trois selles molles ou liquides par 48 heures"
-          ],
-          "correct": "Au moins trois selles molles ou liquides en 24 heures, ou davantage que d’habitude.",
-          "explanation": "La définition internationale utilise au moins trois selles molles/liquides en 24 heures, ou une fréquence supérieure à l’habitude.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 79 (énoncé).Documentation AS : pediatrie.pdf, pages 55 du PDF.Organisation mondiale de la Santé, Diarrhoeal disease, rubriques définition, prévention et traitement. https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease",
-          "section": "QCM Première série",
-          "originalNumber": 41,
-          "answer": "Au moins trois selles molles ou liquides en 24 heures, ou davantage que d’habitude."
-        },
-        {
-          "id": "pediatrie-as-63",
-          "type": "qcm",
-          "text": "QCM Première série · Question 42\nQuelle proposition décrit un risque de contamination infectieuse du lait préparé au biberon ?\nChoisir la bonne réponse.",
-          "options": [
-            "L’interruption brutale de l’allaitement maternel",
-            "Du changement brutal d’alimentation",
-            "La quantité et de la qualité des nouveaux aliments introduits dans l’alimentation",
-            "Utiliser une eau contaminée ou préparer le lait sans respecter les règles d’hygiène."
-          ],
-          "correct": "Utiliser une eau contaminée ou préparer le lait sans respecter les règles d’hygiène.",
-          "explanation": "Le problème est une eau contaminée ou une préparation non sûre. Un changement alimentaire brutal peut aussi provoquer des troubles : l’original était trop large.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 81 (énoncé).Documentation AS : pediatrie.pdf, pages 56 du PDF.",
-          "section": "QCM Première série",
-          "originalNumber": 42,
-          "answer": "Utiliser une eau contaminée ou préparer le lait sans respecter les règles d’hygiène."
-        },
-        {
-          "id": "pediatrie-as-64",
-          "type": "qcm",
-          "text": "QCM Première série · Question 43\nQuel élément appartient aux groupes généraux de malnutrition par excès, défaut ou déséquilibre décrits dans le cours AS ?\nChoisir la bonne réponse.",
-          "options": [
-            "La malnutrition due a un déséquilibre varié",
-            "La malnutrition aigüe sévère avec complications",
-            "La malnutrition aigüe sévère sans complications",
-            "La malnutrition aigüe modérée"
-          ],
-          "correct": "La malnutrition due a un déséquilibre varié",
-          "explanation": "Le cours distingue les groupes généraux de malnutrition par excès, défaut et déséquilibre. Les propositions B, C et D appartiennent à la classification de la malnutrition aiguë.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 83 (énoncé).Documentation AS : pediatrie.pdf, pages 64–65 du PDF.",
-          "section": "QCM Première série",
-          "originalNumber": 43,
-          "answer": "La malnutrition due a un déséquilibre varié"
-        },
-        {
-          "id": "pediatrie-as-65",
-          "type": "qcm",
-          "text": "QCM Première série · Question 44\nSelon le cours AS, quel facteur est lié au déroulement des repas dans les vomissements du nourrisson ?\nChoisir la bonne réponse.",
-          "options": [
-            "Une tolérance au lait de vache",
-            "Donner des repas ou des bouillies épaisses",
-            "Une mauvaise relation mère – enfant avant les repas",
-            "Une mauvaise relation mère – enfant au moment des repas"
-          ],
-          "correct": "Une mauvaise relation mère – enfant au moment des repas",
-          "explanation": "Le cours cite les difficultés relationnelles au moment des repas parmi les facteurs associés. Un repas simplement épais ne suffit pas à prouver la cause.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 86 (énoncé).Documentation AS : pediatrie.pdf, pages 59 du PDF.",
-          "section": "QCM Première série",
-          "originalNumber": 44,
-          "answer": "Une mauvaise relation mère – enfant au moment des repas"
-        },
-        {
-          "id": "pediatrie-as-66",
-          "type": "qcm",
-          "text": "QCM Première série · Question 45\nSelon le classement du cours AS, quel facteur favorisant l’anémie est lié à l’enfant lui-même ?\nChoisir la bonne réponse.",
-          "options": [
-            "L’alimentation avec les substituts de lait de mère",
-            "Les saignements chroniques occultes",
-            "Les erreurs diététiques",
-            "Mauvaise conduite de la diversification alimentaire et du sevrage"
-          ],
-          "correct": "Les saignements chroniques occultes",
-          "explanation": "Cette proposition est classée parmi les facteurs liés à l’enfant. Les autres sont classées parmi l’alimentation et l’environnement dans ce cours ; une préparation adaptée enrichie en fer n’entraîne pas à elle seule une anémie.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 88 (énoncé).Documentation AS : pediatrie.pdf, pages 61–62 du PDF.",
-          "section": "QCM Première série",
-          "originalNumber": 45,
-          "answer": "Les saignements chroniques occultes"
-        },
-        {
-          "id": "pediatrie-as-67",
-          "type": "qcm",
-          "text": "QCM Première série · Question 46\nChez un nourrisson de moins de six mois qui ne reçoit pas de lait maternel, quel aliment de remplacement adapté est utilisé ?\nChoisir la bonne réponse.",
-          "options": [
-            "Une bouillie seule.",
-            "De l’eau sucrée.",
-            "Une préparation pour nourrisson adaptée."
-          ],
-          "correct": "Une préparation pour nourrisson adaptée.",
-          "explanation": "Chez le nourrisson de moins de six mois non allaité, une préparation pour nourrisson adaptée constitue l’alimentation de remplacement. Une bouillie seule ou de l’eau sucrée ne couvre pas ses besoins.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 90 (énoncé).Documentation AS : pediatrie.pdf, pages 77–80 du PDF.",
-          "section": "QCM Première série",
-          "originalNumber": 46,
-          "answer": "Une préparation pour nourrisson adaptée."
-        },
-        {
-          "id": "pediatrie-as-68",
-          "type": "qcm",
-          "text": "QCM Première série · Question 47\nNéonatologie ou Néonatalogie est\nChoisir la bonne réponse.",
-          "options": [
-            "Étude du nouveau-né normal",
-            "Étude du nouveau-né pathologique",
-            "Étude du nouveau-né normal ou pathologique"
-          ],
-          "correct": "Étude du nouveau-né normal ou pathologique",
-          "explanation": "La néonatologie s’occupe du nouveau-né normal et pathologique.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 92 (énoncé).Documentation AS : pediatrie.pdf, pages 4 du PDF.",
-          "section": "QCM Première série",
-          "originalNumber": 47,
-          "answer": "Étude du nouveau-né normal ou pathologique"
-        },
-        {
-          "id": "pediatrie-as-69",
-          "type": "qcm",
-          "text": "QCM Première série · Question 48\nNouveau-né eutrophique, c’est\nChoisir la bonne réponse.",
-          "options": [
-            "Un nouveau-né dont le poids de naissance est supérieur à celui de son âge gestationnel",
-            "Un nouveau-né dont le poids de naissance est inférieur à celui de son âge gestationnel",
-            "Un nouveau-né dont le poids de naissance est adapté à l’âge gestationnel."
-          ],
-          "correct": "Un nouveau-né dont le poids de naissance est adapté à l’âge gestationnel.",
-          "explanation": "Le poids est adapté à l’âge gestationnel ; il faut le rapporter à une courbe de référence et non comparer directement des kilogrammes à des semaines.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 94 (énoncé).Documentation AS : pediatrie.pdf, pages 34–36 du PDF.",
-          "section": "QCM Première série",
-          "originalNumber": 48,
-          "answer": "Un nouveau-né dont le poids de naissance est adapté à l’âge gestationnel."
-        },
-        {
-          "id": "pediatrie-as-70",
-          "type": "qcm",
-          "text": "QCM Première série · Question 49\nNouveau-né hypotrophique, c’est\nChoisir la bonne réponse.",
-          "options": [
-            "Un nouveau-né dont le poids de naissance est supérieur à celui de son âge gestationnel",
-            "Un nouveau-né dont le poids de naissance est inférieur à celui attendu pour l’âge gestationnel.",
-            "Un nouveau-né dont le poids de naissance correspond à celui de son âge gestationnel"
-          ],
-          "correct": "Un nouveau-né dont le poids de naissance est inférieur à celui attendu pour l’âge gestationnel.",
-          "explanation": "Le poids est insuffisant pour l’âge gestationnel. Un petit poids absolu n’est pas identique à un poids faible pour l’âge gestationnel.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 96 (énoncé).Documentation AS : pediatrie.pdf, pages 34–35 du PDF.",
-          "section": "QCM Première série",
-          "originalNumber": 49,
-          "answer": "Un nouveau-né dont le poids de naissance est inférieur à celui attendu pour l’âge gestationnel."
-        },
-        {
-          "id": "pediatrie-as-71",
-          "type": "qcm",
-          "text": "QCM Première série · Question 50\nSelon le découpage des âges du cours AS, quelle tranche désigne ici l’enfant préscolaire ?\nChoisir la bonne réponse.",
-          "options": [
-            "Un enfant dont l’âge est compris entre 3 ans et 4 ans",
-            "Un enfant dont l’âge est compris entre 3 ans et 5 ans",
-            "Un enfant dont l’âge est compris entre 3 ans et 6 ans",
-            "Un enfant dont l’âge est compris entre 3 ans et 7 ans"
-          ],
-          "correct": "Un enfant dont l’âge est compris entre 3 ans et 5 ans",
-          "explanation": "La diapositive 100 et le cours AS indiquent 3–5 ans. Le cours DE indique préscolaire 2–5 ans : les classifications ne concordent pas.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 98 (énoncé).Documentation AS : pediatrie.pdf, pages 5 du PDF.Documentation DE : Pédiatrie L1.pdf, pages 10 du PDF.",
-          "section": "QCM Première série",
-          "originalNumber": 50,
-          "answer": "Un enfant dont l’âge est compris entre 3 ans et 5 ans"
-        },
-        {
-          "id": "pediatrie-as-72",
-          "type": "qcm",
-          "text": "QCM Première série · Question 51\nJusqu’à quel âge s’étend l’ensemble de soins après la naissance dans la définition élargie de ce cours AS ?\nChoisir la bonne réponse.",
-          "options": [
-            "La naissance à 3 semaines de vie",
-            "La naissance à 4 semaines de vie",
-            "La naissance à 5 semaines de vie",
-            "La naissance à 6 semaines de vie"
-          ],
-          "correct": "La naissance à 6 semaines de vie",
-          "explanation": "Le support AS définit un ensemble de soins de la naissance à six semaines, puis limite son chapitre aux 90 premières minutes. La période néonatale elle-même dure 28 jours.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 101 (énoncé).Documentation AS : pediatrie.pdf, pages 6 du PDF.",
-          "section": "QCM Première série",
-          "originalNumber": 51,
-          "answer": "La naissance à 6 semaines de vie"
-        },
-        {
-          "id": "pediatrie-as-73",
-          "type": "qcm",
-          "text": "QCM Première série · Question 52\nSelon le découpage du cours AS, laquelle de ces périodes appartient aux soins immédiats du nouveau-né ?\nChoisir la bonne réponse.",
-          "options": [
-            "Avant la naissance",
-            "De la naissance a une minute de vie",
-            "D’une minute à 70 minutes de vie",
-            "De 30 minutes à 90 minutes de vie"
-          ],
-          "correct": "De la naissance a une minute de vie",
-          "explanation": "Cette période est explicitement décrite ; les intervalles 1–70 et 30–90 ne correspondent pas au découpage présenté.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 103 (énoncé).Documentation AS : pediatrie.pdf, pages 7–8 du PDF.",
-          "section": "QCM Première série",
-          "originalNumber": 52,
-          "answer": "De la naissance a une minute de vie"
-        },
-        {
-          "id": "pediatrie-as-74",
-          "type": "qcm",
-          "text": "QCM Première série · Question 53\nAprès la première heure de peau à peau, quel soin prophylactique est prévu par le cours OMS pour l’agent habilité ?\nChoisir la bonne réponse.",
-          "options": [
-            "Administrer 1 mg de vitamine K par voie intramusculaire selon le protocole.",
-            "Instiller 2 gouttes de collyre antiseptique dans chaque œil une seule fois",
-            "Aider la mère a mettre le nouveau-né au sein",
-            "Sécher le nouveau-né avec un linge propre sec et chaud"
-          ],
-          "correct": "Administrer 1 mg de vitamine K par voie intramusculaire selon le protocole.",
-          "explanation": "Dans le découpage du diaporama, la troisième séquence correspond à 60–90 minutes, après séchage, peau à peau et début d’allaitement. Le cours OMS propose 1 mg de vitamine K par voie intramusculaire après la première heure ; ne pas reprendre une dose en gouttes sans concentration.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 105 (énoncé).Documentation AS : pediatrie.pdf, pages 8 du PDF.Organisation mondiale de la Santé, Essential Newborn Care Course, Examination of the newborn, note sur la vitamine K après la première heure. https://cdn.who.int/media/docs/default-source/mca-documents/nbh/enc-course/modules/8-facilitator-notes-examination-of-the-newborn-16.03.22.pdf",
-          "section": "QCM Première série",
-          "originalNumber": 53,
-          "answer": "Administrer 1 mg de vitamine K par voie intramusculaire selon le protocole."
-        },
-        {
-          "id": "pediatrie-as-75",
-          "type": "qcm",
-          "text": "QCM Première série · Question 54\nDans les stratégies vaccinales, la notion de poste avancé désigne\nChoisir la bonne réponse.",
-          "options": [
-            "Activités de vaccination en dehors du centre de santé : 5km - 15km",
-            "activités de vaccination en dehors du centre de santé à plus de 15 km",
-            "activités de vaccination en dehors du centre de santé à plus de 10 km",
-            "activités de vaccination au centre de santé : 5 km"
-          ],
-          "correct": "Activités de vaccination en dehors du centre de santé : 5km - 15km",
-          "explanation": "Le poste avancé implique le déplacement de l’équipe hors du centre ; les seuils indiqués sont ceux du support local.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 112 (énoncé).Documentation AS : pediatrie.pdf, pages 16–17 du PDF.",
-          "section": "QCM Première série",
-          "originalNumber": 54,
-          "answer": "Activités de vaccination en dehors du centre de santé : 5km - 15km"
-        },
-        {
-          "id": "pediatrie-as-76",
-          "type": "qcm",
-          "text": "QCM Première série · Question 55\nL’enfant prend 15g/j à l’âge de\nChoisir la bonne réponse.",
-          "options": [
-            "0 à 3 mois",
-            "3 à 6 mois",
-            "6 à 9 mois",
-            "9 à 12 mois"
-          ],
-          "correct": "6 à 9 mois",
-          "explanation": "C’est le repère moyen de gain pondéral fourni : 15 g/jour. Il n’impose pas une prise identique chaque jour.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 115 (énoncé).RÉVISION ASO ASI 2024.pptx, diapositive 118.",
-          "section": "QCM Première série",
-          "originalNumber": 55,
-          "answer": "6 à 9 mois"
-        },
-        {
-          "id": "pediatrie-as-77",
-          "type": "qcm",
-          "text": "QCM Première série · Question 56\nLe rythme des pesées s’établit comme suit\nChoisir les 2 bonnes réponses.",
-          "options": [
-            "Une fois par semestre de 13 mois à 24 mois",
-            "Une fois par semaine de la naissance a 3 mois",
-            "Une fois par mois de 5 mois à 12 mois",
-            "Une fois par trimestre de 25 mois à 3 ans"
+          "explanation": "La prévention associe hygiène, maîtrise des apports cariogènes et suivi dentaire.",
+          "source": "stoma.pdf, partie prévention des infections dentaires.",
+          "answers": [
+            "Une hygiène buccodentaire régulière",
+            "La limitation des prises sucrées répétées",
+            "Des contrôles dentaires réguliers"
           ],
           "correct": [
-            "Une fois par semaine de la naissance a 3 mois",
-            "Une fois par mois de 5 mois à 12 mois"
-          ],
-          "explanation": "Les deux rythmes sont présents dans le cours : hebdomadaire de 0 à 3 mois et mensuel de 4 à 12 mois. A et D inversent les rythmes trimestriel et semestriel.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 119 (énoncé).Documentation AS : pediatrie.pdf, pages 10 du PDF.",
-          "section": "QCM Première série",
-          "originalNumber": 56,
-          "answers": [
-            "Une fois par semaine de la naissance a 3 mois",
-            "Une fois par mois de 5 mois à 12 mois"
+            "Une hygiène buccodentaire régulière",
+            "La limitation des prises sucrées répétées",
+            "Des contrôles dentaires réguliers"
           ]
         },
         {
-          "id": "pediatrie-as-78",
           "type": "qcm",
-          "text": "QCM Première série · Question 57\nLa perte de poids physiologique dès les premiers jours de vie est la conséquence de ces éléments sous cités, sauf un, lequel ?",
+          "text": "Quels facteurs peuvent favoriser les complications d’une infection dentaire ? Choisir trois réponses.",
           "options": [
-            "L’élimination du méconium",
-            "La déperdition d’eau de la peau",
-            "La mise au sein précoce dès les premières heures",
-            "Le retard de la montée laiteuse."
+            "Le diabète",
+            "L’immunodépression",
+            "La malnutrition",
+            "Une bonne hygiène buccodentaire",
+            "Le traitement précoce du foyer dentaire"
           ],
-          "correct": "La mise au sein précoce dès les premières heures",
-          "explanation": "La mise au sein précoce contribue à limiter la perte pondérale ; elle n’est pas une cause de cette perte.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 122 (énoncé).RÉVISION ASO ASI 2024.pptx, diapositive 117.",
-          "section": "QCM Première série",
-          "originalNumber": 57,
-          "answer": "La mise au sein précoce dès les premières heures"
-        },
-        {
-          "id": "pediatrie-as-79",
-          "type": "qcm",
-          "text": "QCM Première série · Question 58\nConcernant la mesure du périmètre thoracique, choisir deux affirmations exactes.\nChoisir les 2 bonnes réponses.",
-          "options": [
-            "Il se mesure avec une toise.",
-            "Il se mesure avec un mètre ruban autour du thorax.",
-            "Il est toujours égal au périmètre crânien.",
-            "Une formule remplace systématiquement la mesure.",
-            "Il mesure directement le volume cérébral.",
-            "Il permet d’apprécier le développement thoracique."
+          "explanation": "Ces situations peuvent diminuer les capacités de défense de l’organisme.",
+          "source": "stoma.pdf, chapitre 4, facteurs favorisant la diffusion de l’infection.",
+          "answers": [
+            "Le diabète",
+            "L’immunodépression",
+            "La malnutrition"
           ],
           "correct": [
-            "Il se mesure avec un mètre ruban autour du thorax.",
-            "Il permet d’apprécier le développement thoracique."
-          ],
-          "explanation": "Le périmètre thoracique se mesure au ruban autour du thorax. Il apprécie son développement ; une formule approximative ne remplace pas la mesure.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 124 (énoncé).Documentation AS : pediatrie.pdf, pages 15 du PDF.",
-          "section": "QCM Première série",
-          "originalNumber": 58,
-          "answers": [
-            "Il se mesure avec un mètre ruban autour du thorax.",
-            "Il permet d’apprécier le développement thoracique."
+            "Le diabète",
+            "L’immunodépression",
+            "La malnutrition"
           ]
         },
         {
-          "id": "pediatrie-as-80",
           "type": "qcm",
-          "text": "QCM Première série · Question 59\nLors de la mesure de la longueur de l’enfant en position couchée, que faut-il faire ?\nChoisir la bonne réponse.",
+          "text": "Quelle forme de cellulite se caractérise par une collection de pus ? Choisir une réponse.",
           "options": [
-            "Placer la tête près de la planchette supérieure de la toise",
-            "Placer la tête près de la planchette inférieure de la toise",
-            "L’aide maintient la tête bien droite et les jambes pliées le long de la toise",
-            "L’opérateur rapproche la partie supérieure de la toise des talons de l’enfant"
+            "La cellulite séreuse",
+            "La cellulite suppurée",
+            "La contusion dentaire",
+            "La gingivite gravidique"
           ],
-          "correct": "Placer la tête près de la planchette supérieure de la toise",
-          "explanation": "Pour la longueur couchée, la tête est contre la partie fixe supérieure ; les jambes sont doucement étendues et la partie mobile rejoint les talons.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 126 (énoncé).Documentation AS : pediatrie.pdf, pages 12–13 du PDF.",
-          "section": "QCM Première série",
-          "originalNumber": 59,
-          "answer": "Placer la tête près de la planchette supérieure de la toise"
+          "explanation": "La suppuration correspond à la formation d’un abcès.",
+          "source": "stoma.pdf, chapitre 4, classification des cellulites.",
+          "answer": "La cellulite suppurée",
+          "correct": "La cellulite suppurée"
         },
         {
-          "id": "pediatrie-as-81",
           "type": "qcm",
-          "text": "QCM Première série · Question 60\nLors de la technique de la mesure du Périmètre Crânien, il faut appliquer le mètre ruban en\nChoisir la bonne réponse.",
+          "text": "Quelles propositions décrivent une cellulite diffuse ? Choisir trois réponses.",
           "options": [
-            "En passant sur les pavillons des oreilles.",
-            "En dessous de l’occiput.",
-            "Autour du front sans passer par l’occiput.",
-            "Au-dessus des sourcils et des oreilles, en passant par la saillie occipitale maximale."
+            "Elle peut s’étendre rapidement.",
+            "Elle peut entraîner des complications générales graves.",
+            "Elle nécessite une prise en charge hospitalière urgente.",
+            "Elle reste toujours limitée à une petite zone.",
+            "Elle guérit nécessairement après une fistulisation."
           ],
-          "correct": "Au-dessus des sourcils et des oreilles, en passant par la saillie occipitale maximale.",
-          "explanation": "Le ruban non extensible passe au-dessus des sourcils et des oreilles, et par la partie la plus saillante de l’occiput, afin de mesurer la circonférence maximale.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 128 (énoncé).Documentation AS : pediatrie.pdf, pages 13–14 du PDF.Centers for Disease Control and Prevention, Measuring Head Circumference, 16 mars 2016, page 1. https://stacks.cdc.gov/view/cdc/38538/cdc_38538_DS1.pdf",
-          "section": "QCM Première série",
-          "originalNumber": 60,
-          "answer": "Au-dessus des sourcils et des oreilles, en passant par la saillie occipitale maximale."
-        },
-        {
-          "id": "pediatrie-as-82",
-          "type": "qcm",
-          "text": "QCM Deuxième série · Question 22\nLe traitement curatif de la diarrhée comprend les volets suivants\nChoisir la bonne réponse.",
-          "options": [
-            "La déshydratation",
-            "L’alimentation",
-            "Les lavements aux médicaments traditionnels pour arrêter la diarrhée"
-          ],
-          "correct": "L’alimentation",
-          "explanation": "La déshydratation est une complication, pas un traitement ; les lavements traditionnels ne sont pas un traitement recommandé. Le traitement comporte notamment réhydratation et alimentation.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 130 (énoncé).Documentation AS : pediatrie.pdf, pages 56–57 du PDF.Organisation mondiale de la Santé, Diarrhoeal disease, rubriques définition, prévention et traitement. https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease",
-          "section": "QCM Deuxième série",
-          "originalNumber": 22,
-          "answer": "L’alimentation"
-        },
-        {
-          "id": "pediatrie-as-83",
-          "type": "qcm",
-          "text": "QCM Deuxième série · Question 23\nLe but de la réhydratation en cas de diarrhée est de\nChoisir la bonne réponse.",
-          "options": [
-            "Remplacer l’eau et les sels minéraux perdus",
-            "Maintenir un bon état de déshydratation jusqu’à la cessation de la diarrhée",
-            "Arrêt de l’allaitement"
-          ],
-          "correct": "Remplacer l’eau et les sels minéraux perdus",
-          "explanation": "La réhydratation remplace l’eau et les électrolytes perdus ; elle vise un état d’hydratation normal. L’allaitement ne doit pas être arrêté.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 132 (énoncé).Documentation AS : pediatrie.pdf, pages 57 du PDF.Organisation mondiale de la Santé, Diarrhoeal disease, rubriques définition, prévention et traitement. https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease",
-          "section": "QCM Deuxième série",
-          "originalNumber": 23,
-          "answer": "Remplacer l’eau et les sels minéraux perdus"
-        },
-        {
-          "id": "pediatrie-as-84",
-          "type": "qcm",
-          "text": "QCM Deuxième série · Question 24\nLa mesure du périmètre thoracique a pour but de\nChoisir la bonne réponse.",
-          "options": [
-            "Apprécier le développement thoracique de l’enfant",
-            "Apprécier l’évolution du cerveau de l’enfant",
-            "Faire le tour du thorax de l’enfant avec le mètre ruban"
-          ],
-          "correct": "Apprécier le développement thoracique de l’enfant",
-          "explanation": "La mesure apprécie le développement du thorax. C décrit le geste et non son but.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 134 (énoncé).Documentation AS : pediatrie.pdf, pages 15 du PDF.",
-          "section": "QCM Deuxième série",
-          "originalNumber": 24,
-          "answer": "Apprécier le développement thoracique de l’enfant"
-        },
-        {
-          "id": "pediatrie-as-85",
-          "type": "qcm",
-          "text": "QCM Deuxième série · Question 25\nQuelques précautions à prendre avant la mesure du périmètre brachial sont\nChoisir la bonne réponse.",
-          "options": [
-            "Saluer la mère",
-            "Laisser le bras replier sur l’avant-bras pour faciliter la mesure",
-            "Porter les gants propres",
-            "Coucher l’enfant en décubitus latéral"
-          ],
-          "correct": "Saluer la mère",
-          "explanation": "Saluer, expliquer le soin et obtenir la coopération font partie de la préparation. Le bras doit être détendu lors de la lecture ; les gants ne sont pas obligatoires pour une mesure sur peau intacte.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 136 (énoncé).Documentation AS : pediatrie.pdf, pages 14–15 du PDF.",
-          "section": "QCM Deuxième série",
-          "originalNumber": 25,
-          "answer": "Saluer la mère"
-        },
-        {
-          "id": "pediatrie-as-86",
-          "type": "qcm",
-          "text": "QCM Deuxième série · Question 26\nSelon les repères moyens du diaporama, quelles sont les deux propositions exactes sur la taille de l’enfant ?\nChoisir les 2 bonnes réponses.",
-          "options": [
-            "A la naissance : 49 a 52 cm",
-            "A 1 an l’enfant mesure: 70 a 75 cm",
-            "A 2 ans l’enfant mesure 93 cm",
-            "À quatre ans, la taille moyenne est de 75 cm."
+          "explanation": "Son extension et sa gravité potentielle peuvent engager le pronostic vital.",
+          "source": "stoma.pdf, chapitre 4, cellulites diffuses.",
+          "answers": [
+            "Elle peut s’étendre rapidement.",
+            "Elle peut entraîner des complications générales graves.",
+            "Elle nécessite une prise en charge hospitalière urgente."
           ],
           "correct": [
-            "A la naissance : 49 a 52 cm",
-            "A 1 an l’enfant mesure: 70 a 75 cm"
-          ],
-          "explanation": "Repères du support : environ 49 à 52 cm à la naissance et 70 à 75 cm à un an. À quatre ans, la taille moyenne est de l’ordre de 100 cm, et non de 75 cm. Ces valeurs approximatives doivent être interprétées avec les courbes de croissance.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 138 (énoncé).RÉVISION ASO ASI 2024.pptx, diapositive 140 ; Documentation DE : Pédiatrie L1.pdf, pages 130 du PDF.",
-          "section": "QCM Deuxième série",
-          "originalNumber": 26,
-          "answers": [
-            "A la naissance : 49 a 52 cm",
-            "A 1 an l’enfant mesure: 70 a 75 cm"
+            "Elle peut s’étendre rapidement.",
+            "Elle peut entraîner des complications générales graves.",
+            "Elle nécessite une prise en charge hospitalière urgente."
           ]
         },
         {
-          "id": "pediatrie-as-87",
           "type": "qcm",
-          "text": "QCM Deuxième série · Question 27\nQuelle proposition reproduit le repère moyen du tableau de croissance du diaporama ?\nChoisir la bonne réponse.",
+          "text": "Quels éléments peuvent entrer dans la prise en charge d’une cellulite dentaire selon sa forme ? Choisir trois réponses.",
           "options": [
-            "Poids moyen à la naissance : 1,5 kg.",
-            "Doublement obligatoire à trois mois avec une préparation pour nourrisson.",
-            "Environ 8 kg à neuf mois.",
-            "Poids moyen à un an : 14 kg."
+            "Un traitement médical adapté",
+            "Le drainage d’une collection",
+            "Le traitement de la dent causale",
+            "L’abandon du suivi après une diminution de la douleur",
+            "Le maintien volontaire du foyer infectieux"
           ],
-          "correct": "Environ 8 kg à neuf mois.",
-          "explanation": "Le tableau du support donne environ 8 kg à neuf mois. Un poids de 1,5 kg à la naissance représente un faible poids ; 14 kg à un an n’est pas le repère moyen du tableau. Le doublement du poids à trois mois n’est pas obligatoire.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 142 (énoncé).RÉVISION ASO ASI 2024.pptx, diapositive 144.",
-          "section": "QCM Deuxième série",
-          "originalNumber": 27,
-          "answer": "Environ 8 kg à neuf mois."
-        },
-        {
-          "id": "pediatrie-as-88",
-          "type": "qcm",
-          "text": "QCM Deuxième série · Question 28\nQuelle action relève du choix matériel du lieu avant une séance éducative associée à la vaccination ?\nChoisir la bonne réponse.",
-          "options": [
-            "Se présenter à l’auditoire.",
-            "Détendre l’atmosphère.",
-            "Choisir le lieu de la séance en tenant compte du confort de l’auditoire.",
-            "Adapter le niveau de langage à l’auditoire."
-          ],
-          "correct": "Choisir le lieu de la séance en tenant compte du confort de l’auditoire.",
-          "explanation": "Choisir le lieu en fonction du confort de l’auditoire correspond à l’organisation matérielle. Les autres actions concernent la conduite de la séance éducative.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 147 (énoncé).RÉVISION ASO ASI 2024.pptx, diapositives 147–148 (support pédagogique) ; connaissance générale d’organisation d’une séance éducative.",
-          "section": "QCM Deuxième série",
-          "originalNumber": 28,
-          "answer": "Choisir le lieu de la séance en tenant compte du confort de l’auditoire."
-        },
-        {
-          "id": "pediatrie-as-89",
-          "type": "qcm",
-          "text": "QCM Deuxième série · Question 29\nLes signes cotés par le score de Silverman sont\nChoisir les 3 bonnes réponses.",
-          "options": [
-            "Les battements des ailes du nez",
-            "Le tirage sous-costal",
-            "La coloration",
-            "L’entonnoir xiphoïdien",
-            "Le geignement inspiratoire"
+          "explanation": "La prise en charge traite l’infection, ses conséquences et son origine dentaire.",
+          "source": "stoma.pdf, chapitre 4, traitement.",
+          "answers": [
+            "Un traitement médical adapté",
+            "Le drainage d’une collection",
+            "Le traitement de la dent causale"
           ],
           "correct": [
-            "Les battements des ailes du nez",
-            "Le tirage sous-costal",
-            "L’entonnoir xiphoïdien"
-          ],
-          "explanation": "Les battements des ailes du nez, les rétractions du bas du thorax et l’entonnoir xiphoïdien appartiennent au score. La coloration n’en fait pas partie ; le geignement coté est expiratoire.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 149 (énoncé).Documentation AS : pediatrie.pdf, pages 38 du PDF.Inter-rater reliability of the Silverman and Andersen index—a measure of respiratory distress in preterm infants, étude publiée en 2023, rubrique The Silverman and Andersen index. https://pmc.ncbi.nlm.nih.gov/articles/PMC10313036/",
-          "section": "QCM Deuxième série",
-          "originalNumber": 29,
-          "answers": [
-            "Les battements des ailes du nez",
-            "Le tirage sous-costal",
-            "L’entonnoir xiphoïdien"
+            "Un traitement médical adapté",
+            "Le drainage d’une collection",
+            "Le traitement de la dent causale"
           ]
         },
         {
-          "id": "pediatrie-as-90",
           "type": "qcm",
-          "text": "QCM Deuxième série · Question 30\nLes signes de lutte respiratoires sont les suivants, sauf deux, lesquels ?",
+          "text": "Après un choc, une dent est mobile mais conserve sa position initiale. Quelle lésion est évoquée ? Choisir une réponse.",
           "options": [
-            "Tirage intercostal",
-            "Pouls",
-            "Entonnoir xiphoïdien",
-            "Battement du cœur",
-            "Geignement respiratoire"
+            "Une subluxation",
+            "Une avulsion",
+            "Une intrusion",
+            "Une extrusion"
+          ],
+          "explanation": "La subluxation associe mobilité et absence de déplacement.",
+          "source": "stoma.pdf, partie traumatismes alvéolo-dentaires.",
+          "answer": "Une subluxation",
+          "correct": "Une subluxation"
+        },
+        {
+          "type": "qcm",
+          "text": "Quelles associations entre traumatisme et définition sont correctes ? Choisir trois réponses.",
+          "options": [
+            "Intrusion : enfoncement de la dent",
+            "Extrusion : sortie partielle de la dent",
+            "Avulsion : expulsion complète de la dent",
+            "Subluxation : expulsion complète de la dent",
+            "Contusion : déplacement latéral obligatoire"
+          ],
+          "explanation": "Ces trois lésions correspondent à des déplacements différents de la dent.",
+          "source": "stoma.pdf, partie luxations dentaires.",
+          "answers": [
+            "Intrusion : enfoncement de la dent",
+            "Extrusion : sortie partielle de la dent",
+            "Avulsion : expulsion complète de la dent"
           ],
           "correct": [
-            "Pouls",
-            "Battement du cœur"
-          ],
-          "explanation": "Ce ne sont pas des signes de lutte respiratoire, contrairement aux rétractions et au geignement.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 151 (énoncé).Documentation AS : pediatrie.pdf, pages 38 du PDF.Inter-rater reliability of the Silverman and Andersen index—a measure of respiratory distress in preterm infants, étude publiée en 2023, rubrique The Silverman and Andersen index. https://pmc.ncbi.nlm.nih.gov/articles/PMC10313036/",
-          "section": "QCM Deuxième série",
-          "originalNumber": 30,
-          "answers": [
-            "Pouls",
-            "Battement du cœur"
+            "Intrusion : enfoncement de la dent",
+            "Extrusion : sortie partielle de la dent",
+            "Avulsion : expulsion complète de la dent"
           ]
         },
         {
-          "id": "pediatrie-as-91",
           "type": "qcm",
-          "text": "QCM Deuxième série · Question 31\nL’interrogatoire de la mère d’un enfant diarrhéique recherche ces éléments ci-dessous, sauf un, lequel ?",
+          "text": "Quels éléments influencent la prise en charge d’un traumatisme dentaire ? Choisir trois réponses.",
           "options": [
-            "Le nombre de selles",
-            "Le volume ou l’abondance des selles",
-            "L’aspect des selles",
-            "La couleur des chaussures de l’enfant."
+            "Le type de lésion",
+            "Le caractère temporaire ou permanent de la dent",
+            "Le développement de la racine",
+            "La couleur des vêtements du blessé",
+            "Le prénom du patient"
           ],
-          "correct": "La couleur des chaussures de l’enfant.",
-          "explanation": "Le nombre, le volume, l’aspect et la couleur des selles sont utiles à l’interrogatoire. La couleur des chaussures n’apporte aucune information clinique pertinente.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 153 (énoncé).Documentation AS : pediatrie.pdf, pages 55–57 du PDF.",
-          "section": "QCM Deuxième série",
-          "originalNumber": 31,
-          "answer": "La couleur des chaussures de l’enfant."
-        },
-        {
-          "id": "pediatrie-as-92",
-          "type": "qcm",
-          "text": "QCM Deuxième série · Question 32\nQuelle durée définit exactement la fièvre aiguë dans ce cours AS ?\nChoisir la bonne réponse.",
-          "options": [
-            "Une élévation de la température corporelle au-dessus de la normale depuis moins d’une semaine",
-            "Une élévation de la température corporelle au-dessus de la normale depuis une semaine et moins d’un mois",
-            "Entre deux et quatre semaines.",
-            "Une élévation de la température corporelle au-dessus de la normale depuis plus d’un mois"
-          ],
-          "correct": "Une élévation de la température corporelle au-dessus de la normale depuis moins d’une semaine",
-          "explanation": "Dans la classification du cours AS, une fièvre aiguë dure moins d’une semaine, une fièvre prolongée d’une semaine à un mois et une fièvre chronique plus d’un mois.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 155 (énoncé).Documentation AS : pediatrie.pdf, pages 47 du PDF.",
-          "section": "QCM Deuxième série",
-          "originalNumber": 32,
-          "answer": "Une élévation de la température corporelle au-dessus de la normale depuis moins d’une semaine"
-        },
-        {
-          "id": "pediatrie-as-93",
-          "type": "qcm",
-          "text": "QCM Deuxième série · Question 33\nQuelles deux propositions reproduisent la liste des signes évocateurs de fièvre du cours AS ?\nChoisir les 2 bonnes réponses.",
-          "options": [
-            "Râles pulmonaires",
-            "Vomissements",
-            "Cri et pâleur",
-            "Douleur",
-            "Diarrhée",
-            "Éruptions cutanées"
+          "explanation": "La décision dépend de la lésion, du type de dent et de sa maturité.",
+          "source": "stoma.pdf, partie traitement des traumatismes alvéolo-dentaires.",
+          "answers": [
+            "Le type de lésion",
+            "Le caractère temporaire ou permanent de la dent",
+            "Le développement de la racine"
           ],
           "correct": [
-            "Cri et pâleur",
-            "Douleur"
-          ],
-          "explanation": "Le cours cite cri/pâleur et douleur. Les autres manifestations peuvent accompagner une maladie fébrile mais ne définissent pas la fièvre.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 158 (énoncé).Documentation AS : pediatrie.pdf, pages 48 du PDF.RÉVISION ASO ASI 2024.pptx, diapositive 160.",
-          "section": "QCM Deuxième série",
-          "originalNumber": 33,
-          "answers": [
-            "Cri et pâleur",
-            "Douleur"
+            "Le type de lésion",
+            "Le caractère temporaire ou permanent de la dent",
+            "Le développement de la racine"
           ]
         },
         {
-          "id": "pediatrie-as-94",
           "type": "qcm",
-          "text": "QCM Deuxième série · Question 34\nSelon l’organisation des volets du cours AS, quel geste appartient au volet administration du vaccin ?\nChoisir la bonne réponse.",
+          "text": "Quelles associations entre inflammation et localisation sont correctes ? Choisir trois réponses.",
           "options": [
-            "Vérifier si le vaccin à administrer est celui prévu pour l’âge de l’enfant.",
-            "Installer l’enfant et la mère",
-            "Notifier dans le registre de vaccination la date dans la colonne prévue pour le vaccin",
-            "Inscrire le prochain rendez-vous dans le carnet"
+            "Gingivite : gencive",
+            "Glossite : langue",
+            "Chéilite : lèvres",
+            "Ouranite : racine dentaire",
+            "Pulpite : lèvre inférieure"
           ],
-          "correct": "Installer l’enfant et la mère",
-          "explanation": "Le cours classe cette action dans le volet administration. Vérification de l’âge, inscription du rendez-vous et tenue du registre sont décrites dans le volet administratif.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 161 (énoncé).Documentation AS : pediatrie.pdf, pages 18 du PDF.",
-          "section": "QCM Deuxième série",
-          "originalNumber": 34,
-          "answer": "Installer l’enfant et la mère"
-        },
-        {
-          "id": "pediatrie-as-95",
-          "type": "qcm",
-          "text": "QCM Deuxième série · Question 35\nQuels soins doivent être réalisés immédiatement, dans la première minute après la naissance, chez un nouveau-né stable ?\nChoisir les 2 bonnes réponses.",
-          "options": [
-            "Réaliser l’examen clinique détaillé du nouveau-né.",
-            "Rechercher d’éventuelles malformations et des réflexes archaïques",
-            "Placer le nouveau-né en contact peau a peau sur le ventre de la mère",
-            "Sécher immédiatement le nouveau-né avec un linge propre, sec et chaud."
+          "explanation": "L’ouranite touche le palais et la pulpite touche la pulpe dentaire.",
+          "source": "stoma.pdf, chapitre 6, classification topographique ; chapitre 2.",
+          "answers": [
+            "Gingivite : gencive",
+            "Glossite : langue",
+            "Chéilite : lèvres"
           ],
           "correct": [
-            "Placer le nouveau-né en contact peau a peau sur le ventre de la mère",
-            "Sécher immédiatement le nouveau-né avec un linge propre, sec et chaud."
-          ],
-          "explanation": "Le peau à peau et le séchage sont immédiats chez le nouveau-né stable. L’examen détaillé et les soins non urgents ne doivent pas retarder ces mesures.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 163 (énoncé).Documentation AS : pediatrie.pdf, pages 7 du PDF.Organisation mondiale de la Santé, Essential Newborn Care Course, Examination of the newborn, note sur la vitamine K après la première heure. https://cdn.who.int/media/docs/default-source/mca-documents/nbh/enc-course/modules/8-facilitator-notes-examination-of-the-newborn-16.03.22.pdf Organisation mondiale de la Santé, Alimentation du nourrisson et du jeune enfant. https://www.who.int/fr/news-room/fact-sheets/detail/infant-and-young-child-feeding",
-          "section": "QCM Deuxième série",
-          "originalNumber": 35,
-          "answers": [
-            "Placer le nouveau-né en contact peau a peau sur le ventre de la mère",
-            "Sécher immédiatement le nouveau-né avec un linge propre, sec et chaud."
+            "Gingivite : gencive",
+            "Glossite : langue",
+            "Chéilite : lèvres"
           ]
         },
         {
-          "id": "pediatrie-as-96",
           "type": "qcm",
-          "text": "QCM Deuxième série · Question 36\nParmi les signes classiques du syndrome de postmaturité décrits dans le cours AS, lequel est correct ?\nChoisir la bonne réponse.",
+          "text": "Quelles origines de stomatite sont présentées dans le document ? Choisir trois réponses.",
           "options": [
-            "Une peau plissée pourvue de vernix caseosa",
-            "Une augmentation de la masse graisseuse",
-            "Un nouveau-né avec un regard vif",
-            "Un nouveau-né grand et gros"
+            "Infectieuse",
+            "Allergique",
+            "Médicamenteuse",
+            "Exclusivement osseuse",
+            "Exclusivement congénitale"
           ],
-          "correct": "Un nouveau-né avec un regard vif",
-          "explanation": "La postmaturité peut associer peau sèche/desquamante, réduction du vernix et de la graisse sous-cutanée. Tous les nouveau-nés post-terme ne présentent pas nécessairement ces signes.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 165 (énoncé).Documentation AS : pediatrie.pdf, pages 36 du PDF.",
-          "section": "QCM Deuxième série",
-          "originalNumber": 36,
-          "answer": "Un nouveau-né avec un regard vif"
-        },
-        {
-          "id": "pediatrie-as-97",
-          "type": "qcm",
-          "text": "QCM Deuxième série · Question 37\nLa photothérapie est le principal traitement de l’ictère à bilirubine, son but est de\nChoisir les 2 bonnes réponses.",
-          "options": [
-            "Réduire le taux de bilirubine non conjuguée.",
-            "Exposer de la peau lumière bleue",
-            "Exposer de la peau lumière blanche",
-            "Transformer la bilirubine en produits hydrosolubles plus facilement éliminables."
+          "explanation": "Les stomatites peuvent avoir plusieurs causes et ne sont pas toutes infectieuses.",
+          "source": "stoma.pdf, chapitre 6 : Les stomatites.",
+          "answers": [
+            "Infectieuse",
+            "Allergique",
+            "Médicamenteuse"
           ],
           "correct": [
-            "Réduire le taux de bilirubine non conjuguée.",
-            "Transformer la bilirubine en produits hydrosolubles plus facilement éliminables."
-          ],
-          "explanation": "La photothérapie transforme la bilirubine non conjuguée en produits plus facilement éliminables. L’exposition à une lumière adaptée est le moyen utilisé pour obtenir cet effet.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 167 (énoncé).Documentation AS : pediatrie.pdf, pages 42 du PDF.NHS Greater Glasgow and Clyde, Jaundice: Phototherapy for neonatal jaundice (1047). https://www.clinicalguidelines.scot.nhs.uk/ggc-paediatric-guidelines/ggc-paediatric-guidelines/neonatology/phototherapy-for-neonatal-jaundice-1047/",
-          "section": "QCM Deuxième série",
-          "originalNumber": 37,
-          "answers": [
-            "Réduire le taux de bilirubine non conjuguée.",
-            "Transformer la bilirubine en produits hydrosolubles plus facilement éliminables."
+            "Infectieuse",
+            "Allergique",
+            "Médicamenteuse"
           ]
         },
         {
-          "id": "pediatrie-as-98",
           "type": "qcm",
-          "text": "QCM Deuxième série · Question 38\nAprès le gavage, Il faut surveiller\nChoisir les 4 bonnes réponses.",
+          "text": "Une muqueuse buccale présente des dépôts blanchâtres évoquant un muguet. Quelle origine est recherchée ? Choisir une réponse.",
           "options": [
-            "Les réactions et le comportement du nouveau-né.",
-            "La couleur de la peau",
-            "Le nombre de vomissement",
-            "La respiration"
+            "Une origine fongique",
+            "Une fracture mandibulaire",
+            "Une fente palatine",
+            "Une luxation dentaire"
+          ],
+          "explanation": "Le muguet est une forme de candidose buccale.",
+          "source": "stoma.pdf, chapitre 6, stomatite crémeuse ou muguet.",
+          "answer": "Une origine fongique",
+          "correct": "Une origine fongique"
+        },
+        {
+          "type": "qcm",
+          "text": "Quelle association évoque une maladie de Behçet dans le cours ? Choisir une réponse.",
+          "options": [
+            "Aphtes buccaux, aphtes génitaux et atteinte oculaire",
+            "Carie, fracture dentaire et intrusion",
+            "Fente labiale, extrusion et contusion",
+            "Muguet isolé et fracture du nez"
+          ],
+          "explanation": "Le document décrit une aphtose buccale et génitale associée à une atteinte oculaire.",
+          "source": "stoma.pdf, chapitre 6, maladie de Behçet.",
+          "answer": "Aphtes buccaux, aphtes génitaux et atteinte oculaire",
+          "correct": "Aphtes buccaux, aphtes génitaux et atteinte oculaire"
+        },
+        {
+          "type": "qcm",
+          "text": "Quelles conséquences peuvent être associées à une fente labio-alvéolo-palatine ? Choisir trois réponses.",
+          "options": [
+            "Des difficultés d’alimentation",
+            "Des troubles de la parole",
+            "Des anomalies dentaires",
+            "Une amélioration obligatoire de l’audition",
+            "Une disparition systématique des besoins de soins dentaires"
+          ],
+          "explanation": "La malformation peut affecter plusieurs fonctions et le développement dento-maxillaire.",
+          "source": "stoma.pdf, chapitre 7 : Les fentes labio-alvéolo-palatines.",
+          "answers": [
+            "Des difficultés d’alimentation",
+            "Des troubles de la parole",
+            "Des anomalies dentaires"
           ],
           "correct": [
-            "Les réactions et le comportement du nouveau-né.",
-            "La couleur de la peau",
-            "Le nombre de vomissement",
-            "La respiration"
-          ],
-          "explanation": "La tolérance du gavage implique de surveiller coloration, respiration, vomissements et comportement. Limiter la surveillance à une seule réponse serait incorrect.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 169 (énoncé).Documentation AS : pediatrie.pdf, pages 41 du PDF.",
-          "section": "QCM Deuxième série",
-          "originalNumber": 38,
-          "answers": [
-            "Les réactions et le comportement du nouveau-né.",
-            "La couleur de la peau",
-            "Le nombre de vomissement",
-            "La respiration"
+            "Des difficultés d’alimentation",
+            "Des troubles de la parole",
+            "Des anomalies dentaires"
           ]
         },
         {
-          "id": "pediatrie-as-99",
           "type": "qcm",
-          "text": "QCM Deuxième série · Question 39\nLes facteurs ci-dessous sont ceux qui favorisent les otites\nChoisir la bonne réponse.",
+          "text": "Quels domaines participent à la prise en charge des fentes labio-palatines ? Choisir trois réponses.",
           "options": [
-            "Décubitus ventrale prolongé lors de la technique de tétée",
-            "Malnutrition",
-            "Anorexie",
-            "Troubles digestifs"
+            "La chirurgie",
+            "L’orthodontie",
+            "La rééducation de la parole",
+            "L’abandon de la surveillance de croissance",
+            "L’extraction systématique de toutes les dents"
           ],
-          "correct": "Malnutrition",
-          "explanation": "Elle figure parmi les facteurs favorisants. Le cours cite une mauvaise technique de tétée en décubitus dorsal, pas ventral.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 171 (énoncé).Documentation AS : pediatrie.pdf, pages 52 du PDF.",
-          "section": "QCM Deuxième série",
-          "originalNumber": 39,
-          "answer": "Malnutrition"
-        },
-        {
-          "id": "pediatrie-as-100",
-          "type": "qcm",
-          "text": "QCM Deuxième série · Question 40\nSelon l’OMS, à partir de quelle durée une diarrhée est-elle persistante ?\nChoisir la bonne réponse.",
-          "options": [
-            "Moins de sept jours.",
-            "Au moins 14 jours.",
-            "Seulement au-delà de 30 jours."
-          ],
-          "correct": "Au moins 14 jours.",
-          "explanation": "Selon l’OMS, une diarrhée persistante dure au moins 14 jours, sans limite supérieure à 21 jours. Le cours AS emploie un découpage pédagogique différent.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 173 (énoncé).Documentation AS : pediatrie.pdf, pages 55 du PDF.Organisation mondiale de la Santé, Diarrhoeal disease, rubriques définition, prévention et traitement. https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease",
-          "section": "QCM Deuxième série",
-          "originalNumber": 40,
-          "answer": "Au moins 14 jours."
-        },
-        {
-          "id": "pediatrie-as-101",
-          "type": "qcm",
-          "text": "QCM Deuxième série · Question 41\nQuelle cause est classée dans le cours parmi les anémies du nourrisson et de l’enfant plutôt que les causes obstétricales néonatales ?\nChoisir la bonne réponse.",
-          "options": [
-            "Transfusion fœto-maternelle",
-            "Anémie hémolytique acquise immunologique",
-            "Accident obstétricale (décollement placentaire)",
-            "Hémopathie bénigne"
-          ],
-          "correct": "Anémie hémolytique acquise immunologique",
-          "explanation": "A et C sont surtout présentées dans les causes néonatales ; B est citée pour le nourrisson et l’enfant. La question originale trop générale pourrait inclure des conséquences d’événements périnataux.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 176 (énoncé).Documentation AS : pediatrie.pdf, pages 62 du PDF.",
-          "section": "QCM Deuxième série",
-          "originalNumber": 41,
-          "answer": "Anémie hémolytique acquise immunologique"
-        },
-        {
-          "id": "pediatrie-as-102",
-          "type": "qcm",
-          "text": "QCM Deuxième série · Question 42\nDevant tout vomissement s’accompagnant de signes abdominaux aigus, penser à une urgence chirurgicale de type\nChoisir la bonne réponse.",
-          "options": [
-            "Une gastro-entérite",
-            "Renvoie pathologique postprandial",
-            "Invagination"
-          ],
-          "correct": "Invagination",
-          "explanation": "Des vomissements avec signes abdominaux aigus imposent de rechercher une cause chirurgicale ; l’invagination est une possibilité.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 178 (énoncé).Documentation AS : pediatrie.pdf, pages 58–59 du PDF.",
-          "section": "QCM Deuxième série",
-          "originalNumber": 42,
-          "answer": "Invagination"
-        },
-        {
-          "id": "pediatrie-as-103",
-          "type": "qcm",
-          "text": "QCM Deuxième série · Question 43\nQuelle complication digestive peut accompagner un reflux pathologique avec rejets persistants ?\nChoisir la bonne réponse.",
-          "options": [
-            "Des otites",
-            "Une œsophagite",
-            "Une anxiété excessive de la mère",
-            "Une mauvaise relation mère – enfant"
-          ],
-          "correct": "Une œsophagite",
-          "explanation": "Une exposition répétée de l’œsophage au contenu gastrique, notamment en cas de reflux pathologique, peut provoquer une œsophagite. Il ne s’agit pas de la conséquence automatique de tout échec thérapeutique.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 180 (énoncé).National Institute for Health and Care Excellence, Gastro-oesophageal reflux disease in children and young people: diagnosis and management, NG1. https://www.nice.org.uk/guidance/ng1/chapter/recommendations",
-          "section": "QCM Deuxième série",
-          "originalNumber": 43,
-          "answer": "Une œsophagite"
-        },
-        {
-          "id": "pediatrie-as-104",
-          "type": "qcm",
-          "text": "QCM Deuxième série · Question 44\nQuels sont les critères d’une bonne prise du sein par l’enfant ?\nChoisir les 3 bonnes réponses.",
-          "options": [
-            "Plus d’aréole visible au-dessus de la lèvre supérieure qu’en dessous de la lèvre inférieure.",
-            "La lèvre inférieure est éversée.",
-            "Le menton du bébé touche le sein."
+          "explanation": "La prise en charge est multidisciplinaire et suit le développement de l’enfant.",
+          "source": "stoma.pdf, chapitre 7, traitement.",
+          "answers": [
+            "La chirurgie",
+            "L’orthodontie",
+            "La rééducation de la parole"
           ],
           "correct": [
-            "Plus d’aréole visible au-dessus de la lèvre supérieure qu’en dessous de la lèvre inférieure.",
-            "La lèvre inférieure est éversée.",
-            "Le menton du bébé touche le sein."
-          ],
-          "explanation": "Ces trois critères indiquent une bonne prise du sein : davantage d’aréole visible au-dessus, lèvre inférieure éversée et menton contre le sein.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 182 (énoncé).Documentation AS : pediatrie.pdf, pages 72 du PDF.Organisation mondiale de la Santé, Infant and Young Child Feeding: Model Chapter for Textbooks for Medical Students and Allied Health Professionals, chapitre sur la prise du sein.",
-          "section": "QCM Deuxième série",
-          "originalNumber": 44,
-          "answers": [
-            "Plus d’aréole visible au-dessus de la lèvre supérieure qu’en dessous de la lèvre inférieure.",
-            "La lèvre inférieure est éversée.",
-            "Le menton du bébé touche le sein."
+            "La chirurgie",
+            "L’orthodontie",
+            "La rééducation de la parole"
           ]
         },
         {
-          "id": "pediatrie-as-105",
           "type": "qcm",
-          "text": "QCM Deuxième série · Question 45\nQuelles deux affections appartiennent à la liste des affections fréquentes de 1 mois à 5 ans présentée dans le tableau de ce support ?\nChoisir les 2 bonnes réponses.",
+          "text": "Quelles causes peuvent expliquer une ulcération linguale ? Choisir trois réponses.",
           "options": [
-            "Pneumonie",
-            "Accidents",
-            "Souffrance cérébrale",
-            "Malnutrition",
-            "Cancer"
+            "Une morsure",
+            "Une dent coupante",
+            "Une prothèse traumatisante",
+            "Une glande parotide normale",
+            "Un émail sain sans facteur traumatique"
+          ],
+          "explanation": "Les traumatismes locaux constituent des causes possibles d’ulcération.",
+          "source": "stoma.pdf, chapitre 8 : Diagnostic des ulcérations linguales.",
+          "answers": [
+            "Une morsure",
+            "Une dent coupante",
+            "Une prothèse traumatisante"
           ],
           "correct": [
-            "Pneumonie",
-            "Malnutrition"
-          ],
-          "explanation": "Dans le tableau du cours AS, la pneumonie et la malnutrition figurent parmi les affections fréquentes de un mois à cinq ans. Les autres propositions ne font pas partie de cette liste pour cette tranche d’âge ; cela ne signifie pas qu’elles ne peuvent jamais survenir avant cinq ans.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 184 (énoncé).Documentation AS : pediatrie.pdf, pages 5 du PDF.RÉVISION ASO ASI 2024.pptx, diapositive 186.",
-          "section": "QCM Deuxième série",
-          "originalNumber": 45,
-          "answers": [
-            "Pneumonie",
-            "Malnutrition"
+            "Une morsure",
+            "Une dent coupante",
+            "Une prothèse traumatisante"
           ]
         },
         {
-          "id": "pediatrie-as-106",
           "type": "qcm",
-          "text": "QCM Deuxième série · Question 46\nQuelle proposition définit un nouveau-né post-terme ?\nChoisir la bonne réponse.",
+          "text": "Devant une ulcération linguale persistante et atypique, quelle démarche est adaptée ? Choisir une réponse.",
           "options": [
-            "Âge gestationnel d’au moins 42 SA.",
-            "Âge gestationnel entre 37 et moins de 42 SA.",
-            "Âge gestationnel inférieur à 37 SA.",
-            "Âge gestationnel entre 37 SA et 41 SA + 6 jours."
+            "La considérer systématiquement comme bénigne",
+            "Rechercher sa cause et envisager une biopsie en cas de doute",
+            "Attendre obligatoirement une douleur intense",
+            "Ignorer la présence éventuelle de ganglions"
           ],
-          "correct": "Âge gestationnel d’au moins 42 SA.",
-          "explanation": "« Après 42 SA » exclut à tort le seuil exact et se recouvre avec A. Post-terme désigne l’âge gestationnel ; postmaturité désigne un tableau clinique.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 187 (énoncé).Documentation AS : pediatrie.pdf, pages 36 du PDF.",
-          "section": "QCM Deuxième série",
-          "originalNumber": 46,
-          "answer": "Âge gestationnel d’au moins 42 SA."
+          "explanation": "La persistance impose notamment d’éliminer une lésion néoplasique.",
+          "source": "stoma.pdf, chapitre 8, conclusion.",
+          "answer": "Rechercher sa cause et envisager une biopsie en cas de doute",
+          "correct": "Rechercher sa cause et envisager une biopsie en cas de doute"
         },
         {
-          "id": "pediatrie-as-107",
           "type": "qcm",
-          "text": "QCM Deuxième série · Question 47\nQu’appelle-t-on un nouveau-né grand pour l’âge gestationnel ?\nChoisir la bonne réponse.",
+          "text": "Quelles situations constituent des priorités vitales devant un traumatisme facial ? Choisir trois réponses.",
           "options": [
-            "Un nouveau-né dont le poids de naissance est supérieur à celui attendu pour l’âge gestationnel.",
-            "Un nouveau-né dont le poids de naissance < à celui de son AG",
-            "Un nouveau-né dont le poids de naissance correspond à celui de son âge gestationnel"
+            "Une obstruction des voies respiratoires",
+            "Une hémorragie importante",
+            "Une lésion crânienne grave associée",
+            "Une légère irrégularité esthétique isolée",
+            "Une coloration ancienne d’une dent sans signe de gravité"
           ],
-          "correct": "Un nouveau-né dont le poids de naissance est supérieur à celui attendu pour l’âge gestationnel.",
-          "explanation": "Le poids est supérieur à celui attendu pour l’âge gestationnel ; utiliser une courbe de référence.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 190 (énoncé).Documentation AS : pediatrie.pdf, pages 34–36 du PDF.",
-          "section": "QCM Deuxième série",
-          "originalNumber": 47,
-          "answer": "Un nouveau-né dont le poids de naissance est supérieur à celui attendu pour l’âge gestationnel."
-        },
-        {
-          "id": "pediatrie-as-108",
-          "type": "qcm",
-          "text": "QCM Deuxième série · Question 48\nNourrisson, c’est\nChoisir la bonne réponse.",
-          "options": [
-            "Un enfant âgé d’un mois à moins de deux ans.",
-            "Un enfant dont l’âge est compris entre 2 mois et 2 ans",
-            "Un enfant dont l’âge est compris entre 3 mois et 2 ans",
-            "Un enfant dont l’âge est compris entre 3 mois et 3 ans"
-          ],
-          "correct": "Un enfant âgé d’un mois à moins de deux ans.",
-          "explanation": "Le nourrisson correspond dans ce cours à la période de 1 à 23 mois.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 192 (énoncé).Documentation AS : pediatrie.pdf, pages 4 du PDF.",
-          "section": "QCM Deuxième série",
-          "originalNumber": 48,
-          "answer": "Un enfant âgé d’un mois à moins de deux ans."
-        },
-        {
-          "id": "pediatrie-as-109",
-          "type": "qcm",
-          "text": "QCM Deuxième série · Question 49\nDans le découpage de ce cours, quelle tranche correspond à l’enfant d’âge scolaire, appelée ici préadolescence ?\nChoisir la bonne réponse.",
-          "options": [
-            "Un enfant dont l’âge est compris entre 4 ans et 12 ans",
-            "Un enfant dont l’âge est compris entre 5 ans et 12 ans",
-            "Un enfant dont l’âge est compris entre 6 ans et 12 ans",
-            "Un enfant dont l’âge est compris entre 7 ans et 12 ans"
-          ],
-          "correct": "Un enfant dont l’âge est compris entre 6 ans et 12 ans",
-          "explanation": "Le découpage du support appelle ainsi la période de l’enfant d’âge scolaire. Cette appellation n’est pas universelle.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 194 (énoncé).Documentation AS : pediatrie.pdf, pages 5 du PDF.",
-          "section": "QCM Deuxième série",
-          "originalNumber": 49,
-          "answer": "Un enfant dont l’âge est compris entre 6 ans et 12 ans"
-        },
-        {
-          "id": "pediatrie-as-110",
-          "type": "qcm",
-          "text": "QCM Deuxième série · Question 50\nLes objectifs des soins du nouveau-né après la naissance sont les suivants sauf un, lequel ?",
-          "options": [
-            "Détecter les signes de danger",
-            "Conseiller la mère sur les soins à apporter au nouveau-né",
-            "Retarder systématiquement la première tétée jusqu’au lendemain.",
-            "Maintenir une température normale"
-          ],
-          "correct": "Retarder systématiquement la première tétée jusqu’au lendemain.",
-          "explanation": "Les soins visent à détecter les signes de danger, maintenir une température normale et conseiller la mère. La première tétée doit être favorisée précocement, pas retardée systématiquement.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 196 (énoncé).Documentation AS : pediatrie.pdf, pages 6 du PDF.Organisation mondiale de la Santé, Alimentation du nourrisson et du jeune enfant. https://www.who.int/fr/news-room/fact-sheets/detail/infant-and-young-child-feeding",
-          "section": "QCM Deuxième série",
-          "originalNumber": 50,
-          "answer": "Retarder systématiquement la première tétée jusqu’au lendemain."
-        },
-        {
-          "id": "pediatrie-as-111",
-          "type": "qcm",
-          "text": "QCM Deuxième série · Question 51\nCombien de rubriques le cours AS distingue-t-il dans les soins immédiats du nouveau-né ?\nChoisir la bonne réponse.",
-          "options": [
-            "Trois",
-            "Quatre",
-            "Cinq",
-            "Six"
-          ],
-          "correct": "Quatre",
-          "explanation": "Le support distingue dès la naissance, 0–1 minute, 1–60 minutes et 60–90 minutes. Les deux premières rubriques se chevauchent : c’est une organisation pédagogique.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 198 (énoncé).Documentation AS : pediatrie.pdf, pages 7–8 du PDF.",
-          "section": "QCM Deuxième série",
-          "originalNumber": 51,
-          "answer": "Quatre"
-        },
-        {
-          "id": "pediatrie-as-112",
-          "type": "qcm",
-          "text": "QCM Deuxième série · Question 52\nHabituellement, chez le nouveau-né à terme éveillé, quelle attitude est décrite ?\nChoisir la bonne réponse.",
-          "options": [
-            "Présente une attitude en déflexion",
-            "Ses mains sont ouvertes",
-            "Membres défléchis",
-            "Poing fermés"
-          ],
-          "correct": "Poing fermés",
-          "explanation": "Le nouveau-né à terme présente habituellement une attitude en flexion. Les mains peuvent aussi s’ouvrir ; il ne faut pas imposer une fermeture permanente.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 200 (énoncé).Documentation AS : pediatrie.pdf, pages 6–8 du PDF.Documentation DE : Pédiatrie L1.pdf, pages 32 du PDF.",
-          "section": "QCM Deuxième série",
-          "originalNumber": 52,
-          "answer": "Poing fermés"
-        },
-        {
-          "id": "pediatrie-as-113",
-          "type": "qcm",
-          "text": "QCM Deuxième série · Question 53\nQuel repère moteur est habituellement attendu autour de huit mois dans ce support ?\nChoisir la bonne réponse.",
-          "options": [
-            "Tient assis sans soutien",
-            "Marche seul sans appui.",
-            "Monte les escaliers à 4 pattes",
-            "Court vite."
-          ],
-          "correct": "Tient assis sans soutien",
-          "explanation": "La station assise sans soutien est un repère de la période autour de huit à neuf mois. L’âge d’acquisition varie ; les CDC la placent parmi les acquisitions à neuf mois. Pour une réponse unique, la marche autonome n’est pas attendue à cet âge.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 202 (énoncé).Documentation DE : Pédiatrie L1.pdf, pages 145–147 du PDF, repères moteurs ; Centers for Disease Control and Prevention, Milestones by 9 Months, station assise sans soutien. https://www.cdc.gov/act-early/milestones/9-months.html",
-          "section": "QCM Deuxième série",
-          "originalNumber": 53,
-          "answer": "Tient assis sans soutien"
-        },
-        {
-          "id": "pediatrie-as-114",
-          "type": "qcm",
-          "text": "QCM Deuxième série · Question 54\nL’enfant triple son poids de naissance, à l’âge de\nChoisir la bonne réponse.",
-          "options": [
-            "3 mois",
-            "5 mois",
-            "12 mois",
-            "15 mois"
-          ],
-          "correct": "12 mois",
-          "explanation": "Le triplement du poids de naissance à un an est un repère moyen, pas une exigence pour chaque enfant.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 204 (énoncé).RÉVISION ASO ASI 2024.pptx, diapositive 144 ; Documentation DE : Pédiatrie L1.pdf, pages 130 du PDF.",
-          "section": "QCM Deuxième série",
-          "originalNumber": 54,
-          "answer": "12 mois"
-        },
-        {
-          "id": "pediatrie-as-115",
-          "type": "qcm",
-          "text": "QCM Deuxième série · Question 55\nQuelles deux consignes sont explicitement énoncées dans le paragraphe “Rythme de la pesée” du cours AS ?\nChoisir les 2 bonnes réponses.",
-          "options": [
-            "Peser l’enfant à jour fixe",
-            "Peser l’enfant a heure fixe",
-            "Peser l’enfant a intervalle régulier",
-            "Peser l’enfant à balance fixe",
-            "Peser l’enfant dans un centre e santé fixe"
+          "explanation": "Les menaces respiratoires, circulatoires et neurologiques sont prioritaires.",
+          "source": "stoma.pdf, chapitre 9, urgences vitales et polytraumatismes.",
+          "answers": [
+            "Une obstruction des voies respiratoires",
+            "Une hémorragie importante",
+            "Une lésion crânienne grave associée"
           ],
           "correct": [
-            "Peser l’enfant a heure fixe",
-            "Peser l’enfant a intervalle régulier"
-          ],
-          "explanation": "Le cours prescrit heure fixe et intervalles réguliers. Réutiliser une balance fiable et fixer les jours peut également être pertinent ; E n’est pas une obligation.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 206 (énoncé).Documentation AS : pediatrie.pdf, pages 10 du PDF.",
-          "section": "QCM Deuxième série",
-          "originalNumber": 55,
-          "answers": [
-            "Peser l’enfant a heure fixe",
-            "Peser l’enfant a intervalle régulier"
+            "Une obstruction des voies respiratoires",
+            "Une hémorragie importante",
+            "Une lésion crânienne grave associée"
           ]
         },
         {
-          "id": "pediatrie-as-116",
           "type": "qcm",
-          "text": "QCM Deuxième série · Question 56\nLe volet administratif d’une séance de vaccination, consiste à\nChoisir la bonne réponse.",
+          "text": "Quels signes peuvent révéler une tumeur des maxillaires ? Choisir trois réponses.",
           "options": [
-            "Vérifier le statut vaccinal de l’enfant dans le registre et dans le carnet de santé mère-enfant selon l’âge de l’enfant",
-            "Informer la mère des éventuels effets indésirables du vaccin",
-            "Informer la mère des sites d’injection et la voie d’administration du vaccin",
-            "Administrer le vaccin en fonction du site et de la voie d’administration inscrite sur le flacon du vaccin"
+            "Une tuméfaction osseuse",
+            "Une mobilité dentaire inexpliquée",
+            "Un trouble de la sensibilité dans un territoire nerveux voisin",
+            "Une disparition constante de toute douleur",
+            "Une éruption normale des dents sans autre anomalie"
           ],
-          "correct": "Vérifier le statut vaccinal de l’enfant dans le registre et dans le carnet de santé mère-enfant selon l’âge de l’enfant",
-          "explanation": "La vérification du statut dans le carnet et le registre relève du volet administratif. Information sur l’injection et administration appartiennent à d’autres étapes.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 208 (énoncé).Documentation AS : pediatrie.pdf, pages 18 du PDF.",
-          "section": "QCM Deuxième série",
-          "originalNumber": 56,
-          "answer": "Vérifier le statut vaccinal de l’enfant dans le registre et dans le carnet de santé mère-enfant selon l’âge de l’enfant"
+          "explanation": "La tumeur peut modifier l’os, les rapports dentaires et les structures nerveuses.",
+          "source": "stoma.pdf, chapitre 10, signes d’appel.",
+          "answers": [
+            "Une tuméfaction osseuse",
+            "Une mobilité dentaire inexpliquée",
+            "Un trouble de la sensibilité dans un territoire nerveux voisin"
+          ],
+          "correct": [
+            "Une tuméfaction osseuse",
+            "Une mobilité dentaire inexpliquée",
+            "Un trouble de la sensibilité dans un territoire nerveux voisin"
+          ]
         },
         {
-          "id": "pediatrie-as-117",
           "type": "qcm",
-          "text": "QCM Deuxième série · Question 57\nPour mesurer la longueur couchée d’un enfant de moins de deux ans, quelle proposition est correcte ?\nChoisir la bonne réponse.",
+          "text": "Quels examens peuvent contribuer au diagnostic et au bilan d’une tumeur des maxillaires ? Choisir trois réponses.",
           "options": [
-            "Une aide est habituellement nécessaire pour positionner la tête et les jambes.",
-            "L’enfant doit rester debout.",
-            "Utiliser seulement une toise verticale.",
-            "L’enfant peut être laissé seul sur la table."
+            "Une radiographie panoramique dentaire",
+            "Un scanner ou une IRM selon l’indication",
+            "Un examen anatomopathologique",
+            "La mesure du poids seule",
+            "La prise de température seule"
           ],
-          "correct": "Une aide est habituellement nécessaire pour positionner la tête et les jambes.",
-          "explanation": "Le cours AS exige une aide avant trois ans ; le cours DE recommande une toise horizontale avant deux ans et une mesure debout après deux ans. Une aide peut rester utile au-delà.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 210 (énoncé).Documentation AS : pediatrie.pdf, pages 12–13 du PDF.Documentation DE : Pédiatrie L1.pdf, pages 127 du PDF.",
-          "section": "QCM Deuxième série",
-          "originalNumber": 57,
-          "answer": "Une aide est habituellement nécessaire pour positionner la tête et les jambes."
-        },
-        {
-          "id": "pediatrie-as-118",
-          "type": "qcm",
-          "text": "QCM Deuxième série · Question 58\nLe Périmètre Crânien (PC) évolue de\nChoisir la bonne réponse.",
-          "options": [
-            "0,5 cm par mois de 0 à 3 mois",
-            "0,5 cm par mois de 3 à 6 mois",
-            "Environ 0,5 cm par mois entre 6 et 12 mois.",
-            "0,5 cm par mois de 12 mois à 18 mois"
+          "explanation": "L’imagerie explore la lésion et son extension ; l’anatomopathologie précise sa nature.",
+          "source": "stoma.pdf, chapitre 10, aspects radiologiques et examen anatomopathologique.",
+          "answers": [
+            "Une radiographie panoramique dentaire",
+            "Un scanner ou une IRM selon l’indication",
+            "Un examen anatomopathologique"
           ],
-          "correct": "Environ 0,5 cm par mois entre 6 et 12 mois.",
-          "explanation": "Le « 6 à 12 ans » de la diapositive 212 est une coquille : lire « mois ». C’est un ordre de grandeur ; la courbe du périmètre crânien guide l’interprétation.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 212 (énoncé).Documentation AS : pediatrie.pdf, pages 13–14 du PDF.RÉVISION ASO ASI 2024.pptx, diapositives 213–214 ; Organisation mondiale de la Santé, Child Growth Standards, Head circumference for age. https://www.who.int/tools/child-growth-standards/standards/head-circumference-for-age Manuel MSD, Physical Growth of Infants and Children. https://www.msdmanuals.com/professional/pediatrics/growth-and-development/physical-growth-of-infants-and-children",
-          "section": "QCM Deuxième série",
-          "originalNumber": 58,
-          "answer": "Environ 0,5 cm par mois entre 6 et 12 mois."
-        },
-        {
-          "id": "pediatrie-as-119",
-          "type": "qcm",
-          "text": "QCM Deuxième série · Question 59\nLa technique de la mesure du Périmètre Brachial, consiste à appliquer le mètre ruban ou la bande de SHAKIR en\nChoisir la bonne réponse.",
-          "options": [
-            "Faisant le tour à mi-distance entre le poignet et l’épaule",
-            "Faisant le tour à mi-distance entre le coude et l’épaule",
-            "Faisant le tour à mi-distance entre le bras et l’épaule",
-            "Faisant le tour à mi-distance entre l’avant-bras et l’épaule"
-          ],
-          "correct": "Faisant le tour à mi-distance entre le coude et l’épaule",
-          "explanation": "Le ruban passe autour du bras à mi-distance entre l’épaule et le coude, bras détendu et sans serrer.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 215 (énoncé).Documentation AS : pediatrie.pdf, pages 15 du PDF.",
-          "section": "QCM Deuxième série",
-          "originalNumber": 59,
-          "answer": "Faisant le tour à mi-distance entre le coude et l’épaule"
-        },
-        {
-          "id": "pediatrie-as-120",
-          "type": "qcm",
-          "text": "QCM Deuxième série · Question 60\nDans les stratégies vaccinales, la notion de poste fixe désigne\nChoisir la bonne réponse.",
-          "options": [
-            "Activités de vaccination en dehors du centre de santé : 5 km à 15km",
-            "Activités de vaccination en dehors du centre de santé à plus de 15km",
-            "Activités de vaccination en dehors du centre de santé à plus de 10km",
-            "Activités de vaccination au centre de santé : 5 km"
-          ],
-          "correct": "Activités de vaccination au centre de santé : 5 km",
-          "explanation": "Le rayon de cinq kilomètres décrit la population desservie selon le support ; le poste fixe désigne avant tout le lieu de vaccination.",
-          "source": "RÉVISION ASO ASI 2024.pptx, Cellule de santé infantile, diapositive 217 (énoncé).Documentation AS : pediatrie.pdf, pages 16 du PDF.",
-          "section": "QCM Deuxième série",
-          "originalNumber": 60,
-          "answer": "Activités de vaccination au centre de santé : 5 km"
+          "correct": [
+            "Une radiographie panoramique dentaire",
+            "Un scanner ou une IRM selon l’indication",
+            "Un examen anatomopathologique"
+          ]
         }
       ]
     },
     {
-      "id": "hygiene-hospitaliere-as-210",
-      "title": "Hygiène hospitalière AS — 210 questions",
-      "matter": "Hygiène hospitalière",
-      "description": "90 QCD, 90 QCM et 3 études de cas de 10 questions.",
-      "instructions": "Respectez le nombre de réponses indiqué. QCD : +1 / −1 / 0. QCM : +1 pour la sélection exacte, 0 sinon. Chaque étude de cas est affichée avec ses questions.",
-      "duration": 30,
+      "id": "ssr-pf-60",
+      "title": "SSR et planification familiale — 60 questions",
+      "matter": "SSR / Planification familiale",
+      "description": "30 QCD et 30 QCM de santé sexuelle et reproductive et planification familiale.",
+      "instructions": "QCD : choisir Vrai ou Faux. QCM : sélectionner le nombre de réponses indiqué. Bonne réponse : +1 ; mauvaise réponse QCD : −1 ; mauvaise réponse QCM ou absence de réponse : 0.",
+      "duration": 90,
       "programmed": true,
       "openDate": "2026-01-01",
       "openTime": "00:00",
@@ -2109,3304 +1004,842 @@ const CONFIG = {
       },
       "questions": [
         {
-          "id": "hygiene-as-1",
           "type": "qcd",
-          "text": "Question 1 — QCD\nL’hygiène hospitalière vise notamment à prévenir les infections associées aux soins.",
+          "text": "La santé de la reproduction concerne uniquement l’absence de maladie de l’appareil génital.",
           "options": [
             "Vrai",
             "Faux"
           ],
-          "correct": "Vrai",
-          "explanation": "Elle comprend les règles et pratiques qui réduisent le risque infectieux lié aux soins.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 4 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-2",
-          "type": "qcd",
-          "text": "Question 2 — QCD\nL’hygiène en milieu de soins relève uniquement du personnel d’entretien.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Elle concerne tous les acteurs : soignants, personnel d’entretien, patients et visiteurs.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 4–6 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-3",
-          "type": "qcd",
-          "text": "Question 3 — QCD\nL’hygiène individuelle comprend l’hygiène corporelle et vestimentaire.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "Ces mesures personnelles participent à la préservation de la santé.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 4 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-4",
-          "type": "qcd",
-          "text": "Question 4 — QCD\nL’entretien des locaux constitue l’unique composante de l’hygiène hospitalière.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "L’hygiène des mains, le matériel, le linge et les déchets sont aussi concernés.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 4 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-5",
-          "type": "qcd",
-          "text": "Question 5 — QCD\nUne infection associée aux soins peut apparaître après la fin de la prise en charge.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "La définition inclut une infection survenant au cours ou à la suite des soins, absente et non en incubation au début.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 6 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-6",
-          "type": "qcd",
-          "text": "Question 6 — QCD\nToute infection présente à l’admission est automatiquement une infection associée aux soins de ce séjour.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "La présence ou l’incubation au début de la prise en charge exclut cette attribution automatique.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 6 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-7",
-          "type": "qcd",
-          "text": "Question 7 — QCD\nUne infection associée aux soins acquise en milieu hospitalier est dite nosocomiale.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "Le terme nosocomial précise le lieu d’acquisition hospitalier.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 6–7 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-8",
-          "type": "qcd",
-          "text": "Question 8 — QCD\nUne infection endogène provient nécessairement d’un germe extérieur au patient.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Elle provient des micro-organismes hébergés par le patient lui-même.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 7 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-9",
-          "type": "qcd",
-          "text": "Question 9 — QCD\nDes micro-organismes présents dans l’environnement peuvent être à l’origine d’une infection exogène.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "L’origine exogène implique une source extérieure au patient.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 7–8 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-10",
-          "type": "qcd",
-          "text": "Question 10 — QCD\nLes infections nosocomiales sont exclusivement dues à des bactéries.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Des virus, champignons et autres agents peuvent également être impliqués.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 7 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-11",
-          "type": "qcd",
-          "text": "Question 11 — QCD\nLes nouveau-nés, les prématurés et les personnes âgées figurent parmi les patients vulnérables du cours.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "Les âges extrêmes sont cités parmi les facteurs liés au patient.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 7 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-12",
-          "type": "qcd",
-          "text": "Question 12 — QCD\nLe sondage et le cathétérisme n’augmentent jamais le risque infectieux.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Ces gestes invasifs peuvent créer une porte d’entrée et favoriser une infection.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 8 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-13",
-          "type": "qcd",
-          "text": "Question 13 — QCD\nUne infection nosocomiale peut prolonger la durée d’hospitalisation.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "Elle entraîne des conséquences humaines, économiques et organisationnelles.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 9 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-14",
-          "type": "qcd",
-          "text": "Question 14 — QCD\nLe respect des règles d’hygiène garantit un risque infectieux nul.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Le risque zéro n’existe pas ; les mesures réduisent la fréquence et la gravité des infections.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 6 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-15",
-          "type": "qcd",
-          "text": "Question 15 — QCD\nLes visiteurs peuvent intervenir dans la transmission de certains agents infectieux.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "Le cours les inclut parmi les réservoirs humains possibles.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 8 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-16",
-          "type": "qcd",
-          "text": "Question 16 — QCD\nLes mains des soignants peuvent transmettre des micro-organismes d’un patient à un autre.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "Elles constituent un intermédiaire important des infections croisées.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 14 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-17",
-          "type": "qcd",
-          "text": "Question 17 — QCD\nLe port de gants dispense de pratiquer l’hygiène des mains après leur retrait.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Une hygiène des mains reste nécessaire après le retrait des gants.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 24,48–49 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-18",
-          "type": "qcd",
-          "text": "Question 18 — QCD\nLe lavage à l’eau et au savon est indiqué lorsque les mains sont visiblement souillées.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "Le lavage enlève les salissures visibles par une action mécanique.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 14 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-19",
-          "type": "qcd",
-          "text": "Question 19 — QCD\nUne friction hydroalcoolique doit être systématiquement rincée à l’eau.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Le produit est frictionné jusqu’au séchage complet, sans rinçage.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 16 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-20",
-          "type": "qcd",
-          "text": "Question 20 — QCD\nLe cours recommande des ongles courts, sans faux ongles, pour le personnel soignant.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "Cette préparation des mains facilite l’hygiène et limite les réservoirs de germes.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 17 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-21",
-          "type": "qcd",
-          "text": "Question 21 — QCD\nUne montre de poignet peut être conservée pendant l’hygiène des mains.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Le cours demande des mains et avant-bras dégagés, sans bijoux.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 14,17 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-22",
-          "type": "qcd",
-          "text": "Question 22 — QCD\nLa friction hydroalcoolique s’effectue jusqu’au séchage complet des mains.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "Il faut traiter toutes les surfaces et laisser sécher le produit.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 16 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-23",
-          "type": "qcd",
-          "text": "Question 23 — QCD\nLa même paire de gants peut servir pour plusieurs patients si elle paraît propre.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Les gants doivent être changés entre les patients.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 24,49 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-24",
-          "type": "qcd",
-          "text": "Question 24 — QCD\nDes gants sont indiqués lorsqu’un contact avec du sang est prévisible.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "Ils protègent lors d’un contact possible avec du sang ou des produits biologiques.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 24,49 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-25",
-          "type": "qcd",
-          "text": "Question 25 — QCD\nLe choix des équipements de protection ne dépend pas de l’activité réalisée.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Les équipements sont adaptés aux risques de contact, de projection et aux tâches.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 21–24 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-26",
-          "type": "qcd",
-          "text": "Question 26 — QCD\nUne protection oculaire peut être nécessaire si un soin expose à des projections de liquide biologique.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "Les lunettes ou la visière protègent les yeux exposés.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 23,49 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-27",
-          "type": "qcd",
-          "text": "Question 27 — QCD\nUn masque chirurgical correctement porté laisse le nez découvert.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Il doit couvrir le nez, la bouche et le menton.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 22 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-28",
-          "type": "qcd",
-          "text": "Question 28 — QCD\nLes chaussures professionnelles recommandées sont lavables et antidérapantes.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "Elles doivent aussi être fermées sur l’avant et adaptées au travail.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 21 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-29",
-          "type": "qcd",
-          "text": "Question 29 — QCD\nUne tenue de travail souillée par un liquide biologique peut être conservée jusqu’à la fin de la semaine.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Elle doit être changée dès qu’elle est souillée.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 23 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-30",
-          "type": "qcd",
-          "text": "Question 30 — QCD\nLes gants doivent être retirés en limitant le contact de la peau avec leur face externe contaminée.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "La technique de retrait évite une contamination des mains et des avant-bras.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 25 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-31",
-          "type": "qcd",
-          "text": "Question 31 — QCD\nUn détergent aide à éliminer les graisses et les salissures.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "Sa fonction principale est le nettoyage.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 10 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-32",
-          "type": "qcd",
-          "text": "Question 32 — QCD\nUne surface visuellement propre est nécessairement désinfectée.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Le nettoyage ne prouve pas l’élimination des micro-organismes.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 10–11 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-33",
-          "type": "qcd",
-          "text": "Question 33 — QCD\nL’antisepsie concerne les tissus vivants.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "Elle réduit ou inhibe les micro-organismes sur la peau, les muqueuses ou les plaies selon le produit.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 10 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-34",
-          "type": "qcd",
-          "text": "Question 34 — QCD\nUn désinfectant de surface peut être appliqué sur toute plaie sans vérifier sa destination.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Un produit pour milieu inerte n’est pas automatiquement adapté aux tissus vivants.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 10–11 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-35",
-          "type": "qcd",
-          "text": "Question 35 — QCD\nLa rémanence d’un antiseptique correspond à la persistance de son activité après application.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "C’est l’un des critères de choix cités dans le cours.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 10 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-36",
-          "type": "qcd",
-          "text": "Question 36 — QCD\nMélanger deux antiseptiques garantit toujours une meilleure efficacité.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Le cours interdit de les mélanger sur un même site sans indication validée.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 11 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-37",
-          "type": "qcd",
-          "text": "Question 37 — QCD\nLa date d’ouverture d’un flacon d’antiseptique doit être indiquée.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "Elle aide à respecter sa durée d’utilisation après ouverture.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 11 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-38",
-          "type": "qcd",
-          "text": "Question 38 — QCD\nLe temps de contact d’un désinfectant peut être supprimé lorsque la surface paraît propre.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Le temps prévu par le fabricant est une condition de son efficacité.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 11–12 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-39",
-          "type": "qcd",
-          "text": "Question 39 — QCD\nL’entretien des locaux suit le principe du propre vers le sale.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "Cette progression limite le transfert de contamination.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 26–27 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-40",
-          "type": "qcd",
-          "text": "Question 40 — QCD\nIl faut commencer par le sol puis nettoyer les surfaces situées au-dessus.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "On progresse de haut en bas et le sol est traité après les surfaces hautes.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 27 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-41",
-          "type": "qcd",
-          "text": "Question 41 — QCD\nLe matériel de nettoyage doit lui-même être entretenu après utilisation.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "Il doit être nettoyé et désinfecté selon la procédure.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 27 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-42",
-          "type": "qcd",
-          "text": "Question 42 — QCD\nUn instrument réutilisable encore couvert de sang peut être envoyé directement à la stérilisation.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Le nettoyage doit enlever les souillures avant la stérilisation.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 33–35 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-43",
-          "type": "qcd",
-          "text": "Question 43 — QCD\nLe séchage du matériel contribue à limiter la prolifération microbienne pendant le stockage.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "Il réduit aussi les risques de corrosion.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 35 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-44",
-          "type": "qcd",
-          "text": "Question 44 — QCD\nUn emballage de stérilisation déchiré garantit toujours le maintien de la stérilité.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "L’intégrité du conditionnement est nécessaire à la conservation de l’état stérile.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 35–37 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-45",
-          "type": "qcd",
-          "text": "Question 45 — QCD\nLa traçabilité permet de retrouver le traitement subi par un dispositif médical.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "La date, le lot et les contrôles sont notamment enregistrés.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 36 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-46",
-          "type": "qcd",
-          "text": "Question 46 — QCD\nLe tri des déchets sanitaires doit commencer à leur lieu de production.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "Le tri à la source permet de séparer immédiatement les filières.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 43 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-47",
-          "type": "qcd",
-          "text": "Question 47 — QCD\nUne aiguille usagée peut être jetée dans un sac souple si elle est courte.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Les objets piquants et tranchants sont placés dans une boîte de sécurité adaptée.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 43,49 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-48",
-          "type": "qcd",
-          "text": "Question 48 — QCD\nLes déchets ménagers et assimilés constituent une catégorie du cours AS.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "Le cours distingue aussi les déchets médicaux infectieux et non infectieux.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 42 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-49",
-          "type": "qcd",
-          "text": "Question 49 — QCD\nTous les déchets hospitaliers sont nécessairement infectieux.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Certains sont assimilables aux déchets ménagers, d’autres présentent des risques différents.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 42 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-50",
-          "type": "qcd",
-          "text": "Question 50 — QCD\nLa mauvaise gestion des déchets peut exposer la communauté à des risques.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "La récupération et la réutilisation de matériel contaminé sont notamment dangereuses.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 43 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-51",
-          "type": "qcd",
-          "text": "Question 51 — QCD\nLe brûlage des déchets à l’air libre est sans risque pour l’environnement.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Les fumées et les produits toxiques peuvent polluer l’air et nuire à la santé.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 43 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-52",
-          "type": "qcd",
-          "text": "Question 52 — QCD\nLe personnel qui transporte les déchets doit porter les protections adaptées.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "Le cours prévoit des équipements de protection pendant ce transport.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 44 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-53",
-          "type": "qcd",
-          "text": "Question 53 — QCD\nLes déchets peuvent être stockés avec du matériel propre si les sacs sont fermés.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Le local de stockage temporaire doit être distinct de celui du matériel propre.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 44 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-54",
-          "type": "qcd",
-          "text": "Question 54 — QCD\nAprès usage, le linge est considéré comme sale même sans tache visible.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "Il peut être contaminé par la flore du patient et les matières organiques.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 39 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-55",
-          "type": "qcd",
-          "text": "Question 55 — QCD\nSecouer le linge sale avant sa collecte limite la dispersion des micro-organismes.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "L’agitation favorise leur dispersion ; les gestes doivent être mesurés.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 39–40 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-56",
-          "type": "qcd",
-          "text": "Question 56 — QCD\nLe linge neuf doit être lavé avant sa première utilisation selon le cours AS.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "Le cours recommande un cycle complet de lavage.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 39 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-57",
-          "type": "qcd",
-          "text": "Question 57 — QCD\nUn sac de linge sale peut être traîné au sol pendant son transport.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Il doit être fermé et transporté avec un équipement réservé à cet usage.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 40 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-58",
-          "type": "qcd",
-          "text": "Question 58 — QCD\nLe cours AS recommande de remplir les sacs de linge sale aux deux tiers.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "Cette limite facilite leur fermeture et leur manipulation.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 40 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-59",
-          "type": "qcd",
-          "text": "Question 59 — QCD\nLe linge propre déconditionné dans la chambre peut être remis systématiquement dans la réserve propre.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Le cours demande de ne pas remettre en lingerie le linge défilmé pendant les soins.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 41 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-60",
-          "type": "qcd",
-          "text": "Question 60 — QCD\nLa protection du linge propre doit être maintenue jusqu’à son utilisation.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "Le transport couvert, le rangement et la limitation des manipulations évitent sa recontamination.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 40–41 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-61",
-          "type": "qcd",
-          "text": "Question 61 — QCD\nLes précautions standard s’appliquent à tous les patients, quel que soit leur statut infectieux connu.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "Elles assurent une protection systématique du personnel et des patients.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 48 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-62",
-          "type": "qcd",
-          "text": "Question 62 — QCD\nLes précautions complémentaires remplacent entièrement les précautions standard.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Elles s’y ajoutent selon le mode de transmission et la situation.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 50 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-63",
-          "type": "qcd",
-          "text": "Question 63 — QCD\nL’isolement septique cherche à limiter la diffusion d’un agent infectieux à partir d’un patient.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "Il protège les autres patients, le personnel et les visiteurs contre la transmission.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 49 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-64",
-          "type": "qcd",
-          "text": "Question 64 — QCD\nL’isolement protecteur vise avant tout à protéger les autres patients contre un patient fragile.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Il vise à protéger le patient immunodéprimé des agents venant de son entourage ou de l’environnement.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 51 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-65",
-          "type": "qcd",
-          "text": "Question 65 — QCD\nLa tuberculose pulmonaire transmissible fait partie des indications de précautions air du cours.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "Le cours la cite avec la rougeole et la varicelle.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 50 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-66",
-          "type": "qcd",
-          "text": "Question 66 — QCD\nLe cours classe la gale uniquement parmi les précautions gouttelettes.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "La gale figure parmi les indications des précautions contact.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 51 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-67",
-          "type": "qcd",
-          "text": "Question 67 — QCD\nUn matériel souillé doit subir un entretien approprié avant sa réutilisation.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "La désinfection ou la stérilisation requise dépend du dispositif et de son usage.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 49 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-68",
-          "type": "qcd",
-          "text": "Question 68 — QCD\nLes visiteurs n’ont aucune consigne à respecter dans une chambre d’isolement.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Les mesures d’isolement et d’hygiène concernent aussi les visiteurs.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 9,23–24 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-69",
-          "type": "qcd",
-          "text": "Question 69 — QCD\nL’hygiène du patient participe à la prévention des infections.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "Le cours l’associe au respect des règles d’asepsie.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 9 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-70",
-          "type": "qcd",
-          "text": "Question 70 — QCD\nLa toilette d’un malade dépend de son degré d’autonomie.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "Le patient est encouragé à réaliser ce qu’il peut faire.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 18 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-71",
-          "type": "qcd",
-          "text": "Question 71 — QCD\nLa toilette peut être réalisée sans prévenir le patient puisqu’elle est utile.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Informer le patient et respecter son intimité font partie de la préparation.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 18 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-72",
-          "type": "qcd",
-          "text": "Question 72 — QCD\nIl est approprié de protéger la pudeur du patient pendant la toilette.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "Le cours prévoit notamment de couvrir les parties du corps non lavées.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 18–20 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-73",
-          "type": "qcd",
-          "text": "Question 73 — QCD\nAprès un décès, toutes les précautions infectieuses sont immédiatement supprimées.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Les précautions déjà instaurées doivent être poursuivies lorsque le défunt présente un risque infectieux.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 20 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-74",
-          "type": "qcd",
-          "text": "Question 74 — QCD\nL’hygiène des mains avant la distribution des repas contribue à la sécurité alimentaire.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "Elle fait partie des mesures prévues pour le soignant.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 46 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-75",
-          "type": "qcd",
-          "text": "Question 75 — QCD\nUn médicament contaminé peut devenir un vecteur d’infection.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "La qualité de sa conservation et de sa manipulation est donc importante.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 47 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-76",
-          "type": "qcd",
-          "text": "Question 76 — QCD\nUne projection de sang dans l’œil constitue un accident avec exposition au sang.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "L’œil est une muqueuse et cette projection nécessite une prise en charge immédiate.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 28,30 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-77",
-          "type": "qcd",
-          "text": "Question 77 — QCD\nUn AES ne peut survenir que chez un infirmier qui réalise une injection.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Il peut aussi toucher un auxiliaire, un agent d’entretien ou un professionnel manipulant du matériel souillé.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 28–31 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-78",
-          "type": "qcd",
-          "text": "Question 78 — QCD\nUne piqûre par une aiguille usagée est une effraction cutanée.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "Elle constitue une voie d’exposition percutanée.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 28 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-79",
-          "type": "qcd",
-          "text": "Question 79 — QCD\nRecapuchonner une aiguille usagée réduit le risque d’AES.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Cette manipulation peut provoquer une piqûre et doit être évitée.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 28,49 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-80",
-          "type": "qcd",
-          "text": "Question 80 — QCD\nUne aiguille creuse contenant du sang peut augmenter le risque de transmission.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "Le dispositif et la quantité de sang influencent l’évaluation du risque.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 29 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-81",
-          "type": "qcd",
-          "text": "Question 81 — QCD\nUne blessure profonde présente exactement le même risque que toute autre exposition.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "La profondeur fait partie des facteurs de risque à évaluer.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 29 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-82",
-          "type": "qcd",
-          "text": "Question 82 — QCD\nLes virus des hépatites B et C et le VIH sont notamment recherchés dans l’évaluation d’un AES.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "Le cours les cite comme principaux risques viraux.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 29–30 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-83",
-          "type": "qcd",
-          "text": "Question 83 — QCD\nAprès une piqûre, il faut attendre des symptômes avant de demander un avis médical.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Les premiers soins et l’évaluation médicale doivent être réalisés sans délai.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 29–31 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-84",
-          "type": "qcd",
-          "text": "Question 84 — QCD\nAprès une exposition cutanée avec blessure, le lavage à l’eau et au savon fait partie des premiers soins.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "Il est suivi d’un rinçage puis d’une antisepsie adaptée.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 29–30 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-85",
-          "type": "qcd",
-          "text": "Question 85 — QCD\nEn cas de projection de sang dans l’œil, on y applique un désinfectant de surface.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Il faut rincer abondamment à l’eau ou au sérum physiologique, sans désinfectant de surface.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 30 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-86",
-          "type": "qcd",
-          "text": "Question 86 — QCD\nL’information du supérieur hiérarchique fait partie de la conduite à tenir du cours AS.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "Elle accompagne les soins urgents et le contact médical.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 30 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-87",
-          "type": "qcd",
-          "text": "Question 87 — QCD\nLa vaccination contre l’hépatite B protège également contre le VIH.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Elle cible l’hépatite B et ne protège pas du VIH.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 30 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-88",
-          "type": "qcd",
-          "text": "Question 88 — QCD\nL’ancienneté professionnelle élimine tout risque d’AES.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Un accident peut survenir lors d’un geste habituel, même chez un professionnel expérimenté.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 31 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-89",
-          "type": "qcd",
-          "text": "Question 89 — QCD\nIl faut terminer la collecte des déchets avant de s’occuper d’une piqûre accidentelle.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "La prise en charge de l’exposition est urgente.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 29–31 du PDF.",
-          "answer": "Faux"
-        },
-        {
-          "id": "hygiene-as-90",
-          "type": "qcd",
-          "text": "Question 90 — QCD\nLa surveillance des AES aide à choisir des actions de prévention.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Vrai",
-          "explanation": "L’analyse des accidents oriente la formation et le choix du matériel.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 30–31 du PDF.",
-          "answer": "Vrai"
-        },
-        {
-          "id": "hygiene-as-91",
-          "type": "qcm",
-          "text": "Question 91 — QCM\nQuels domaines participent à l’hygiène hospitalière ?\nChoisir les 3 bonnes réponses.",
-          "options": [
-            "Entretien des locaux",
-            "Gestion du linge",
-            "Gestion des déchets",
-            "Décoration seule"
-          ],
-          "correct": [
-            "Entretien des locaux",
-            "Gestion du linge",
-            "Gestion des déchets"
-          ],
-          "explanation": "Les trois premiers domaines contribuent à maîtriser le risque infectieux.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 4 du PDF.",
-          "answers": [
-            "Entretien des locaux",
-            "Gestion du linge",
-            "Gestion des déchets"
-          ]
-        },
-        {
-          "id": "hygiene-as-92",
-          "type": "qcm",
-          "text": "Question 92 — QCM\nQue signifie « infection nosocomiale » ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Toute maladie héréditaire",
-            "Infection associée aux soins acquise à l’hôpital",
-            "Toute infection communautaire",
-            "Toute allergie médicamenteuse"
-          ],
-          "correct": "Infection associée aux soins acquise à l’hôpital",
-          "explanation": "Le terme précise une acquisition en milieu hospitalier.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 6–7 du PDF.",
-          "answer": "Infection associée aux soins acquise à l’hôpital"
-        },
-        {
-          "id": "hygiene-as-93",
-          "type": "qcm",
-          "text": "Question 93 — QCM\nQuelles situations correspondent à des facteurs de vulnérabilité du patient ?\nChoisir les 3 bonnes réponses.",
-          "options": [
-            "Dénutrition",
-            "Diabète",
-            "Couleur de la tenue",
-            "Brûlures étendues"
-          ],
-          "correct": [
-            "Dénutrition",
-            "Diabète",
-            "Brûlures étendues"
-          ],
-          "explanation": "La dénutrition, le diabète et les brûlures figurent parmi les facteurs liés au patient.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 7 du PDF.",
-          "answers": [
-            "Dénutrition",
-            "Diabète",
-            "Brûlures étendues"
-          ]
-        },
-        {
-          "id": "hygiene-as-94",
-          "type": "qcm",
-          "text": "Question 94 — QCM\nDans la démarche des « 5 M », quels éléments sont cités dans le cours ?\nChoisir les 3 bonnes réponses.",
-          "options": [
-            "Matériel",
-            "Méthode",
-            "Monnaie",
-            "Milieu"
-          ],
-          "correct": [
-            "Matériel",
-            "Méthode",
-            "Milieu"
-          ],
-          "explanation": "Les deux autres M sont Matière et Main-d’œuvre.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 6 du PDF.",
-          "answers": [
-            "Matériel",
-            "Méthode",
-            "Milieu"
-          ]
-        },
-        {
-          "id": "hygiene-as-95",
-          "type": "qcm",
-          "text": "Question 95 — QCM\nQuelle action vise directement à interrompre une transmission par les mains ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Augmenter le volume de musique",
-            "Pratiquer l’hygiène des mains",
-            "Modifier le nom du service",
-            "Changer la couleur des murs"
-          ],
-          "correct": "Pratiquer l’hygiène des mains",
-          "explanation": "L’hygiène des mains réduit la transmission manuportée.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 14 du PDF.",
-          "answer": "Pratiquer l’hygiène des mains"
-        },
-        {
-          "id": "hygiene-as-96",
-          "type": "qcm",
-          "text": "Question 96 — QCM\nQuels éléments peuvent constituer des réservoirs de micro-organismes en milieu hospitalier ?\nChoisir les 3 bonnes réponses.",
-          "options": [
-            "Patient",
-            "Eau contaminée",
-            "Surface contaminée",
-            "Uniquement les aiguilles"
-          ],
-          "correct": [
-            "Patient",
-            "Eau contaminée",
-            "Surface contaminée"
-          ],
-          "explanation": "Les réservoirs humains et environnementaux sont multiples.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 8 du PDF.",
-          "answers": [
-            "Patient",
-            "Eau contaminée",
-            "Surface contaminée"
-          ]
-        },
-        {
-          "id": "hygiene-as-97",
-          "type": "qcm",
-          "text": "Question 97 — QCM\nUne transmission indirecte peut se faire par :\nChoisir les 2 bonnes réponses.",
-          "options": [
-            "Du matériel contaminé",
-            "Les mains contaminées d’un soignant",
-            "Une mutation génétique héréditaire",
-            "Un document administratif propre, sans contact avec le soin"
-          ],
-          "correct": [
-            "Du matériel contaminé",
-            "Les mains contaminées d’un soignant"
-          ],
-          "explanation": "Les mains et le matériel peuvent transporter l’agent entre la source et le patient.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 8 du PDF.",
-          "answers": [
-            "Du matériel contaminé",
-            "Les mains contaminées d’un soignant"
-          ]
-        },
-        {
-          "id": "hygiene-as-98",
-          "type": "qcm",
-          "text": "Question 98 — QCM\nQuelles conséquences peuvent résulter d’une infection nosocomiale ?\nChoisir les 3 bonnes réponses.",
-          "options": [
-            "Séjour prolongé",
-            "Coût accru",
-            "Complication clinique",
-            "Guérison garantie plus rapide"
-          ],
-          "correct": [
-            "Séjour prolongé",
-            "Coût accru",
-            "Complication clinique"
-          ],
-          "explanation": "Le cours décrit des conséquences sanitaires, économiques et organisationnelles.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 9 du PDF.",
-          "answers": [
-            "Séjour prolongé",
-            "Coût accru",
-            "Complication clinique"
-          ]
-        },
-        {
-          "id": "hygiene-as-99",
-          "type": "qcm",
-          "text": "Question 99 — QCM\nQuelle description correspond à une infection endogène ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Infection issue de la flore propre du patient",
-            "Infection nécessairement apportée par un visiteur",
-            "Infection exclusivement due à l’eau",
-            "Infection exclusivement due aux déchets"
-          ],
-          "correct": "Infection issue de la flore propre du patient",
-          "explanation": "L’origine endogène est interne au patient.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 7 du PDF.",
-          "answer": "Infection issue de la flore propre du patient"
-        },
-        {
-          "id": "hygiene-as-100",
-          "type": "qcm",
-          "text": "Question 100 — QCM\nQuelles catégories d’agents sont citées parmi les causes d’infections nosocomiales ?\nChoisir les 3 bonnes réponses.",
-          "options": [
-            "Bactéries",
-            "Virus",
-            "Champignons",
-            "Uniquement les insectes visibles"
-          ],
-          "correct": [
-            "Bactéries",
-            "Virus",
-            "Champignons"
-          ],
-          "explanation": "Le cours cite aussi des parasites et des prions.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 7 du PDF.",
-          "answers": [
-            "Bactéries",
-            "Virus",
-            "Champignons"
-          ]
-        },
-        {
-          "id": "hygiene-as-101",
-          "type": "qcm",
-          "text": "Question 101 — QCM\nQuel objectif est réaliste pour un programme d’hygiène ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Supprimer toute maladie en une journée",
-            "Réduire le risque infectieux",
-            "Garantir l’absence totale de germes partout",
-            "Remplacer tous les soins"
-          ],
-          "correct": "Réduire le risque infectieux",
-          "explanation": "Les mesures de prévention diminuent le risque sans garantir un risque nul.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 5–6 du PDF.",
-          "answer": "Réduire le risque infectieux"
-        },
-        {
-          "id": "hygiene-as-102",
-          "type": "qcm",
-          "text": "Question 102 — QCM\nParmi ces gestes, lesquels peuvent créer une porte d’entrée infectieuse ?\nChoisir les 2 bonnes réponses.",
-          "options": [
-            "Cathétérisme",
-            "Sondage",
-            "Lecture d’une affiche",
-            "Consultation d’un planning sans soin"
-          ],
-          "correct": [
-            "Cathétérisme",
-            "Sondage"
-          ],
-          "explanation": "Les gestes invasifs franchissent les barrières naturelles.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 8 du PDF.",
-          "answers": [
-            "Cathétérisme",
-            "Sondage"
-          ]
-        },
-        {
-          "id": "hygiene-as-103",
-          "type": "qcm",
-          "text": "Question 103 — QCM\nQuels acteurs doivent participer à la prévention des infections ?\nChoisir les 3 bonnes réponses.",
-          "options": [
-            "Personnel soignant",
-            "Personnel d’entretien",
-            "Patients et visiteurs selon les consignes",
-            "Uniquement le directeur"
-          ],
-          "correct": [
-            "Personnel soignant",
-            "Personnel d’entretien",
-            "Patients et visiteurs selon les consignes"
-          ],
-          "explanation": "La prévention exige l’implication des différents acteurs de l’établissement.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 4–9 du PDF.",
-          "answers": [
-            "Personnel soignant",
-            "Personnel d’entretien",
-            "Patients et visiteurs selon les consignes"
-          ]
-        },
-        {
-          "id": "hygiene-as-104",
-          "type": "qcm",
-          "text": "Question 104 — QCM\nUne infection absente et non en incubation au début des soins apparaît à leur suite. Quelle qualification peut être envisagée après évaluation du lien avec les soins ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Infection associée aux soins",
-            "Allergie certaine",
-            "Maladie héréditaire certaine",
-            "Infection obligatoirement présente à l’admission"
-          ],
-          "correct": "Infection associée aux soins",
-          "explanation": "La définition inclut les infections survenant à la suite de la prise en charge.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 6 du PDF.",
-          "answer": "Infection associée aux soins"
-        },
-        {
-          "id": "hygiene-as-105",
-          "type": "qcm",
-          "text": "Question 105 — QCM\nQuels axes figurent dans la prévention de la transmission ?\nChoisir les 3 bonnes réponses.",
-          "options": [
-            "Agir sur l’agent infectieux",
-            "Isoler le réservoir lorsque nécessaire",
-            "Protéger l’hôte",
-            "Ignorer les voies de transmission"
-          ],
-          "correct": [
-            "Agir sur l’agent infectieux",
-            "Isoler le réservoir lorsque nécessaire",
-            "Protéger l’hôte"
-          ],
-          "explanation": "Le cours associe ces axes au contrôle des modes de transmission.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 5 du PDF.",
-          "answers": [
-            "Agir sur l’agent infectieux",
-            "Isoler le réservoir lorsque nécessaire",
-            "Protéger l’hôte"
-          ]
-        },
-        {
-          "id": "hygiene-as-106",
-          "type": "qcm",
-          "text": "Question 106 — QCM\nAvant l’hygiène des mains, quelles préparations sont adaptées ?\nChoisir les 3 bonnes réponses.",
-          "options": [
-            "Retirer les bijoux",
-            "Garder des ongles courts",
-            "Ajouter de faux ongles",
-            "Dégager les avant-bras"
-          ],
-          "correct": [
-            "Retirer les bijoux",
-            "Garder des ongles courts",
-            "Dégager les avant-bras"
-          ],
-          "explanation": "Les bijoux et faux ongles gênent une hygiène efficace.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 14,17 du PDF.",
-          "answers": [
-            "Retirer les bijoux",
-            "Garder des ongles courts",
-            "Dégager les avant-bras"
-          ]
-        },
-        {
-          "id": "hygiene-as-107",
-          "type": "qcm",
-          "text": "Question 107 — QCM\nAprès retrait de gants utilisés pour une toilette, que faut-il faire ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Mettre les gants dans sa poche",
-            "Pratiquer l’hygiène des mains",
-            "Toucher immédiatement le repas",
-            "Réutiliser les gants"
-          ],
-          "correct": "Pratiquer l’hygiène des mains",
-          "explanation": "Le retrait des gants est suivi d’une hygiène des mains.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 24,49 du PDF.",
-          "answer": "Pratiquer l’hygiène des mains"
-        },
-        {
-          "id": "hygiene-as-108",
-          "type": "qcm",
-          "text": "Question 108 — QCM\nQuelle est la durée totale habituelle d’une friction hydroalcoolique selon l’affiche OMS ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "2 à 3 secondes",
-            "20 à 30 secondes",
-            "10 minutes",
-            "Une heure"
-          ],
-          "correct": "20 à 30 secondes",
-          "explanation": "Actualisation : l’affiche OMS indique 20 à 30 secondes pour la procédure complète ; le cours donne une durée différente. Respecter aussi les instructions du produit.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 16 du PDF. / Organisation mondiale de la Santé, How to Handrub? et How to Handwash?, affiches, 2009, page 1. https://www.who.int/publications/m/item/how-to-handrub ; https://www.who.int/publications/m/item/how-to-handwash",
-          "answer": "20 à 30 secondes"
-        },
-        {
-          "id": "hygiene-as-109",
-          "type": "qcm",
-          "text": "Question 109 — QCM\nQuelle est la durée totale du lavage des mains selon l’affiche OMS ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "40 à 60 secondes",
-            "3 secondes",
-            "20 minutes",
-            "Sans durée minimale"
-          ],
-          "correct": "40 à 60 secondes",
-          "explanation": "Il s’agit de l’ensemble de la procédure, et non uniquement du temps de frottement.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 14 du PDF. / Organisation mondiale de la Santé, How to Handrub? et How to Handwash?, affiches, 2009, page 1. https://www.who.int/publications/m/item/how-to-handrub ; https://www.who.int/publications/m/item/how-to-handwash",
-          "answer": "40 à 60 secondes"
-        },
-        {
-          "id": "hygiene-as-110",
-          "type": "qcm",
-          "text": "Question 110 — QCM\nQuand l’hygiène des mains est-elle indiquée selon les cinq moments OMS ?\nChoisir les 3 bonnes réponses.",
-          "options": [
-            "Avant de toucher le patient",
-            "Après un risque d’exposition à un liquide biologique",
-            "Après avoir touché l’environnement du patient",
-            "Seulement en début de journée"
-          ],
-          "correct": [
-            "Avant de toucher le patient",
-            "Après un risque d’exposition à un liquide biologique",
-            "Après avoir touché l’environnement du patient"
-          ],
-          "explanation": "Ces moments complètent les indications avant un geste aseptique et après contact avec le patient.",
-          "source": "Organisation mondiale de la Santé, Five moments for hand hygiene, affiche, 2021, page 1. https://www.who.int/publications/m/item/five-moments-for-hand-hygiene",
-          "answers": [
-            "Avant de toucher le patient",
-            "Après un risque d’exposition à un liquide biologique",
-            "Après avoir touché l’environnement du patient"
-          ]
-        },
-        {
-          "id": "hygiene-as-111",
-          "type": "qcm",
-          "text": "Question 111 — QCM\nDans quelle situation le lavage à l’eau et au savon est-il clairement indiqué ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Mains visiblement sales",
-            "Simple changement de couleur de blouse",
-            "Lecture d’un dossier sans contact",
-            "Port de chaussures propres"
-          ],
-          "correct": "Mains visiblement sales",
-          "explanation": "Les salissures visibles nécessitent une élimination par lavage.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 14 du PDF.",
-          "answer": "Mains visiblement sales"
-        },
-        {
-          "id": "hygiene-as-112",
-          "type": "qcm",
-          "text": "Question 112 — QCM\nComment terminer une friction hydroalcoolique ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Rincer immédiatement",
-            "Essuyer le produit encore humide",
-            "Frictionner jusqu’au séchage complet",
-            "Mettre les mains humides dans les gants"
-          ],
-          "correct": "Frictionner jusqu’au séchage complet",
-          "explanation": "La friction se poursuit jusqu’au séchage, sans rinçage.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 16 du PDF.",
-          "answer": "Frictionner jusqu’au séchage complet"
-        },
-        {
-          "id": "hygiene-as-113",
-          "type": "qcm",
-          "text": "Question 113 — QCM\nQuels équipements sont adaptés à un risque de projection de sang vers le visage ?\nChoisir les 2 bonnes réponses.",
-          "options": [
-            "Protection oculaire",
-            "Masque adapté à la projection",
-            "Sandales",
-            "Bijoux de poignet"
-          ],
-          "correct": [
-            "Protection oculaire",
-            "Masque adapté à la projection"
-          ],
-          "explanation": "Les yeux, le nez et la bouche doivent être protégés selon le risque.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 23,49 du PDF.",
-          "answers": [
-            "Protection oculaire",
-            "Masque adapté à la projection"
-          ]
-        },
-        {
-          "id": "hygiene-as-114",
-          "type": "qcm",
-          "text": "Question 114 — QCM\nQuels critères correspondent aux chaussures professionnelles décrites dans le cours ?\nChoisir les 3 bonnes réponses.",
-          "options": [
-            "Lavables",
-            "Antidérapantes",
-            "Ouvertes sur l’avant",
-            "Fermées sur l’avant"
-          ],
-          "correct": [
-            "Lavables",
-            "Antidérapantes",
-            "Fermées sur l’avant"
-          ],
-          "explanation": "Ces propriétés facilitent l’entretien et la sécurité.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 21 du PDF.",
-          "answers": [
-            "Lavables",
-            "Antidérapantes",
-            "Fermées sur l’avant"
-          ]
-        },
-        {
-          "id": "hygiene-as-115",
-          "type": "qcm",
-          "text": "Question 115 — QCM\nDans quelles situations faut-il changer de gants ?\nChoisir les 3 bonnes réponses.",
-          "options": [
-            "Entre deux patients",
-            "Lorsqu’ils sont détériorés",
-            "Entre activités incompatibles, du sale vers le propre",
-            "Seulement à la fin du mois"
-          ],
-          "correct": [
-            "Entre deux patients",
-            "Lorsqu’ils sont détériorés",
-            "Entre activités incompatibles, du sale vers le propre"
-          ],
-          "explanation": "Une même paire ne doit pas transporter une contamination vers une autre tâche.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 24,49 du PDF.",
-          "answers": [
-            "Entre deux patients",
-            "Lorsqu’ils sont détériorés",
-            "Entre activités incompatibles, du sale vers le propre"
-          ]
-        },
-        {
-          "id": "hygiene-as-116",
-          "type": "qcm",
-          "text": "Question 116 — QCM\nComment doit être porté un masque chirurgical ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Sous le menton",
-            "Sur la bouche seulement",
-            "Sur le nez, la bouche et le menton",
-            "Dans la poche pendant le soin exposant"
-          ],
-          "correct": "Sur le nez, la bouche et le menton",
-          "explanation": "Le cours précise cette couverture du visage.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 22 du PDF.",
-          "answer": "Sur le nez, la bouche et le menton"
-        },
-        {
-          "id": "hygiene-as-117",
-          "type": "qcm",
-          "text": "Question 117 — QCM\nQuelle tenue facilite l’hygiène des mains et des avant-bras ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Tenue à manches courtes",
-            "Vêtements avec bijoux aux poignets",
-            "Manches longues couvrant les mains",
-            "Gants permanents toute la journée"
-          ],
-          "correct": "Tenue à manches courtes",
-          "explanation": "Les manches courtes dégagent les avant-bras.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 22 du PDF.",
-          "answer": "Tenue à manches courtes"
-        },
-        {
-          "id": "hygiene-as-118",
-          "type": "qcm",
-          "text": "Question 118 — QCM\nUne blouse vient d’être souillée par du sang. Quelle conduite est adaptée ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "La conserver une semaine",
-            "La changer",
-            "Masquer la tache avec un badge",
-            "La porter à domicile"
-          ],
-          "correct": "La changer",
-          "explanation": "Le cours recommande le changement dès qu’une tenue est souillée.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 23 du PDF.",
-          "answer": "La changer"
-        },
-        {
-          "id": "hygiene-as-119",
-          "type": "qcm",
-          "text": "Question 119 — QCM\nQuels contacts justifient le port de gants selon le risque ?\nChoisir les 3 bonnes réponses.",
-          "options": [
-            "Sang",
-            "Muqueuse",
-            "Peau lésée",
-            "Uniquement peau saine sans autre risque"
-          ],
-          "correct": [
-            "Sang",
-            "Muqueuse",
-            "Peau lésée"
-          ],
-          "explanation": "Le port de gants dépend de l’exposition prévisible.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 24,49 du PDF.",
-          "answers": [
-            "Sang",
-            "Muqueuse",
-            "Peau lésée"
-          ]
-        },
-        {
-          "id": "hygiene-as-120",
-          "type": "qcm",
-          "text": "Question 120 — QCM\nPendant une toilette, quels objectifs doivent être respectés ?\nChoisir les 3 bonnes réponses.",
-          "options": [
-            "Confort",
-            "Intimité",
-            "Participation du patient selon ses capacités",
-            "Exposition inutile du corps"
-          ],
-          "correct": [
-            "Confort",
-            "Intimité",
-            "Participation du patient selon ses capacités"
-          ],
-          "explanation": "La toilette associe hygiène, observation et respect de la personne.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 17–19 du PDF.",
-          "answers": [
-            "Confort",
-            "Intimité",
-            "Participation du patient selon ses capacités"
-          ]
-        },
-        {
-          "id": "hygiene-as-121",
-          "type": "qcm",
-          "text": "Question 121 — QCM\nQuel produit est destiné principalement à enlever les salissures ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Détergent",
-            "Antibiotique",
-            "Vaccin",
-            "Analgésique"
-          ],
-          "correct": "Détergent",
-          "explanation": "Le détergent facilite l’élimination des salissures ; cette action ne garantit pas une désinfection.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 10 du PDF.",
-          "answer": "Détergent"
-        },
-        {
-          "id": "hygiene-as-122",
-          "type": "qcm",
-          "text": "Question 122 — QCM\nQuelle association est correcte ?\nChoisir les 2 bonnes réponses.",
-          "options": [
-            "Antiseptique : tissu vivant",
-            "Désinfectant : surface inerte",
-            "Désinfectant de surface : œil",
-            "Détergent : vaccin"
-          ],
-          "correct": [
-            "Antiseptique : tissu vivant",
-            "Désinfectant : surface inerte"
-          ],
-          "explanation": "Le support d’utilisation distingue l’antiseptique du désinfectant.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 10–11 du PDF.",
-          "answers": [
-            "Antiseptique : tissu vivant",
-            "Désinfectant : surface inerte"
-          ]
-        },
-        {
-          "id": "hygiene-as-123",
-          "type": "qcm",
-          "text": "Question 123 — QCM\nQuelles informations faut-il respecter pour utiliser un désinfectant ?\nChoisir les 3 bonnes réponses.",
-          "options": [
-            "Dilution",
-            "Temps de contact",
-            "Compatibilité avec le support",
-            "Seulement couleur du flacon"
-          ],
-          "correct": [
-            "Dilution",
-            "Temps de contact",
-            "Compatibilité avec le support"
-          ],
-          "explanation": "Ces paramètres conditionnent l’efficacité et la sécurité.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 11–12 du PDF.",
-          "answers": [
-            "Dilution",
-            "Temps de contact",
-            "Compatibilité avec le support"
-          ]
-        },
-        {
-          "id": "hygiene-as-124",
-          "type": "qcm",
-          "text": "Question 124 — QCM\nQuelle pratique est adaptée aux flacons de produits ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Ajouter du produit neuf dans un reste ancien",
-            "Fermer après usage",
-            "Mélanger tous les produits",
-            "Retirer l’étiquette"
-          ],
-          "correct": "Fermer après usage",
-          "explanation": "Les flacons restent identifiés et fermés ; le remplissage sur un reste est déconseillé.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 11 du PDF.",
-          "answer": "Fermer après usage"
-        },
-        {
-          "id": "hygiene-as-125",
-          "type": "qcm",
-          "text": "Question 125 — QCM\nQuel ordre de nettoyage limite le transfert de salissures ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Du sale vers le propre",
-            "Du bas vers le haut",
-            "Du propre vers le sale",
-            "Au hasard"
-          ],
-          "correct": "Du propre vers le sale",
-          "explanation": "Le cours recommande aussi de progresser du haut vers le bas.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 27 du PDF.",
-          "answer": "Du propre vers le sale"
-        },
-        {
-          "id": "hygiene-as-126",
-          "type": "qcm",
-          "text": "Question 126 — QCM\nAvant une désinfection séparée, quelle étape est habituellement nécessaire ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Nettoyage",
-            "Application de parfum",
-            "Décoration",
-            "Suppression du temps de contact"
-          ],
-          "correct": "Nettoyage",
-          "explanation": "Les salissures doivent être éliminées selon le protocole avant la désinfection.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 27–28 du PDF.",
-          "answer": "Nettoyage"
-        },
-        {
-          "id": "hygiene-as-127",
-          "type": "qcm",
-          "text": "Question 127 — QCM\nPour préparer 1 litre de solution à 0,5 % à partir d’une solution à 5 %, quel volume de solution mère faut-il prélever ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "10 mL",
-            "100 mL",
-            "500 mL",
-            "1 000 mL"
-          ],
-          "correct": "100 mL",
-          "explanation": "C₁V₁ = C₂V₂ : V₁ = (0,5 × 1 000)/5 = 100 mL ; compléter avec de l’eau jusqu’à 1 000 mL selon le protocole.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 12 du PDF.",
-          "answer": "100 mL"
-        },
-        {
-          "id": "hygiene-as-128",
-          "type": "qcm",
-          "text": "Question 128 — QCM\nPour préparer 500 mL à 1 % à partir d’une solution à 5 %, quel volume de solution mère faut-il prélever ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "50 mL",
-            "100 mL",
-            "250 mL",
-            "500 mL"
-          ],
-          "correct": "100 mL",
-          "explanation": "V₁ = (1 × 500)/5 = 100 mL ; compléter jusqu’à 500 mL, soit environ 400 mL d’eau.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 12 du PDF.",
-          "answer": "100 mL"
-        },
-        {
-          "id": "hygiene-as-129",
-          "type": "qcm",
-          "text": "Question 129 — QCM\nQuelle valeur de pH correspond à une solution neutre ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "2",
-            "5",
-            "7",
-            "13"
-          ],
-          "correct": "7",
-          "explanation": "Le tableau du cours situe la neutralité à pH 7.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 10 du PDF.",
-          "answer": "7"
-        },
-        {
-          "id": "hygiene-as-130",
-          "type": "qcm",
-          "text": "Question 130 — QCM\nQue signifie le bionettoyage dans le cours ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Seulement parfumer",
-            "Associer l’élimination des salissures et la réduction des micro-organismes",
-            "Ne jamais nettoyer",
-            "Uniquement ouvrir les fenêtres"
-          ],
-          "correct": "Associer l’élimination des salissures et la réduction des micro-organismes",
-          "explanation": "Le bionettoyage combine les objectifs de nettoyage et de maîtrise microbienne.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 26–28 du PDF.",
-          "answer": "Associer l’élimination des salissures et la réduction des micro-organismes"
-        },
-        {
-          "id": "hygiene-as-131",
-          "type": "qcm",
-          "text": "Question 131 — QCM\nQuels paramètres sont pertinents pour choisir un désinfectant ?\nChoisir les 3 bonnes réponses.",
-          "options": [
-            "Spectre d’activité",
-            "Compatibilité avec le matériel",
-            "Toxicité",
-            "Popularité de la publicité uniquement"
-          ],
-          "correct": [
-            "Spectre d’activité",
-            "Compatibilité avec le matériel",
-            "Toxicité"
-          ],
-          "explanation": "Le cours cite également la stabilité, l’environnement et le coût.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 11 du PDF.",
-          "answers": [
-            "Spectre d’activité",
-            "Compatibilité avec le matériel",
-            "Toxicité"
-          ]
-        },
-        {
-          "id": "hygiene-as-132",
-          "type": "qcm",
-          "text": "Question 132 — QCM\nUn dispositif pénètre dans le système vasculaire. Quel traitement est requis avant réutilisation ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Simple essuyage sec",
-            "Stérilisation adaptée",
-            "Parfumage",
-            "Rangement immédiat sans traitement"
-          ],
-          "correct": "Stérilisation adaptée",
-          "explanation": "Un dispositif critique réutilisable doit être stérilisé selon une procédure validée.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 32–36 du PDF. / Centers for Disease Control and Prevention, Recommendations for Disinfection and Sterilization in Healthcare Facilities, rubriques 2 et 3, 2023. https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/summary-recommendations.html",
-          "answer": "Stérilisation adaptée"
-        },
-        {
-          "id": "hygiene-as-133",
-          "type": "qcm",
-          "text": "Question 133 — QCM\nPour un dispositif semi-critique réutilisable en contact avec une muqueuse, quel niveau minimal indique la recommandation CDC ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Aucun traitement",
-            "Désinfection de haut niveau",
-            "Désinfection de bas niveau seule",
-            "Dépoussiérage seul"
-          ],
-          "correct": "Désinfection de haut niveau",
-          "explanation": "Actualisation : la recommandation impose au minimum une désinfection de haut niveau ; la classification du cours AS est à corriger sur ce point.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 32 du PDF. / Centers for Disease Control and Prevention, Recommendations for Disinfection and Sterilization in Healthcare Facilities, rubriques 2 et 3, 2023. https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/summary-recommendations.html",
-          "answer": "Désinfection de haut niveau"
-        },
-        {
-          "id": "hygiene-as-134",
-          "type": "qcm",
-          "text": "Question 134 — QCM\nAprès nettoyage et rinçage d’un dispositif, pourquoi le sécher avant conditionnement ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Limiter l’humidité et la corrosion",
-            "Éviter toute traçabilité",
-            "Remplacer la stérilisation",
-            "Faciliter un stockage humide"
-          ],
-          "correct": "Limiter l’humidité et la corrosion",
-          "explanation": "Le séchage fait partie du traitement et ne remplace pas les autres étapes.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 35–37 du PDF.",
-          "answer": "Limiter l’humidité et la corrosion"
-        },
-        {
-          "id": "hygiene-as-135",
-          "type": "qcm",
-          "text": "Question 135 — QCM\nUn emballage de matériel stérile est déchiré. Que faire ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "L’utiliser comme stérile",
-            "Le retirer du circuit stérile et appliquer le protocole",
-            "Coller un autocollant et garantir la stérilité",
-            "Ignorer la déchirure"
-          ],
-          "correct": "Le retirer du circuit stérile et appliquer le protocole",
-          "explanation": "L’intégrité de l’emballage conditionne le maintien de la stérilité.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 35–37 du PDF.",
-          "answer": "Le retirer du circuit stérile et appliquer le protocole"
-        },
-        {
-          "id": "hygiene-as-136",
-          "type": "qcm",
-          "text": "Question 136 — QCM\nÀ quel moment faut-il trier les déchets de soins ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Au lieu de production",
-            "Après mélange dans la décharge",
-            "Uniquement une fois par mois",
-            "Après transport avec le linge propre"
-          ],
-          "correct": "Au lieu de production",
-          "explanation": "Le tri à la source évite les mélanges et les manipulations dangereuses.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 43 du PDF.",
-          "answer": "Au lieu de production"
-        },
-        {
-          "id": "hygiene-as-137",
-          "type": "qcm",
-          "text": "Question 137 — QCM\nOù jeter immédiatement une aiguille usagée ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Dans un sac souple",
-            "Dans un collecteur adapté aux objets piquants et coupants",
-            "Dans une poche",
-            "Dans le panier de linge"
-          ],
-          "correct": "Dans un collecteur adapté aux objets piquants et coupants",
-          "explanation": "Le collecteur doit être accessible près du lieu d’utilisation.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 43,49 du PDF.",
-          "answer": "Dans un collecteur adapté aux objets piquants et coupants"
-        },
-        {
-          "id": "hygiene-as-138",
-          "type": "qcm",
-          "text": "Question 138 — QCM\nQuelles manipulations augmentent le risque de piqûre ?\nChoisir les 3 bonnes réponses.",
-          "options": [
-            "Recapuchonner une aiguille usagée",
-            "La démonter à la main",
-            "La jeter dans un sac souple",
-            "L’éliminer directement dans le collecteur adapté"
-          ],
-          "correct": [
-            "Recapuchonner une aiguille usagée",
-            "La démonter à la main",
-            "La jeter dans un sac souple"
-          ],
-          "explanation": "Ces manipulations exposent le personnel aux objets piquants.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 28,49 du PDF.",
-          "answers": [
-            "Recapuchonner une aiguille usagée",
-            "La démonter à la main",
-            "La jeter dans un sac souple"
-          ]
-        },
-        {
-          "id": "hygiene-as-139",
-          "type": "qcm",
-          "text": "Question 139 — QCM\nQuels risques sont liés à une mauvaise gestion des déchets sanitaires ?\nChoisir les 3 bonnes réponses.",
-          "options": [
-            "Infectieux",
-            "Chimiques",
-            "Environnementaux",
-            "Amélioration garantie de la qualité de l’eau"
-          ],
-          "correct": [
-            "Infectieux",
-            "Chimiques",
-            "Environnementaux"
-          ],
-          "explanation": "Le cours décrit des risques pour les personnes et l’environnement.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 42–43 du PDF.",
-          "answers": [
-            "Infectieux",
-            "Chimiques",
-            "Environnementaux"
-          ]
-        },
-        {
-          "id": "hygiene-as-140",
-          "type": "qcm",
-          "text": "Question 140 — QCM\nQuel moyen est adapté au transport interne des déchets selon le cours ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Chariot dédié entretenu",
-            "Panier de repas",
-            "Bras du personnel sans contenant",
-            "Chariot de linge propre non protégé"
-          ],
-          "correct": "Chariot dédié entretenu",
-          "explanation": "Le transport doit préserver les circuits et permettre l’entretien du matériel.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 44 du PDF.",
-          "answer": "Chariot dédié entretenu"
-        },
-        {
-          "id": "hygiene-as-141",
-          "type": "qcm",
-          "text": "Question 141 — QCM\nQuels éléments ne doivent pas être mélangés au linge utilisé ?\nChoisir les 3 bonnes réponses.",
-          "options": [
-            "Aiguilles",
-            "Instruments de soins",
-            "Objets coupants",
-            "Uniquement les draps utilisés"
-          ],
-          "correct": [
-            "Aiguilles",
-            "Instruments de soins",
-            "Objets coupants"
-          ],
-          "explanation": "Ces objets créent des risques et doivent suivre leur propre circuit.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 38–40 du PDF.",
-          "answers": [
-            "Aiguilles",
-            "Instruments de soins",
-            "Objets coupants"
-          ]
-        },
-        {
-          "id": "hygiene-as-142",
-          "type": "qcm",
-          "text": "Question 142 — QCM\nComment manipuler le linge utilisé ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Le secouer fortement",
-            "Limiter son agitation",
-            "Le plaquer contre sa tenue",
-            "Le poser au sol"
-          ],
-          "correct": "Limiter son agitation",
-          "explanation": "Le cours demande une manipulation limitée, sans contact avec la tenue ni le sol.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 39–40 du PDF.",
-          "answer": "Limiter son agitation"
-        },
-        {
-          "id": "hygiene-as-143",
-          "type": "qcm",
-          "text": "Question 143 — QCM\nSelon le cours AS, quelle limite de remplissage convient au sac de linge utilisé ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Environ deux tiers",
-            "Au-delà de sa fermeture",
-            "Sans limite",
-            "Jusqu’à rupture du sac"
-          ],
-          "correct": "Environ deux tiers",
-          "explanation": "Le sac rempli aux deux tiers est fermé pour le transport.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 40 du PDF.",
-          "answer": "Environ deux tiers"
-        },
-        {
-          "id": "hygiene-as-144",
-          "type": "qcm",
-          "text": "Question 144 — QCM\nOù doit être placé le linge propre en attente d’utilisation ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Dans un endroit protégé",
-            "Au sol à côté des déchets",
-            "Sous du linge utilisé",
-            "Dans un collecteur d’aiguilles"
-          ],
-          "correct": "Dans un endroit protégé",
-          "explanation": "Le stockage doit protéger le linge propre de la contamination.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 40–41 du PDF.",
-          "answer": "Dans un endroit protégé"
-        },
-        {
-          "id": "hygiene-as-145",
-          "type": "qcm",
-          "text": "Question 145 — QCM\nQuelle gestion des stocks de linge correspond au cours ?\nChoisir les 2 bonnes réponses.",
-          "options": [
-            "Utiliser les stocks les plus anciens en premier",
-            "Placer les arrivages récents sous les anciens",
-            "Remettre tout linge sorti dans la réserve",
-            "Mélanger propre et utilisé"
-          ],
-          "correct": [
-            "Utiliser les stocks les plus anciens en premier",
-            "Placer les arrivages récents sous les anciens"
-          ],
-          "explanation": "La rotation évite l’accumulation des stocks et le retour de linge exposé.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 41 du PDF.",
-          "answers": [
-            "Utiliser les stocks les plus anciens en premier",
-            "Placer les arrivages récents sous les anciens"
-          ]
-        },
-        {
-          "id": "hygiene-as-146",
-          "type": "qcm",
-          "text": "Question 146 — QCM\nQuelle quantité de linge propre faut-il apporter dans la chambre ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Uniquement ce qui est nécessaire",
-            "Toute la réserve du service",
-            "Le linge d’une semaine pour tous les patients",
-            "Le linge utilisé d’autres chambres"
-          ],
-          "correct": "Uniquement ce qui est nécessaire",
-          "explanation": "Limiter les apports préserve le stock propre.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 41 du PDF.",
-          "answer": "Uniquement ce qui est nécessaire"
-        },
-        {
-          "id": "hygiene-as-147",
-          "type": "qcm",
-          "text": "Question 147 — QCM\nPourquoi fermer les contenants de linge utilisé avant transport ?\nChoisir les 2 bonnes réponses.",
-          "options": [
-            "Limiter la dissémination",
-            "Maintenir la séparation des circuits",
-            "Faciliter le mélange avec les repas",
-            "Permettre de transporter des aiguilles en vrac"
-          ],
-          "correct": [
-            "Limiter la dissémination",
-            "Maintenir la séparation des circuits"
-          ],
-          "explanation": "Le contenant fermé protège l’environnement du circuit.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 40 du PDF.",
-          "answers": [
-            "Limiter la dissémination",
-            "Maintenir la séparation des circuits"
-          ]
-        },
-        {
-          "id": "hygiene-as-148",
-          "type": "qcm",
-          "text": "Question 148 — QCM\nUn déchet médicamenteux doit suivre :\nChoisir une seule bonne réponse.",
-          "options": [
-            "Le circuit défini pour ce déchet selon le protocole",
-            "Toujours la poubelle des repas",
-            "Toujours le lavabo",
-            "Le panier de linge"
-          ],
-          "correct": "Le circuit défini pour ce déchet selon le protocole",
-          "explanation": "Le cours distingue les déchets médicamenteux et chimiques des déchets assimilables aux ordures ménagères.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 42–44 du PDF.",
-          "answer": "Le circuit défini pour ce déchet selon le protocole"
-        },
-        {
-          "id": "hygiene-as-149",
-          "type": "qcm",
-          "text": "Question 149 — QCM\nQue doit-on faire d’un chariot de collecte après usage ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "L’entretenir selon le protocole",
-            "Le laisser souillé",
-            "Le ranger avec le matériel stérile sans entretien",
-            "Le remplir de repas immédiatement"
-          ],
-          "correct": "L’entretenir selon le protocole",
-          "explanation": "Le matériel de transport doit être nettoyé et entretenu.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 40,44 du PDF.",
-          "answer": "L’entretenir selon le protocole"
-        },
-        {
-          "id": "hygiene-as-150",
-          "type": "qcm",
-          "text": "Question 150 — QCM\nPourquoi porter les protections prévues lors de la collecte ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Limiter l’exposition aux déchets et aux souillures",
-            "Remplacer le tri",
-            "Autoriser le recapuchonnage",
-            "Supprimer tout risque de manière absolue"
-          ],
-          "correct": "Limiter l’exposition aux déchets et aux souillures",
-          "explanation": "Les équipements protègent le personnel mais ne remplacent ni le tri ni les bonnes pratiques.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 43–44 du PDF.",
-          "answer": "Limiter l’exposition aux déchets et aux souillures"
-        },
-        {
-          "id": "hygiene-as-151",
-          "type": "qcm",
-          "text": "Question 151 — QCM\nÀ quels patients s’appliquent les précautions standard ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Seulement patients connus VIH positifs",
-            "Tous les patients",
-            "Seulement patients opérés",
-            "Seulement patients fébriles"
-          ],
-          "correct": "Tous les patients",
-          "explanation": "Elles constituent la base de prévention pour tout patient.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 48–49 du PDF.",
-          "answer": "Tous les patients"
-        },
-        {
-          "id": "hygiene-as-152",
-          "type": "qcm",
-          "text": "Question 152 — QCM\nQuels éléments appartiennent aux précautions standard du cours ?\nChoisir les 3 bonnes réponses.",
-          "options": [
-            "Hygiène des mains",
-            "Gestion sûre des objets piquants",
-            "Équipements adaptés au risque",
-            "Réutilisation de gants entre patients"
-          ],
-          "correct": [
-            "Hygiène des mains",
-            "Gestion sûre des objets piquants",
-            "Équipements adaptés au risque"
-          ],
-          "explanation": "Ces mesures préviennent l’exposition et la transmission.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 48–49 du PDF.",
-          "answers": [
-            "Hygiène des mains",
-            "Gestion sûre des objets piquants",
-            "Équipements adaptés au risque"
-          ]
-        },
-        {
-          "id": "hygiene-as-153",
-          "type": "qcm",
-          "text": "Question 153 — QCM\nQuel est l’objectif de l’isolement septique ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Limiter la diffusion des agents d’un patient infecté ou colonisé",
-            "Punir le patient",
-            "Supprimer toute communication",
-            "Remplacer son traitement"
-          ],
-          "correct": "Limiter la diffusion des agents d’un patient infecté ou colonisé",
-          "explanation": "Il protège les autres personnes d’une transmission.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 49–50 du PDF.",
-          "answer": "Limiter la diffusion des agents d’un patient infecté ou colonisé"
-        },
-        {
-          "id": "hygiene-as-154",
-          "type": "qcm",
-          "text": "Question 154 — QCM\nQuel est l’objectif de l’isolement protecteur ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Protéger un patient particulièrement vulnérable",
-            "Protéger uniquement les déchets",
-            "Interdire tout soin",
-            "Supprimer l’hygiène des mains"
-          ],
-          "correct": "Protéger un patient particulièrement vulnérable",
-          "explanation": "Il limite l’exposition d’une personne fragilisée aux agents infectieux.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 51 du PDF.",
-          "answer": "Protéger un patient particulièrement vulnérable"
-        },
-        {
-          "id": "hygiene-as-155",
-          "type": "qcm",
-          "text": "Question 155 — QCM\nQuelles catégories de précautions complémentaires figurent dans le cours ?\nChoisir les 3 bonnes réponses.",
-          "options": [
-            "Contact",
-            "Gouttelettes",
-            "Air",
-            "Décoratives"
-          ],
-          "correct": [
-            "Contact",
-            "Gouttelettes",
-            "Air"
-          ],
-          "explanation": "Elles complètent les précautions standard selon la transmission.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 50–51 du PDF.",
-          "answers": [
-            "Contact",
-            "Gouttelettes",
-            "Air"
-          ]
-        },
-        {
-          "id": "hygiene-as-156",
-          "type": "qcm",
-          "text": "Question 156 — QCM\nQuel exemple est associé à une transmission aérienne dans le cours ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Tuberculose pulmonaire",
-            "Fracture fermée",
-            "Diabète sans infection",
-            "Entorse"
-          ],
-          "correct": "Tuberculose pulmonaire",
-          "explanation": "La tuberculose est citée parmi les situations relevant des précautions Air.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 50 du PDF.",
-          "answer": "Tuberculose pulmonaire"
-        },
-        {
-          "id": "hygiene-as-157",
-          "type": "qcm",
-          "text": "Question 157 — QCM\nQuel exemple figure dans la catégorie des précautions Gouttelettes du cours ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Coqueluche",
-            "Hypertension isolée",
-            "Anémie nutritionnelle",
-            "Calcul rénal sans infection"
-          ],
-          "correct": "Coqueluche",
-          "explanation": "La coqueluche est citée dans cette catégorie.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 50 du PDF.",
-          "answer": "Coqueluche"
-        },
-        {
-          "id": "hygiene-as-158",
-          "type": "qcm",
-          "text": "Question 158 — QCM\nQuel exemple figure dans les précautions Contact du cours ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Gale",
-            "Myopie",
-            "Migraine",
-            "Luxation"
-          ],
-          "correct": "Gale",
-          "explanation": "Les précautions visent la transmission par contact.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 51 du PDF.",
-          "answer": "Gale"
-        },
-        {
-          "id": "hygiene-as-159",
-          "type": "qcm",
-          "text": "Question 159 — QCM\nQuelles actions protègent l’intimité pendant une toilette ?\nChoisir les 3 bonnes réponses.",
-          "options": [
-            "Fermer le rideau ou la porte selon la situation",
-            "Découvrir seulement la zone lavée",
-            "Expliquer le soin",
-            "Exposer entièrement le patient sans nécessité"
-          ],
-          "correct": [
-            "Fermer le rideau ou la porte selon la situation",
-            "Découvrir seulement la zone lavée",
-            "Expliquer le soin"
-          ],
-          "explanation": "La toilette doit préserver la pudeur et la dignité.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 18–19 du PDF.",
-          "answers": [
-            "Fermer le rideau ou la porte selon la situation",
-            "Découvrir seulement la zone lavée",
-            "Expliquer le soin"
-          ]
-        },
-        {
-          "id": "hygiene-as-160",
-          "type": "qcm",
-          "text": "Question 160 — QCM\nQuel sens convient à la toilette de la région génitale vers la région anale ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Du moins contaminé vers le plus contaminé",
-            "De l’anus vers les organes génitaux à chaque passage",
-            "Sans changer de matériel malgré les souillures",
-            "Toujours avec le linge de visage"
-          ],
-          "correct": "Du moins contaminé vers le plus contaminé",
-          "explanation": "Cette progression limite le transfert de contamination fécale.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 18–20 du PDF.",
-          "answer": "Du moins contaminé vers le plus contaminé"
-        },
-        {
-          "id": "hygiene-as-161",
-          "type": "qcm",
-          "text": "Question 161 — QCM\nQue faut-il faire avant d’aider un patient à manger ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Pratiquer l’hygiène des mains",
-            "Utiliser les gants souillés de la toilette",
-            "Poser le repas sur le sac de déchets",
-            "Secouer du linge sale près du plateau"
-          ],
-          "correct": "Pratiquer l’hygiène des mains",
-          "explanation": "La distribution et l’aide au repas exigent une hygiène adaptée.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 46 du PDF.",
-          "answer": "Pratiquer l’hygiène des mains"
-        },
-        {
-          "id": "hygiene-as-162",
-          "type": "qcm",
-          "text": "Question 162 — QCM\nQuels principes participent à l’hygiène des médicaments du cours ?\nChoisir les 3 bonnes réponses.",
-          "options": [
-            "Conserver l’identification du produit",
-            "Vérifier la péremption",
-            "Maintenir un rangement propre",
-            "Mélanger les produits sans étiquette"
-          ],
-          "correct": [
-            "Conserver l’identification du produit",
-            "Vérifier la péremption",
-            "Maintenir un rangement propre"
-          ],
-          "explanation": "Le circuit doit préserver l’identité et la qualité des produits.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 47–48 du PDF.",
-          "answers": [
-            "Conserver l’identification du produit",
-            "Vérifier la péremption",
-            "Maintenir un rangement propre"
-          ]
-        },
-        {
-          "id": "hygiene-as-163",
-          "type": "qcm",
-          "text": "Question 163 — QCM\nPourquoi limiter le matériel apporté dans la chambre à ce qui est nécessaire ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Réduire les objets exposés à la contamination",
-            "Remplacer tous les soins",
-            "Supprimer la traçabilité",
-            "Rendre inutile l’entretien"
-          ],
-          "correct": "Réduire les objets exposés à la contamination",
-          "explanation": "Le cours applique ce principe notamment au linge propre.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 41 du PDF.",
-          "answer": "Réduire les objets exposés à la contamination"
-        },
-        {
-          "id": "hygiene-as-164",
-          "type": "qcm",
-          "text": "Question 164 — QCM\nLes précautions complémentaires :\nChoisir une seule bonne réponse.",
-          "options": [
-            "Remplacent toujours l’hygiène des mains",
-            "S’ajoutent aux précautions standard",
-            "Concernent uniquement les vêtements",
-            "Autorisent à réutiliser les aiguilles"
-          ],
-          "correct": "S’ajoutent aux précautions standard",
-          "explanation": "La protection spécifique ne supprime pas les mesures de base.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 48–51 du PDF.",
-          "answer": "S’ajoutent aux précautions standard"
-        },
-        {
-          "id": "hygiene-as-165",
-          "type": "qcm",
-          "text": "Question 165 — QCM\nQuels patients sont cités pour l’isolement protecteur ?\nChoisir les 3 bonnes réponses.",
-          "options": [
-            "Certains prématurés",
-            "Certains grands brûlés",
-            "Certains patients greffés",
-            "Tous les visiteurs sans distinction"
-          ],
-          "correct": [
-            "Certains prématurés",
-            "Certains grands brûlés",
-            "Certains patients greffés"
-          ],
-          "explanation": "Le cours cite ces personnes particulièrement vulnérables.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 51 du PDF.",
-          "answers": [
-            "Certains prématurés",
-            "Certains grands brûlés",
-            "Certains patients greffés"
-          ]
-        },
-        {
-          "id": "hygiene-as-166",
-          "type": "qcm",
-          "text": "Question 166 — QCM\nQuelles situations correspondent à un AES ?\nChoisir les 3 bonnes réponses.",
-          "options": [
-            "Piqûre avec aiguille souillée de sang",
-            "Projection de sang dans l’œil",
-            "Contact de sang avec une peau lésée",
-            "Lecture d’un dossier propre"
-          ],
-          "correct": [
-            "Piqûre avec aiguille souillée de sang",
-            "Projection de sang dans l’œil",
-            "Contact de sang avec une peau lésée"
-          ],
-          "explanation": "L’exposition implique une effraction ou un contact avec une muqueuse ou une peau lésée.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 28 du PDF.",
-          "answers": [
-            "Piqûre avec aiguille souillée de sang",
-            "Projection de sang dans l’œil",
-            "Contact de sang avec une peau lésée"
-          ]
-        },
-        {
-          "id": "hygiene-as-167",
-          "type": "qcm",
-          "text": "Question 167 — QCM\nQuels virus sont particulièrement recherchés dans l’évaluation d’un AES ?\nChoisir les 3 bonnes réponses.",
-          "options": [
-            "VIH",
-            "Virus de l’hépatite B",
-            "Virus de l’hépatite C",
-            "Uniquement virus de la rougeole"
-          ],
-          "correct": [
-            "VIH",
-            "Virus de l’hépatite B",
-            "Virus de l’hépatite C"
-          ],
-          "explanation": "Ces trois infections sont les principaux risques viraux cités.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 29 du PDF.",
-          "answers": [
-            "VIH",
-            "Virus de l’hépatite B",
-            "Virus de l’hépatite C"
-          ]
-        },
-        {
-          "id": "hygiene-as-168",
-          "type": "qcm",
-          "text": "Question 168 — QCM\nAprès une piqûre, quelle première séquence de soins locaux est adaptée ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Laver à l’eau et au savon puis rincer",
-            "Sucer la plaie",
-            "Appliquer un désinfectant de sol",
-            "Attendre le lendemain"
-          ],
-          "correct": "Laver à l’eau et au savon puis rincer",
-          "explanation": "Le lavage et le rinçage précèdent l’antisepsie adaptée.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 29–30 du PDF.",
-          "answer": "Laver à l’eau et au savon puis rincer"
-        },
-        {
-          "id": "hygiene-as-169",
-          "type": "qcm",
-          "text": "Question 169 — QCM\nAprès une piqûre, que faut-il éviter ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Faire saigner volontairement la plaie",
-            "Nettoyer la plaie",
-            "Demander une évaluation urgente",
-            "Signaler l’accident"
-          ],
-          "correct": "Faire saigner volontairement la plaie",
-          "explanation": "Il ne faut pas faire saigner la plaie.",
-          "source": "Institut national de recherche et de sécurité, Hépatite B, fiche Eficatt, janvier 2026, rubrique Que faire en cas d’exposition ? https://www.inrs.fr/publications/bdd/eficatt/fiche.html?refINRS=EFICATT_H%C3%A9patite+B&section=queFaireExposition",
-          "answer": "Faire saigner volontairement la plaie"
-        },
-        {
-          "id": "hygiene-as-170",
-          "type": "qcm",
-          "text": "Question 170 — QCM\nAprès projection de sang dans l’œil, quelle conduite est adaptée ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Rinçage abondant à l’eau ou au sérum physiologique",
-            "Application de Javel de surface",
-            "Frottement avec un chiffon souillé",
-            "Absence de soins"
-          ],
-          "correct": "Rinçage abondant à l’eau ou au sérum physiologique",
-          "explanation": "La muqueuse doit être rincée ; un désinfectant de surface ne s’applique pas dans l’œil.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 30 du PDF.",
-          "answer": "Rinçage abondant à l’eau ou au sérum physiologique"
-        },
-        {
-          "id": "hygiene-as-171",
-          "type": "qcm",
-          "text": "Question 171 — QCM\nQuels facteurs peuvent augmenter le risque lors d’une piqûre ?\nChoisir les 3 bonnes réponses.",
-          "options": [
-            "Piqûre profonde",
-            "Aiguille creuse ayant contenu du sang",
-            "Source avec charge virale élevée",
-            "Ancienneté seule comme protection absolue"
-          ],
-          "correct": [
-            "Piqûre profonde",
-            "Aiguille creuse ayant contenu du sang",
-            "Source avec charge virale élevée"
-          ],
-          "explanation": "L’évaluation considère le type d’exposition et la source.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 29 du PDF.",
-          "answers": [
-            "Piqûre profonde",
-            "Aiguille creuse ayant contenu du sang",
-            "Source avec charge virale élevée"
-          ]
-        },
-        {
-          "id": "hygiene-as-172",
-          "type": "qcm",
-          "text": "Question 172 — QCM\nQui décide des mesures médicales après l’exposition ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Un professionnel habilité après évaluation",
-            "L’AS seul sans avis",
-            "Un visiteur",
-            "Le fournisseur de sacs"
-          ],
-          "correct": "Un professionnel habilité après évaluation",
-          "explanation": "L’AS réalise les gestes immédiats et sollicite une évaluation médicale urgente.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 30–31 du PDF.",
-          "answer": "Un professionnel habilité après évaluation"
-        },
-        {
-          "id": "hygiene-as-173",
-          "type": "qcm",
-          "text": "Question 173 — QCM\nSi une prophylaxie post-exposition VIH est indiquée, quel délai maximal d’initiation donne l’OMS ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "72 heures",
-            "Deux semaines",
-            "Un mois",
-            "Six mois"
-          ],
-          "correct": "72 heures",
-          "explanation": "Elle doit commencer au plus vite, idéalement dans les 24 heures et au plus tard dans les 72 heures ; ce maximum ne justifie aucune attente.",
-          "source": "Organisation mondiale de la Santé, Guidelines for HIV post-exposure prophylaxis, 2024, présentation et recommandations sur le délai et la durée. https://www.who.int/publications/i/item/9789240095137",
-          "answer": "72 heures"
-        },
-        {
-          "id": "hygiene-as-174",
-          "type": "qcm",
-          "text": "Question 174 — QCM\nQuelle durée de prophylaxie VIH recommande l’OMS lorsqu’elle est prescrite ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "28 jours",
-            "Un seul jour",
-            "Deux heures",
-            "Sans durée prévue"
-          ],
-          "correct": "28 jours",
-          "explanation": "La recommandation prévoit une prescription de 28 jours, avec suivi médical.",
-          "source": "Organisation mondiale de la Santé, Guidelines for HIV post-exposure prophylaxis, 2024, présentation et recommandations sur le délai et la durée. https://www.who.int/publications/i/item/9789240095137",
-          "answer": "28 jours"
-        },
-        {
-          "id": "hygiene-as-175",
-          "type": "qcm",
-          "text": "Question 175 — QCM\nQuelle vaccination contribue à la prévention professionnelle d’une infection transmise par le sang ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Vaccination contre l’hépatite B",
-            "Vaccination contre le VIH disponible en routine",
-            "Vaccination contre l’hépatite C disponible en routine",
-            "Vaccination uniquement antigrippale"
-          ],
-          "correct": "Vaccination contre l’hépatite B",
-          "explanation": "Le cours cite la vaccination contre l’hépatite B dans la prévention des AES.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 30 du PDF.",
-          "answer": "Vaccination contre l’hépatite B"
-        },
-        {
-          "id": "hygiene-as-176",
-          "type": "qcm",
-          "text": "Question 176 — QCM\nQuelles mesures réduisent les AES liés aux aiguilles ?\nChoisir les 3 bonnes réponses.",
-          "options": [
-            "Ne pas recapuchonner",
-            "Éliminer immédiatement dans le collecteur adapté",
-            "Placer le collecteur à proximité",
-            "Démonter à la main l’aiguille souillée"
-          ],
-          "correct": [
-            "Ne pas recapuchonner",
-            "Éliminer immédiatement dans le collecteur adapté",
-            "Placer le collecteur à proximité"
-          ],
-          "explanation": "Ces mesures limitent les manipulations après le geste.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 49 du PDF.",
-          "answers": [
-            "Ne pas recapuchonner",
-            "Éliminer immédiatement dans le collecteur adapté",
-            "Placer le collecteur à proximité"
-          ]
-        },
-        {
-          "id": "hygiene-as-177",
-          "type": "qcm",
-          "text": "Question 177 — QCM\nUne personne s’est piquée pendant la collecte. Que doit-elle faire ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Interrompre la tâche pour les soins immédiats et l’évaluation",
-            "Terminer obligatoirement toutes les chambres",
-            "Cacher l’accident",
-            "Attendre une douleur intense"
-          ],
-          "correct": "Interrompre la tâche pour les soins immédiats et l’évaluation",
-          "explanation": "La prise en charge de l’exposition est urgente.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 29–31 du PDF.",
-          "answer": "Interrompre la tâche pour les soins immédiats et l’évaluation"
-        },
-        {
-          "id": "hygiene-as-178",
-          "type": "qcm",
-          "text": "Question 178 — QCM\nPourquoi analyser les AES survenus dans un service ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Améliorer les pratiques et le matériel",
-            "Blâmer systématiquement la victime",
-            "Supprimer les déclarations",
-            "Conclure que les accidents sont impossibles"
-          ],
-          "correct": "Améliorer les pratiques et le matériel",
-          "explanation": "La surveillance aide à choisir des actions préventives.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 30–31 du PDF.",
-          "answer": "Améliorer les pratiques et le matériel"
-        },
-        {
-          "id": "hygiene-as-179",
-          "type": "qcm",
-          "text": "Question 179 — QCM\nAprès un AES, quelles actions accompagnent les soins immédiats ?\nChoisir les 3 bonnes réponses.",
-          "options": [
-            "Informer le responsable selon la procédure",
-            "Obtenir un avis médical urgent",
-            "Organiser le suivi prescrit",
-            "Ignorer le statut vaccinal"
-          ],
-          "correct": [
-            "Informer le responsable selon la procédure",
-            "Obtenir un avis médical urgent",
-            "Organiser le suivi prescrit"
-          ],
-          "explanation": "L’évaluation et le suivi complètent les gestes locaux.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 30–31 du PDF.",
-          "answers": [
-            "Informer le responsable selon la procédure",
-            "Obtenir un avis médical urgent",
-            "Organiser le suivi prescrit"
-          ]
-        },
-        {
-          "id": "hygiene-as-180",
-          "type": "qcm",
-          "text": "Question 180 — QCM\nLorsqu’un collecteur atteint sa limite de remplissage indiquée, que faire ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Le fermer et le remplacer selon le protocole",
-            "Tasser les aiguilles à la main",
-            "Forcer l’ajout d’objets",
-            "Vider son contenu dans un sac souple"
-          ],
-          "correct": "Le fermer et le remplacer selon le protocole",
-          "explanation": "Le collecteur ne doit pas être utilisé au-delà de sa limite.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 49 du PDF.",
-          "answer": "Le fermer et le remplacer selon le protocole"
-        },
-        {
-          "id": "hygiene-as-181",
-          "type": "qcd",
-          "text": "Question 181 — QCD\nLes précautions Contact prescrites dispensent l’AS des précautions standard.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Elles s’ajoutent aux mesures de base.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 48–51 du PDF.",
           "answer": "Faux",
-          "caseContext": "Étude de cas 1 : toilette, linge et repas\nUne AS aide Mme K., hospitalisée et présentant une diarrhée, à faire sa toilette. Un protocole de précautions Contact est prescrit. Le sac de linge utilisé est disponible à proximité. Après la toilette, l’AS doit entretenir le matériel puis aider Mme K. à manger."
+          "correct": "Faux",
+          "explanation": "Elle comprend le bien-être physique, mental et social relatif à l’appareil reproducteur.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 5."
         },
         {
-          "id": "hygiene-as-182",
           "type": "qcd",
-          "text": "Question 182 — QCD\nL’AS doit préserver l’intimité de Mme K. pendant la toilette.",
+          "text": "La santé de la reproduction concerne tous les stades de la vie.",
           "options": [
             "Vrai",
             "Faux"
           ],
-          "correct": "Vrai",
-          "explanation": "Elle protège la pudeur et ne découvre que la zone nécessaire.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 18–19 du PDF.",
           "answer": "Vrai",
-          "caseContext": "Étude de cas 1 : toilette, linge et repas\nUne AS aide Mme K., hospitalisée et présentant une diarrhée, à faire sa toilette. Un protocole de précautions Contact est prescrit. Le sac de linge utilisé est disponible à proximité. Après la toilette, l’AS doit entretenir le matériel puis aider Mme K. à manger."
-        },
-        {
-          "id": "hygiene-as-183",
-          "type": "qcd",
-          "text": "Question 183 — QCD\nLe linge utilisé peut être secoué dans la chambre pour en retirer les salissures.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Il faut limiter l’agitation et utiliser le circuit prévu.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 39–40 du PDF.",
-          "answer": "Faux",
-          "caseContext": "Étude de cas 1 : toilette, linge et repas\nUne AS aide Mme K., hospitalisée et présentant une diarrhée, à faire sa toilette. Un protocole de précautions Contact est prescrit. Le sac de linge utilisé est disponible à proximité. Après la toilette, l’AS doit entretenir le matériel puis aider Mme K. à manger."
-        },
-        {
-          "id": "hygiene-as-184",
-          "type": "qcd",
-          "text": "Question 184 — QCD\nLes gants utilisés pour la toilette peuvent être conservés pour aider Mme K. à manger.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Il faut retirer les gants, pratiquer l’hygiène des mains et préparer l’aide au repas proprement.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 24,46,49 du PDF.",
-          "answer": "Faux",
-          "caseContext": "Étude de cas 1 : toilette, linge et repas\nUne AS aide Mme K., hospitalisée et présentant une diarrhée, à faire sa toilette. Un protocole de précautions Contact est prescrit. Le sac de linge utilisé est disponible à proximité. Après la toilette, l’AS doit entretenir le matériel puis aider Mme K. à manger."
-        },
-        {
-          "id": "hygiene-as-185",
-          "type": "qcd",
-          "text": "Question 185 — QCD\nL’AS peut encourager Mme K. à participer à la toilette selon ses capacités.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
           "correct": "Vrai",
-          "explanation": "La participation respecte l’autonomie et favorise le confort.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 17–18 du PDF.",
+          "explanation": "Son champ va de la naissance à l’âge avancé.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 5."
+        },
+        {
+          "type": "qcd",
+          "text": "La planification familiale consiste à imposer le même nombre d’enfants à toutes les familles.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "answer": "Faux",
+          "correct": "Faux",
+          "explanation": "Elle permet aux individus et aux couples de déterminer librement la taille souhaitée de leur famille.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 11."
+        },
+        {
+          "type": "qcd",
+          "text": "La lutte contre les IST fait partie des composantes de la PF décrites dans le cours.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
           "answer": "Vrai",
-          "caseContext": "Étude de cas 1 : toilette, linge et repas\nUne AS aide Mme K., hospitalisée et présentant une diarrhée, à faire sa toilette. Un protocole de précautions Contact est prescrit. Le sac de linge utilisé est disponible à proximité. Après la toilette, l’AS doit entretenir le matériel puis aider Mme K. à manger."
-        },
-        {
-          "id": "hygiene-as-186",
-          "type": "qcm",
-          "text": "Question 186 — QCM\nPour la toilette intime de Mme K., quelle progression limite la contamination fécale ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "De la région génitale vers la région anale",
-            "De l’anus vers le visage",
-            "Sans distinction entre zones",
-            "Avec le même linge souillé pour toutes les zones"
-          ],
-          "correct": "De la région génitale vers la région anale",
-          "explanation": "Le cours recommande une progression du moins contaminé vers le plus contaminé.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 18–20 du PDF.",
-          "answer": "De la région génitale vers la région anale",
-          "caseContext": "Étude de cas 1 : toilette, linge et repas\nUne AS aide Mme K., hospitalisée et présentant une diarrhée, à faire sa toilette. Un protocole de précautions Contact est prescrit. Le sac de linge utilisé est disponible à proximité. Après la toilette, l’AS doit entretenir le matériel puis aider Mme K. à manger."
-        },
-        {
-          "id": "hygiene-as-187",
-          "type": "qcm",
-          "text": "Question 187 — QCM\nQuelles actions conviennent au linge utilisé de Mme K. ?\nChoisir les 2 bonnes réponses.",
-          "options": [
-            "Le placer dans le contenant prévu",
-            "Éviter de le plaquer contre la tenue",
-            "Le déposer au sol",
-            "Le mélanger au linge propre"
-          ],
-          "correct": [
-            "Le placer dans le contenant prévu",
-            "Éviter de le plaquer contre la tenue"
-          ],
-          "explanation": "Le linge utilisé suit un circuit séparé et doit être manipulé le moins possible.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 39–40 du PDF.",
-          "answers": [
-            "Le placer dans le contenant prévu",
-            "Éviter de le plaquer contre la tenue"
-          ],
-          "caseContext": "Étude de cas 1 : toilette, linge et repas\nUne AS aide Mme K., hospitalisée et présentant une diarrhée, à faire sa toilette. Un protocole de précautions Contact est prescrit. Le sac de linge utilisé est disponible à proximité. Après la toilette, l’AS doit entretenir le matériel puis aider Mme K. à manger."
-        },
-        {
-          "id": "hygiene-as-188",
-          "type": "qcm",
-          "text": "Question 188 — QCM\nLes mains de l’AS sont visiblement souillées après la tâche. Que faire ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Lavage à l’eau et au savon",
-            "Essuyage sur la blouse",
-            "Port immédiat de gants sans lavage",
-            "Attendre la fin du repas"
-          ],
-          "correct": "Lavage à l’eau et au savon",
-          "explanation": "Le lavage élimine les salissures visibles.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 14 du PDF.",
-          "answer": "Lavage à l’eau et au savon",
-          "caseContext": "Étude de cas 1 : toilette, linge et repas\nUne AS aide Mme K., hospitalisée et présentant une diarrhée, à faire sa toilette. Un protocole de précautions Contact est prescrit. Le sac de linge utilisé est disponible à proximité. Après la toilette, l’AS doit entretenir le matériel puis aider Mme K. à manger."
-        },
-        {
-          "id": "hygiene-as-189",
-          "type": "qcm",
-          "text": "Question 189 — QCM\nAvant le repas, quelles actions sont adaptées ?\nChoisir les 2 bonnes réponses.",
-          "options": [
-            "Préparer un environnement propre",
-            "Pratiquer l’hygiène des mains",
-            "Déposer le plateau sur le sac de linge utilisé",
-            "Réutiliser les gants souillés"
-          ],
-          "correct": [
-            "Préparer un environnement propre",
-            "Pratiquer l’hygiène des mains"
-          ],
-          "explanation": "Le repas doit être protégé des contaminations provenant de la toilette.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 46 du PDF.",
-          "answers": [
-            "Préparer un environnement propre",
-            "Pratiquer l’hygiène des mains"
-          ],
-          "caseContext": "Étude de cas 1 : toilette, linge et repas\nUne AS aide Mme K., hospitalisée et présentant une diarrhée, à faire sa toilette. Un protocole de précautions Contact est prescrit. Le sac de linge utilisé est disponible à proximité. Après la toilette, l’AS doit entretenir le matériel puis aider Mme K. à manger."
-        },
-        {
-          "id": "hygiene-as-190",
-          "type": "qcm",
-          "text": "Question 190 — QCM\nAprès la toilette, que faire du matériel réutilisable ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Appliquer le traitement prévu selon son usage",
-            "Le ranger encore souillé",
-            "L’utiliser directement pour une autre patiente",
-            "Le mélanger aux repas"
-          ],
-          "correct": "Appliquer le traitement prévu selon son usage",
-          "explanation": "Le nettoyage et, si nécessaire, la désinfection suivent le protocole du matériel.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 33–37 du PDF.",
-          "answer": "Appliquer le traitement prévu selon son usage",
-          "caseContext": "Étude de cas 1 : toilette, linge et repas\nUne AS aide Mme K., hospitalisée et présentant une diarrhée, à faire sa toilette. Un protocole de précautions Contact est prescrit. Le sac de linge utilisé est disponible à proximité. Après la toilette, l’AS doit entretenir le matériel puis aider Mme K. à manger."
-        },
-        {
-          "id": "hygiene-as-191",
-          "type": "qcd",
-          "text": "Question 191 — QCD\nLe port de gants exclut tout AES après cette piqûre.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Les gants ne garantissent pas l’absence d’effraction cutanée.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 28–29 du PDF.",
-          "answer": "Faux",
-          "caseContext": "Étude de cas 2 : piqûre pendant la collecte\nPendant la collecte, un AS se pique profondément avec une aiguille creuse souillée de sang, abandonnée dans un sac souple. Il porte des gants. Le patient source n’est pas encore identifié. Le collecteur d’objets piquants du secteur a dépassé sa limite de remplissage. Le service dispose d’une procédure AES et d’un accès à une évaluation médicale urgente."
-        },
-        {
-          "id": "hygiene-as-192",
-          "type": "qcd",
-          "text": "Question 192 — QCD\nL’AS doit faire saigner volontairement la plaie pour évacuer le virus.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Il ne faut pas faire saigner la plaie ; réaliser les soins locaux puis obtenir un avis urgent.",
-          "source": "Institut national de recherche et de sécurité, Hépatite B, fiche Eficatt, janvier 2026, rubrique Que faire en cas d’exposition ? https://www.inrs.fr/publications/bdd/eficatt/fiche.html?refINRS=EFICATT_H%C3%A9patite+B&section=queFaireExposition",
-          "answer": "Faux",
-          "caseContext": "Étude de cas 2 : piqûre pendant la collecte\nPendant la collecte, un AS se pique profondément avec une aiguille creuse souillée de sang, abandonnée dans un sac souple. Il porte des gants. Le patient source n’est pas encore identifié. Le collecteur d’objets piquants du secteur a dépassé sa limite de remplissage. Le service dispose d’une procédure AES et d’un accès à une évaluation médicale urgente."
-        },
-        {
-          "id": "hygiene-as-193",
-          "type": "qcd",
-          "text": "Question 193 — QCD\nL’absence d’identification immédiate du patient source justifie d’attendre avant de consulter.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "L’évaluation médicale doit commencer sans attendre ; elle tient compte de l’incertitude.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 30–31 du PDF.",
-          "answer": "Faux",
-          "caseContext": "Étude de cas 2 : piqûre pendant la collecte\nPendant la collecte, un AS se pique profondément avec une aiguille creuse souillée de sang, abandonnée dans un sac souple. Il porte des gants. Le patient source n’est pas encore identifié. Le collecteur d’objets piquants du secteur a dépassé sa limite de remplissage. Le service dispose d’une procédure AES et d’un accès à une évaluation médicale urgente."
-        },
-        {
-          "id": "hygiene-as-194",
-          "type": "qcd",
-          "text": "Question 194 — QCD\nCette piqûre profonde avec aiguille creuse est un élément important de l’évaluation du risque.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
           "correct": "Vrai",
-          "explanation": "La profondeur et la nature de l’aiguille sont des facteurs cités.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 29 du PDF.",
+          "explanation": "Les composantes comprennent notamment contraception, IEC/CCC, infertilité, IST/VIH et genre.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 11."
+        },
+        {
+          "type": "qcd",
+          "text": "L’insuffisance de personnel qualifié constitue un obstacle institutionnel à la PF.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
           "answer": "Vrai",
-          "caseContext": "Étude de cas 2 : piqûre pendant la collecte\nPendant la collecte, un AS se pique profondément avec une aiguille creuse souillée de sang, abandonnée dans un sac souple. Il porte des gants. Le patient source n’est pas encore identifié. Le collecteur d’objets piquants du secteur a dépassé sa limite de remplissage. Le service dispose d’une procédure AES et d’un accès à une évaluation médicale urgente."
-        },
-        {
-          "id": "hygiene-as-195",
-          "type": "qcd",
-          "text": "Question 195 — QCD\nLe sac souple était un contenant adapté pour cette aiguille usagée.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "L’aiguille devait être éliminée immédiatement dans un collecteur pour piquants et coupants.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 43,49 du PDF.",
-          "answer": "Faux",
-          "caseContext": "Étude de cas 2 : piqûre pendant la collecte\nPendant la collecte, un AS se pique profondément avec une aiguille creuse souillée de sang, abandonnée dans un sac souple. Il porte des gants. Le patient source n’est pas encore identifié. Le collecteur d’objets piquants du secteur a dépassé sa limite de remplissage. Le service dispose d’une procédure AES et d’un accès à une évaluation médicale urgente."
-        },
-        {
-          "id": "hygiene-as-196",
-          "type": "qcm",
-          "text": "Question 196 — QCM\nQuelle action locale doit commencer immédiatement ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Laver à l’eau et au savon, puis rincer",
-            "Sucer la plaie",
-            "Appliquer un produit de sol",
-            "Attendre le prochain service"
-          ],
-          "correct": "Laver à l’eau et au savon, puis rincer",
-          "explanation": "Le lavage et le rinçage sont suivis de l’antisepsie adaptée.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 29–30 du PDF.",
-          "answer": "Laver à l’eau et au savon, puis rincer",
-          "caseContext": "Étude de cas 2 : piqûre pendant la collecte\nPendant la collecte, un AS se pique profondément avec une aiguille creuse souillée de sang, abandonnée dans un sac souple. Il porte des gants. Le patient source n’est pas encore identifié. Le collecteur d’objets piquants du secteur a dépassé sa limite de remplissage. Le service dispose d’une procédure AES et d’un accès à une évaluation médicale urgente."
-        },
-        {
-          "id": "hygiene-as-197",
-          "type": "qcm",
-          "text": "Question 197 — QCM\nAprès les premiers soins, quelles actions sont indiquées ?\nChoisir les 2 bonnes réponses.",
-          "options": [
-            "Solliciter une évaluation médicale urgente",
-            "Informer le responsable selon la procédure",
-            "Cacher l’accident",
-            "Reprendre sans avis médical"
-          ],
-          "correct": [
-            "Solliciter une évaluation médicale urgente",
-            "Informer le responsable selon la procédure"
-          ],
-          "explanation": "L’exposition nécessite une évaluation et un signalement selon la procédure.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 30–31 du PDF.",
-          "answers": [
-            "Solliciter une évaluation médicale urgente",
-            "Informer le responsable selon la procédure"
-          ],
-          "caseContext": "Étude de cas 2 : piqûre pendant la collecte\nPendant la collecte, un AS se pique profondément avec une aiguille creuse souillée de sang, abandonnée dans un sac souple. Il porte des gants. Le patient source n’est pas encore identifié. Le collecteur d’objets piquants du secteur a dépassé sa limite de remplissage. Le service dispose d’une procédure AES et d’un accès à une évaluation médicale urgente."
-        },
-        {
-          "id": "hygiene-as-198",
-          "type": "qcm",
-          "text": "Question 198 — QCM\nQuels virus doivent être considérés lors de cette évaluation ?\nChoisir les 3 bonnes réponses.",
-          "options": [
-            "VIH",
-            "Virus de l’hépatite B",
-            "Virus de l’hépatite C",
-            "Uniquement virus grippal"
-          ],
-          "correct": [
-            "VIH",
-            "Virus de l’hépatite B",
-            "Virus de l’hépatite C"
-          ],
-          "explanation": "Le cours identifie ces trois risques viraux.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 29 du PDF.",
-          "answers": [
-            "VIH",
-            "Virus de l’hépatite B",
-            "Virus de l’hépatite C"
-          ],
-          "caseContext": "Étude de cas 2 : piqûre pendant la collecte\nPendant la collecte, un AS se pique profondément avec une aiguille creuse souillée de sang, abandonnée dans un sac souple. Il porte des gants. Le patient source n’est pas encore identifié. Le collecteur d’objets piquants du secteur a dépassé sa limite de remplissage. Le service dispose d’une procédure AES et d’un accès à une évaluation médicale urgente."
-        },
-        {
-          "id": "hygiene-as-199",
-          "type": "qcm",
-          "text": "Question 199 — QCM\nQue faut-il faire du collecteur trop rempli ?\nChoisir une seule bonne réponse.",
-          "options": [
-            "Appliquer sa procédure de fermeture et de remplacement",
-            "Tasser avec la main",
-            "Transvaser dans un sac souple",
-            "Continuer à forcer les aiguilles"
-          ],
-          "correct": "Appliquer sa procédure de fermeture et de remplacement",
-          "explanation": "La limite de remplissage doit être respectée.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 49 du PDF.",
-          "answer": "Appliquer sa procédure de fermeture et de remplacement",
-          "caseContext": "Étude de cas 2 : piqûre pendant la collecte\nPendant la collecte, un AS se pique profondément avec une aiguille creuse souillée de sang, abandonnée dans un sac souple. Il porte des gants. Le patient source n’est pas encore identifié. Le collecteur d’objets piquants du secteur a dépassé sa limite de remplissage. Le service dispose d’une procédure AES et d’un accès à une évaluation médicale urgente."
-        },
-        {
-          "id": "hygiene-as-200",
-          "type": "qcm",
-          "text": "Question 200 — QCM\nQuelle amélioration prévient une répétition de cet accident ?\nChoisir les 3 bonnes réponses.",
-          "options": [
-            "Collecteur adapté accessible au lieu du geste",
-            "Élimination immédiate de l’aiguille après usage",
-            "Rappel des consignes de non-recapuchonnage",
-            "Mélange des aiguilles au linge"
-          ],
-          "correct": [
-            "Collecteur adapté accessible au lieu du geste",
-            "Élimination immédiate de l’aiguille après usage",
-            "Rappel des consignes de non-recapuchonnage"
-          ],
-          "explanation": "La prévention repose sur le circuit sûr et la réduction des manipulations.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 43,49 du PDF.",
-          "answers": [
-            "Collecteur adapté accessible au lieu du geste",
-            "Élimination immédiate de l’aiguille après usage",
-            "Rappel des consignes de non-recapuchonnage"
-          ],
-          "caseContext": "Étude de cas 2 : piqûre pendant la collecte\nPendant la collecte, un AS se pique profondément avec une aiguille creuse souillée de sang, abandonnée dans un sac souple. Il porte des gants. Le patient source n’est pas encore identifié. Le collecteur d’objets piquants du secteur a dépassé sa limite de remplissage. Le service dispose d’une procédure AES et d’un accès à une évaluation médicale urgente."
-        },
-        {
-          "id": "hygiene-as-201",
-          "type": "qcd",
-          "text": "Question 201 — QCD\nLa solution mère à 5 % peut être utilisée pure à la place de la solution prescrite à 0,5 %.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "La concentration prévue doit être respectée ; une solution plus concentrée n’est pas automatiquement adaptée.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 11–12 du PDF.",
-          "answer": "Faux",
-          "caseContext": "Étude de cas 3 : entretien et contrôle des stocks\nUne AS prépare l’entretien d’une salle et vérifie les stocks. Le protocole demande 1 000 mL d’une solution à 0,5 %, préparée avec une solution mère à 5 % ; ces concentrations sont exprimées dans la même unité. Elle trouve aussi du linge propre non protégé près du linge utilisé, un emballage stérile déchiré et du matériel réutilisable encore souillé. Aucun produit ne doit être mélangé à un autre produit chimique."
-        },
-        {
-          "id": "hygiene-as-202",
-          "type": "qcd",
-          "text": "Question 202 — QCD\nL’AS doit mélanger le produit chloré avec un autre produit d’entretien pour accroître son efficacité.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "Les produits ne doivent pas être mélangés ; suivre les instructions et le protocole.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 11–12 du PDF.",
-          "answer": "Faux",
-          "caseContext": "Étude de cas 3 : entretien et contrôle des stocks\nUne AS prépare l’entretien d’une salle et vérifie les stocks. Le protocole demande 1 000 mL d’une solution à 0,5 %, préparée avec une solution mère à 5 % ; ces concentrations sont exprimées dans la même unité. Elle trouve aussi du linge propre non protégé près du linge utilisé, un emballage stérile déchiré et du matériel réutilisable encore souillé. Aucun produit ne doit être mélangé à un autre produit chimique."
-        },
-        {
-          "id": "hygiene-as-203",
-          "type": "qcd",
-          "text": "Question 203 — QCD\nL’emballage déchiré permet de garantir la stérilité du matériel qu’il contient.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
-          "correct": "Faux",
-          "explanation": "L’intégrité de la barrière stérile n’est plus garantie.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 35–37 du PDF.",
-          "answer": "Faux",
-          "caseContext": "Étude de cas 3 : entretien et contrôle des stocks\nUne AS prépare l’entretien d’une salle et vérifie les stocks. Le protocole demande 1 000 mL d’une solution à 0,5 %, préparée avec une solution mère à 5 % ; ces concentrations sont exprimées dans la même unité. Elle trouve aussi du linge propre non protégé près du linge utilisé, un emballage stérile déchiré et du matériel réutilisable encore souillé. Aucun produit ne doit être mélangé à un autre produit chimique."
-        },
-        {
-          "id": "hygiene-as-204",
-          "type": "qcd",
-          "text": "Question 204 — QCD\nLe linge propre doit être protégé et séparé du linge utilisé.",
-          "options": [
-            "Vrai",
-            "Faux"
-          ],
           "correct": "Vrai",
-          "explanation": "La séparation évite sa contamination pendant le stockage.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 40–41 du PDF.",
-          "answer": "Vrai",
-          "caseContext": "Étude de cas 3 : entretien et contrôle des stocks\nUne AS prépare l’entretien d’une salle et vérifie les stocks. Le protocole demande 1 000 mL d’une solution à 0,5 %, préparée avec une solution mère à 5 % ; ces concentrations sont exprimées dans la même unité. Elle trouve aussi du linge propre non protégé près du linge utilisé, un emballage stérile déchiré et du matériel réutilisable encore souillé. Aucun produit ne doit être mélangé à un autre produit chimique."
+          "explanation": "Cet obstacle concerne l’organisation et la disponibilité des services.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 12."
         },
         {
-          "id": "hygiene-as-205",
           "type": "qcd",
-          "text": "Question 205 — QCD\nLe matériel encore souillé peut être rangé directement dans le stock propre.",
+          "text": "La continuité renseigne sur le maintien de l’utilisation d’une méthode dans le temps.",
           "options": [
             "Vrai",
             "Faux"
           ],
-          "correct": "Faux",
-          "explanation": "Il doit d’abord suivre la procédure de traitement correspondant à son usage.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 33–37 du PDF.",
+          "answer": "Vrai",
+          "correct": "Vrai",
+          "explanation": "Elle correspond à la proportion d’utilisatrices qui poursuivent la méthode après un délai donné.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 14."
+        },
+        {
+          "type": "qcd",
+          "text": "En catégorie 2, les avantages de la méthode l’emportent généralement sur les risques.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "answer": "Vrai",
+          "correct": "Vrai",
+          "explanation": "La méthode peut généralement être utilisée.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 16."
+        },
+        {
+          "type": "qcd",
+          "text": "En catégorie 4, l’utilisation de la méthode présente un risque inacceptable pour la santé.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "answer": "Vrai",
+          "correct": "Vrai",
+          "explanation": "Cette méthode ne doit pas être utilisée dans cette situation.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 16."
+        },
+        {
+          "type": "qcd",
+          "text": "Le counseling vise à choisir une méthode à la place du client.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
           "answer": "Faux",
-          "caseContext": "Étude de cas 3 : entretien et contrôle des stocks\nUne AS prépare l’entretien d’une salle et vérifie les stocks. Le protocole demande 1 000 mL d’une solution à 0,5 %, préparée avec une solution mère à 5 % ; ces concentrations sont exprimées dans la même unité. Elle trouve aussi du linge propre non protégé près du linge utilisé, un emballage stérile déchiré et du matériel réutilisable encore souillé. Aucun produit ne doit être mélangé à un autre produit chimique."
+          "correct": "Faux",
+          "explanation": "Le prestataire informe et accompagne le choix éclairé du client.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 21–23."
         },
         {
-          "id": "hygiene-as-206",
-          "type": "qcm",
-          "text": "Question 206 — QCM\nQuel volume de solution mère à 5 % faut-il pour obtenir 1 000 mL à 0,5 % ?\nChoisir une seule bonne réponse.",
+          "type": "qcd",
+          "text": "Dans l’approche REDI, la prise de décision précède l’exploration des besoins.",
           "options": [
-            "100 mL",
-            "10 mL",
-            "500 mL",
-            "1 000 mL"
+            "Vrai",
+            "Faux"
           ],
-          "correct": "100 mL",
-          "explanation": "V₁ = C₂V₂/C₁ = 0,5 × 1 000/5 = 100 mL.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 12 du PDF.",
-          "answer": "100 mL",
-          "caseContext": "Étude de cas 3 : entretien et contrôle des stocks\nUne AS prépare l’entretien d’une salle et vérifie les stocks. Le protocole demande 1 000 mL d’une solution à 0,5 %, préparée avec une solution mère à 5 % ; ces concentrations sont exprimées dans la même unité. Elle trouve aussi du linge propre non protégé près du linge utilisé, un emballage stérile déchiré et du matériel réutilisable encore souillé. Aucun produit ne doit être mélangé à un autre produit chimique."
+          "answer": "Faux",
+          "correct": "Faux",
+          "explanation": "L’ordre est établissement de rapports, exploration, décision, mise en application.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 23–24."
         },
         {
-          "id": "hygiene-as-207",
-          "type": "qcm",
-          "text": "Question 207 — QCM\nAprès le prélèvement de solution mère, quel volume final faut-il atteindre avec l’eau ?\nChoisir une seule bonne réponse.",
+          "type": "qcd",
+          "text": "Les méthodes d’auto-observation reposent sur la connaissance de la fécondité.",
           "options": [
-            "1 000 mL au total",
-            "1 100 mL au total",
-            "100 mL au total",
-            "5 000 mL au total"
+            "Vrai",
+            "Faux"
           ],
-          "correct": "1 000 mL au total",
-          "explanation": "Compléter jusqu’à 1 000 mL ; cela correspond à environ 900 mL d’eau pour 100 mL de solution mère.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 12 du PDF.",
-          "answer": "1 000 mL au total",
-          "caseContext": "Étude de cas 3 : entretien et contrôle des stocks\nUne AS prépare l’entretien d’une salle et vérifie les stocks. Le protocole demande 1 000 mL d’une solution à 0,5 %, préparée avec une solution mère à 5 % ; ces concentrations sont exprimées dans la même unité. Elle trouve aussi du linge propre non protégé près du linge utilisé, un emballage stérile déchiré et du matériel réutilisable encore souillé. Aucun produit ne doit être mélangé à un autre produit chimique."
+          "answer": "Vrai",
+          "correct": "Vrai",
+          "explanation": "Elles utilisent les signes naturels ou les jours du cycle pour repérer la période fertile.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 28."
         },
         {
-          "id": "hygiene-as-208",
-          "type": "qcm",
-          "text": "Question 208 — QCM\nQuelle progression convient à l’entretien de la salle ?\nChoisir les 2 bonnes réponses.",
+          "type": "qcd",
+          "text": "La méthode de la température basale nécessite de prendre la température après une activité physique.",
           "options": [
-            "Du propre vers le sale",
-            "Du haut vers le bas",
-            "Du sale vers le propre",
-            "Du sol vers les surfaces hautes"
+            "Vrai",
+            "Faux"
+          ],
+          "answer": "Faux",
+          "correct": "Faux",
+          "explanation": "La mesure se fait au réveil, avant de se lever et dans des conditions comparables.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 30."
+        },
+        {
+          "type": "qcd",
+          "text": "La température basale s’élève habituellement après l’ovulation.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "answer": "Vrai",
+          "correct": "Vrai",
+          "explanation": "La montée thermique est liée à la phase postovulatoire.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 30."
+        },
+        {
+          "type": "qcd",
+          "text": "La méthode des jours fixes convient normalement aux cycles de 26 à 32 jours.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "answer": "Vrai",
+          "correct": "Vrai",
+          "explanation": "Cette durée de cycle est une condition d’utilisation de la MJF.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 32."
+        },
+        {
+          "type": "qcd",
+          "text": "Dans la méthode des jours fixes, les jours 8 à 19 nécessitent d’éviter les rapports non protégés.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "answer": "Vrai",
+          "correct": "Vrai",
+          "explanation": "Cette période représente les jours potentiellement féconds retenus par la méthode.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 32–33."
+        },
+        {
+          "type": "qcd",
+          "text": "Les méthodes d’auto-observation protègent contre le VIH.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "answer": "Faux",
+          "correct": "Faux",
+          "explanation": "Elles ne constituent pas une barrière contre les IST.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 13 et 32."
+        },
+        {
+          "type": "qcd",
+          "text": "La MAMA exige que le bébé ait moins de six mois.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "answer": "Vrai",
+          "correct": "Vrai",
+          "explanation": "L’âge inférieur à six mois est l’une des trois conditions de la méthode.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 38."
+        },
+        {
+          "type": "qcd",
+          "text": "La MAMA reste suffisante si le bébé a huit mois, même sans retour des règles.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "answer": "Faux",
+          "correct": "Faux",
+          "explanation": "Au-delà de six mois, une autre méthode est nécessaire pour prévenir une grossesse.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 38–39."
+        },
+        {
+          "type": "qcd",
+          "text": "Un même préservatif peut être lavé et réutilisé lors d’un autre rapport.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "answer": "Faux",
+          "correct": "Faux",
+          "explanation": "Chaque préservatif est destiné à une seule utilisation.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 42."
+        },
+        {
+          "type": "qcd",
+          "text": "La vaseline convient comme lubrifiant avec un préservatif en latex.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "answer": "Faux",
+          "correct": "Faux",
+          "explanation": "Les corps gras peuvent détériorer le latex.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 41–42."
+        },
+        {
+          "type": "qcd",
+          "text": "Un contraceptif hormonal combiné associe un œstrogène et un progestatif.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "answer": "Vrai",
+          "correct": "Vrai",
+          "explanation": "Cette association définit les méthodes hormonales combinées.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 47."
+        },
+        {
+          "type": "qcd",
+          "text": "Une pilule progestative contient obligatoirement un œstrogène.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "answer": "Faux",
+          "correct": "Faux",
+          "explanation": "Elle contient seulement un progestatif.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 68."
+        },
+        {
+          "type": "qcd",
+          "text": "Les contraceptifs oraux combinés protègent contre le VIH.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "answer": "Faux",
+          "correct": "Faux",
+          "explanation": "Ils ne protègent pas contre les IST ; le préservatif reste utile.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 50."
+        },
+        {
+          "type": "qcd",
+          "text": "Le DMPA injectable est un contraceptif hormonal progestatif.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "answer": "Vrai",
+          "correct": "Vrai",
+          "explanation": "L’acétate de médroxyprogestérone est un progestatif.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 69."
+        },
+        {
+          "type": "qcd",
+          "text": "L’utilisateur peut retirer lui-même son implant avec une aiguille à domicile.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "answer": "Faux",
+          "correct": "Faux",
+          "explanation": "Le retrait requiert un prestataire formé et une procédure adaptée.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 76 et 79."
+        },
+        {
+          "type": "qcd",
+          "text": "Des saignements irréguliers peuvent survenir sous implant.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "answer": "Vrai",
+          "correct": "Vrai",
+          "explanation": "Les troubles du cycle font partie des effets secondaires possibles.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 72 et 80."
+        },
+        {
+          "type": "qcd",
+          "text": "Le retour à la fécondité peut être retardé après l’arrêt d’un injectable progestatif.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "answer": "Vrai",
+          "correct": "Vrai",
+          "explanation": "Ce retard possible doit être expliqué lors du choix de la méthode.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 72."
+        },
+        {
+          "type": "qcd",
+          "text": "La contraception par DIU est une méthode réversible.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "answer": "Vrai",
+          "correct": "Vrai",
+          "explanation": "Le DIU peut être retiré lorsqu’une grossesse est souhaitée ou à la demande de la cliente.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 87."
+        },
+        {
+          "type": "qcd",
+          "text": "Une septicémie puerpérale permet la pose immédiate d’un DIU.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "answer": "Faux",
+          "correct": "Faux",
+          "explanation": "La septicémie puerpérale contre-indique l’insertion du DIU.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 88 et 102."
+        },
+        {
+          "type": "qcd",
+          "text": "La vasectomie supprime immédiatement toute possibilité de grossesse dès la fin de l’intervention.",
+          "options": [
+            "Vrai",
+            "Faux"
+          ],
+          "answer": "Faux",
+          "correct": "Faux",
+          "explanation": "Une contraception complémentaire est nécessaire pendant la période initiale selon le protocole de suivi.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 122–123."
+        },
+        {
+          "type": "qcm",
+          "text": "Quelle définition correspond à la santé de la reproduction ? (1 bonne réponse)",
+          "options": [
+            "Absence de grossesse uniquement",
+            "Bien-être physique, mental et social concernant l’appareil reproducteur",
+            "Surveillance exclusive des accouchements",
+            "Traitement exclusif des infections génitales"
+          ],
+          "answer": "Bien-être physique, mental et social concernant l’appareil reproducteur",
+          "correct": "Bien-être physique, mental et social concernant l’appareil reproducteur",
+          "explanation": "La définition dépasse l’absence de maladie et concerne les fonctions reproductives.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 5."
+        },
+        {
+          "type": "qcm",
+          "text": "Quelle proposition définit le mieux la PF ? (1 bonne réponse)",
+          "options": [
+            "Stérilisation obligatoire",
+            "Traitement exclusif de la ménopause",
+            "Ensemble des moyens permettant une sexualité responsable et le choix de la taille de la famille",
+            "Interdiction de toute grossesse"
+          ],
+          "answer": "Ensemble des moyens permettant une sexualité responsable et le choix de la taille de la famille",
+          "correct": "Ensemble des moyens permettant une sexualité responsable et le choix de la taille de la famille",
+          "explanation": "La PF permet notamment de prévenir les grossesses non désirées et d’espacer les naissances.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 11."
+        },
+        {
+          "type": "qcm",
+          "text": "Quel exemple correspond à un obstacle socioculturel ? (1 bonne réponse)",
+          "options": [
+            "Prix du transport",
+            "Rupture du stock de contraceptifs",
+            "Absence de personnel qualifié",
+            "Tabou entourant les questions sexuelles"
+          ],
+          "answer": "Tabou entourant les questions sexuelles",
+          "correct": "Tabou entourant les questions sexuelles",
+          "explanation": "Le tabou sexuel figure parmi les obstacles socioculturels du cours.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 12."
+        },
+        {
+          "type": "qcm",
+          "text": "Quelle qualité évalue le retour de la fécondité après l’arrêt d’une méthode ? (1 bonne réponse)",
+          "options": [
+            "Continuité",
+            "Coût",
+            "Réversibilité",
+            "Protection contre les IST"
+          ],
+          "answer": "Réversibilité",
+          "correct": "Réversibilité",
+          "explanation": "La réversibilité concerne le retour de la capacité reproductive.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 14."
+        },
+        {
+          "type": "qcm",
+          "text": "Que signifie une classification en catégorie 1 ? (1 bonne réponse)",
+          "options": [
+            "Risque inacceptable",
+            "Aucune restriction",
+            "Méthode généralement déconseillée",
+            "Interdiction de toute contraception"
+          ],
+          "answer": "Aucune restriction",
+          "correct": "Aucune restriction",
+          "explanation": "La catégorie 1 permet l’utilisation sans restriction liée à l’état considéré.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 16."
+        },
+        {
+          "type": "qcm",
+          "text": "Quelle conduite correspond à une catégorie 4 ? (1 bonne réponse)",
+          "options": [
+            "Ignorer la pathologie",
+            "Doubler la dose",
+            "Utiliser sans précaution",
+            "Ne pas utiliser cette méthode"
+          ],
+          "answer": "Ne pas utiliser cette méthode",
+          "correct": "Ne pas utiliser cette méthode",
+          "explanation": "La catégorie 4 représente un risque inacceptable pour la santé.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 16."
+        },
+        {
+          "type": "qcm",
+          "text": "Quels sont deux principes du counseling ? (2 bonnes réponses)",
+          "options": [
+            "Pression pour accepter une méthode",
+            "Information volontairement incomplète",
+            "Liberté de choix du client",
+            "Respect de la confidentialité"
+          ],
+          "answers": [
+            "Liberté de choix du client",
+            "Respect de la confidentialité"
           ],
           "correct": [
-            "Du propre vers le sale",
-            "Du haut vers le bas"
+            "Liberté de choix du client",
+            "Respect de la confidentialité"
           ],
-          "explanation": "Cette progression limite le transfert des salissures.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, page 27 du PDF.",
-          "answers": [
-            "Du propre vers le sale",
-            "Du haut vers le bas"
-          ],
-          "caseContext": "Étude de cas 3 : entretien et contrôle des stocks\nUne AS prépare l’entretien d’une salle et vérifie les stocks. Le protocole demande 1 000 mL d’une solution à 0,5 %, préparée avec une solution mère à 5 % ; ces concentrations sont exprimées dans la même unité. Elle trouve aussi du linge propre non protégé près du linge utilisé, un emballage stérile déchiré et du matériel réutilisable encore souillé. Aucun produit ne doit être mélangé à un autre produit chimique."
+          "explanation": "Le counseling favorise un consentement éclairé et un choix libre.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 21."
         },
         {
-          "id": "hygiene-as-209",
           "type": "qcm",
-          "text": "Question 209 — QCM\nQuels éléments doivent être vérifiés avant l’utilisation de la solution préparée ?\nChoisir les 3 bonnes réponses.",
+          "text": "Une cliente revient insatisfaite de sa contraception. Quelle phase est particulièrement concernée ? (1 bonne réponse)",
           "options": [
-            "Identification de la solution",
-            "Concentration et temps de contact prescrits",
-            "Compatibilité du support",
-            "Seulement l’odeur"
+            "Counseling de suivi",
+            "Causerie de masse obligatoire",
+            "Aucune phase",
+            "Counseling initial exclusivement"
           ],
-          "correct": [
-            "Identification de la solution",
-            "Concentration et temps de contact prescrits",
-            "Compatibilité du support"
-          ],
-          "explanation": "L’identification et le respect des conditions d’emploi sont essentiels.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 11–12 du PDF.",
-          "answers": [
-            "Identification de la solution",
-            "Concentration et temps de contact prescrits",
-            "Compatibilité du support"
-          ],
-          "caseContext": "Étude de cas 3 : entretien et contrôle des stocks\nUne AS prépare l’entretien d’une salle et vérifie les stocks. Le protocole demande 1 000 mL d’une solution à 0,5 %, préparée avec une solution mère à 5 % ; ces concentrations sont exprimées dans la même unité. Elle trouve aussi du linge propre non protégé près du linge utilisé, un emballage stérile déchiré et du matériel réutilisable encore souillé. Aucun produit ne doit être mélangé à un autre produit chimique."
+          "answer": "Counseling de suivi",
+          "correct": "Counseling de suivi",
+          "explanation": "Le suivi explore la satisfaction, les difficultés et les solutions possibles.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 22 et 24."
         },
         {
-          "id": "hygiene-as-210",
           "type": "qcm",
-          "text": "Question 210 — QCM\nQue faire du matériel contenu dans l’emballage stérile déchiré ?\nChoisir les 2 bonnes réponses.",
+          "text": "Quel est l’ordre de l’approche REDI ? (1 bonne réponse)",
           "options": [
-            "Le retirer du stock utilisable comme stérile",
-            "Appliquer la procédure de retraitement adaptée",
-            "L’utiliser sans contrôle",
-            "Garantir la stérilité après un simple essuyage"
+            "Mise en application, décision, rapports, exploration",
+            "Exploration, mise en application, rapports, décision",
+            "Rapports, exploration, décision, mise en application",
+            "Décision, exploration, rapports, mise en application"
+          ],
+          "answer": "Rapports, exploration, décision, mise en application",
+          "correct": "Rapports, exploration, décision, mise en application",
+          "explanation": "La décision suit l’exploration des besoins et précède sa mise en œuvre.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 23–24."
+        },
+        {
+          "type": "qcm",
+          "text": "Quelles sont deux informations utiles à recueillir pendant l’interrogatoire de PF ? (2 bonnes réponses)",
+          "options": [
+            "Intentions de procréation",
+            "Antécédents médicaux",
+            "Choix imposé par un autre client",
+            "Préférence du prestataire pour une marque"
+          ],
+          "answers": [
+            "Intentions de procréation",
+            "Antécédents médicaux"
           ],
           "correct": [
-            "Le retirer du stock utilisable comme stérile",
-            "Appliquer la procédure de retraitement adaptée"
+            "Intentions de procréation",
+            "Antécédents médicaux"
           ],
-          "explanation": "La perte d’intégrité impose une prise en charge selon le protocole.",
-          "source": "Documentation AS : Hygienne Hospitaliere et deontologie.pdf, pages 35–37 du PDF.",
+          "explanation": "Ces informations orientent une proposition individualisée et sûre.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 23–26."
+        },
+        {
+          "type": "qcm",
+          "text": "Quel aspect de la glaire évoque le mieux la période fertile ? (1 bonne réponse)",
+          "options": [
+            "Épaisse et sèche en permanence",
+            "Purulente et malodorante",
+            "Toujours absente",
+            "Transparente, abondante et filante"
+          ],
+          "answer": "Transparente, abondante et filante",
+          "correct": "Transparente, abondante et filante",
+          "explanation": "L’aspect de blanc d’œuf est associé à la période périovulatoire.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 30–31."
+        },
+        {
+          "type": "qcm",
+          "text": "Pour quels cycles la méthode des jours fixes est-elle principalement destinée ? (1 bonne réponse)",
+          "options": [
+            "26 à 32 jours",
+            "Tous les cycles sans exception",
+            "15 à 20 jours",
+            "40 à 50 jours"
+          ],
+          "answer": "26 à 32 jours",
+          "correct": "26 à 32 jours",
+          "explanation": "Les cycles doivent habituellement rester dans l’intervalle prévu par la méthode.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 32."
+        },
+        {
+          "type": "qcm",
+          "text": "Quels jours nécessitent d’éviter les rapports non protégés avec la MJF ? (1 bonne réponse)",
+          "options": [
+            "Du 1er au 3e jour uniquement",
+            "Du 8e au 19e jour inclus",
+            "Le 14e jour uniquement",
+            "Du 20e au 22e jour uniquement"
+          ],
+          "answer": "Du 8e au 19e jour inclus",
+          "correct": "Du 8e au 19e jour inclus",
+          "explanation": "La MJF retient une fenêtre de douze jours potentiellement féconds.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 32–33."
+        },
+        {
+          "type": "qcm",
+          "text": "Pour un exercice d’Ogino, les cycles vont de 26 à 30 jours. Avec les règles « cycle court − 18 » et « cycle long − 11 », quelle fenêtre obtient-on ? (1 bonne réponse)",
+          "options": [
+            "Du 8e au 19e jour",
+            "Du 18e au 30e jour",
+            "Du 10e au 16e jour",
+            "Du 1er au 7e jour"
+          ],
+          "answer": "Du 8e au 19e jour",
+          "correct": "Du 8e au 19e jour",
+          "explanation": "26 − 18 = 8 et 30 − 11 = 19. Il s’agit d’une estimation calendaire.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 29."
+        },
+        {
+          "type": "qcm",
+          "text": "Quelles sont les trois conditions essentielles de la MAMA ? (3 bonnes réponses)",
+          "options": [
+            "Retour des règles",
+            "Bébé âgé de moins de six mois",
+            "Aménorrhée",
+            "Allaitement exclusif ou quasi exclusif, fréquent jour et nuit"
+          ],
           "answers": [
-            "Le retirer du stock utilisable comme stérile",
-            "Appliquer la procédure de retraitement adaptée"
+            "Bébé âgé de moins de six mois",
+            "Aménorrhée",
+            "Allaitement exclusif ou quasi exclusif, fréquent jour et nuit"
           ],
-          "caseContext": "Étude de cas 3 : entretien et contrôle des stocks\nUne AS prépare l’entretien d’une salle et vérifie les stocks. Le protocole demande 1 000 mL d’une solution à 0,5 %, préparée avec une solution mère à 5 % ; ces concentrations sont exprimées dans la même unité. Elle trouve aussi du linge propre non protégé près du linge utilisé, un emballage stérile déchiré et du matériel réutilisable encore souillé. Aucun produit ne doit être mélangé à un autre produit chimique."
+          "correct": [
+            "Bébé âgé de moins de six mois",
+            "Aménorrhée",
+            "Allaitement exclusif ou quasi exclusif, fréquent jour et nuit"
+          ],
+          "explanation": "Les trois conditions doivent être réunies simultanément.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 38–39. CDC, Contraception and Birth Control Methods, 6 août 2024, section « Lactational Amenorrhea Methods »."
+        },
+        {
+          "type": "qcm",
+          "text": "Une mère utilisant la MAMA a son retour de couches à quatre mois. Quelle conduite est adaptée ? (1 bonne réponse)",
+          "options": [
+            "Arrêter obligatoirement l’allaitement",
+            "Conserver la MAMA comme unique contraception",
+            "Choisir une autre méthode et poursuivre l’allaitement",
+            "Attendre systématiquement un an"
+          ],
+          "answer": "Choisir une autre méthode et poursuivre l’allaitement",
+          "correct": "Choisir une autre méthode et poursuivre l’allaitement",
+          "explanation": "Le retour des règles fait perdre une condition essentielle de la méthode.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 38–39."
+        },
+        {
+          "type": "qcm",
+          "text": "Quelle méthode peut contribuer à prévenir à la fois grossesse et IST ? (1 bonne réponse)",
+          "options": [
+            "Implant",
+            "Méthode du calendrier",
+            "Pilule progestative",
+            "Préservatif"
+          ],
+          "answer": "Préservatif",
+          "correct": "Préservatif",
+          "explanation": "Le préservatif réduit le risque de grossesse et de transmission des IST lorsqu’il est bien utilisé.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 13 et 40–41."
+        },
+        {
+          "type": "qcm",
+          "text": "Quel lubrifiant est adapté à un préservatif en latex ? (1 bonne réponse)",
+          "options": [
+            "Vaseline",
+            "Huile pour bébé",
+            "Huile de cuisine",
+            "Lubrifiant à base d’eau compatible"
+          ],
+          "answer": "Lubrifiant à base d’eau compatible",
+          "correct": "Lubrifiant à base d’eau compatible",
+          "explanation": "Les huiles détériorent le latex ; choisir un produit compatible.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 41–42."
+        },
+        {
+          "type": "qcm",
+          "text": "Après rupture d’un préservatif avec exposition au sperme, quelles sont deux préoccupations immédiates ? (2 bonnes réponses)",
+          "options": [
+            "Attente obligatoire des prochaines règles avant toute démarche",
+            "Prévention d’une grossesse non désirée",
+            "Évaluation du risque d’IST dont le VIH",
+            "Prescription systématique d’une ligature tubaire"
+          ],
+          "answers": [
+            "Prévention d’une grossesse non désirée",
+            "Évaluation du risque d’IST dont le VIH"
+          ],
+          "correct": [
+            "Prévention d’une grossesse non désirée",
+            "Évaluation du risque d’IST dont le VIH"
+          ],
+          "explanation": "Il faut envisager la contraception d’urgence et évaluer l’exposition infectieuse sans délai.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 45. OMS, Contraception d’urgence, 9 novembre 2021, sections « Mode of action » et « Copper-bearing intrauterine devices ». OMS, Guidelines for HIV post-exposure prophylaxis, 22 juillet 2024, présentation des recommandations."
+        },
+        {
+          "type": "qcm",
+          "text": "Quel dispositif peut servir de contraception d’urgence, chez une cliente éligible, dans les cinq jours suivant un rapport non protégé ? (1 bonne réponse)",
+          "options": [
+            "DIU au cuivre",
+            "Préservatif utilisé après le rapport",
+            "Implant posé comme unique mesure d’urgence",
+            "Collier du cycle"
+          ],
+          "answer": "DIU au cuivre",
+          "correct": "DIU au cuivre",
+          "explanation": "Le DIU au cuivre est une méthode de contraception d’urgence.",
+          "source": "OMS, Contraception d’urgence, 9 novembre 2021, sections « Mode of action » et « Copper-bearing intrauterine devices »."
+        },
+        {
+          "type": "qcm",
+          "text": "Quelles sont deux présentations de contraceptifs progestatifs citées dans le cours ? (2 bonnes réponses)",
+          "options": [
+            "Préservatif",
+            "Méthode de Billings",
+            "Pilule progestative",
+            "Implant sous-cutané"
+          ],
+          "answers": [
+            "Pilule progestative",
+            "Implant sous-cutané"
+          ],
+          "correct": [
+            "Pilule progestative",
+            "Implant sous-cutané"
+          ],
+          "explanation": "Les progestatifs existent notamment en pilules, injectables et implants.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 68."
+        },
+        {
+          "type": "qcm",
+          "text": "Quelle voie correspond au Sayana Press étudié dans le cours ? (1 bonne réponse)",
+          "options": [
+            "Sous-cutanée",
+            "Intravaginale",
+            "Intra-utérine",
+            "Orale"
+          ],
+          "answer": "Sous-cutanée",
+          "correct": "Sous-cutanée",
+          "explanation": "Le dispositif contient du DMPA destiné à l’injection sous-cutanée.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 69."
+        },
+        {
+          "type": "qcm",
+          "text": "Une cliente sous implant présente de légers saignements irréguliers sans signe de gravité. Quelle démarche est adaptée ? (1 bonne réponse)",
+          "options": [
+            "Lui retirer l’implant contre sa volonté",
+            "Conseiller de se l’enlever elle-même",
+            "Évaluer le symptôme, informer et discuter des options selon ses souhaits",
+            "Affirmer qu’elle est toujours enceinte"
+          ],
+          "answer": "Évaluer le symptôme, informer et discuter des options selon ses souhaits",
+          "correct": "Évaluer le symptôme, informer et discuter des options selon ses souhaits",
+          "explanation": "Il faut rechercher une cause si nécessaire et prendre en compte la satisfaction et les préférences.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 81. CDC, U.S. Selected Practice Recommendations 2024, Implants, section « Bleeding irregularities »."
+        },
+        {
+          "type": "qcm",
+          "text": "Une cliente a une migraine avec aura. Quelle classification OMS s’applique à une contraception hormonale combinée ? (1 bonne réponse)",
+          "options": [
+            "Catégorie 2",
+            "Catégorie 4",
+            "Catégorie 1",
+            "Catégorie 3"
+          ],
+          "answer": "Catégorie 4",
+          "correct": "Catégorie 4",
+          "explanation": "La migraine avec aura constitue un risque inacceptable pour les méthodes combinées.",
+          "source": "OMS, Medical eligibility criteria for contraceptive use, 6e édition, 2025, tableau récapitulatif « Headaches — migraine with aura ». Vérification concordante : CDC, U.S. MEC 2024, Appendix D, « Headaches »."
+        },
+        {
+          "type": "qcm",
+          "text": "Quels sont deux types de DIU décrits dans le cours ? (2 bonnes réponses)",
+          "options": [
+            "DIU antibiotique oral",
+            "DIU au cuivre",
+            "DIU au lévonorgestrel",
+            "DIU à insuline"
+          ],
+          "answers": [
+            "DIU au cuivre",
+            "DIU au lévonorgestrel"
+          ],
+          "correct": [
+            "DIU au cuivre",
+            "DIU au lévonorgestrel"
+          ],
+          "explanation": "Le cours distingue les DIU au cuivre et les dispositifs hormonaux.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 86."
+        },
+        {
+          "type": "qcm",
+          "text": "Quels sont deux effets possibles du DIU au cuivre ? (2 bonnes réponses)",
+          "options": [
+            "Crampes pelviennes",
+            "Protection contre toutes les infections génitales",
+            "Augmentation des saignements menstruels",
+            "Disparition obligatoire des règles"
+          ],
+          "answers": [
+            "Crampes pelviennes",
+            "Augmentation des saignements menstruels"
+          ],
+          "correct": [
+            "Crampes pelviennes",
+            "Augmentation des saignements menstruels"
+          ],
+          "explanation": "Les saignements et les crampes peuvent augmenter, surtout au début.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 87–89."
+        },
+        {
+          "type": "qcm",
+          "text": "Une femme présente une septicémie puerpérale. Quelle conduite concernant la pose d’un DIU est adaptée ? (1 bonne réponse)",
+          "options": [
+            "Ne pas poser le DIU et traiter l’infection",
+            "Ignorer la fièvre",
+            "Poser le DIU immédiatement",
+            "Poser deux DIU"
+          ],
+          "answer": "Ne pas poser le DIU et traiter l’infection",
+          "correct": "Ne pas poser le DIU et traiter l’infection",
+          "explanation": "L’infection puerpérale contre-indique la pose.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 88 et 102."
+        },
+        {
+          "type": "qcm",
+          "text": "Quand réalise-t-on une pose postplacentaire de DIU ? (1 bonne réponse)",
+          "options": [
+            "Uniquement un an après la délivrance",
+            "Dans les dix minutes après l’expulsion du placenta",
+            "Trois mois avant l’accouchement",
+            "Avant la naissance de l’enfant"
+          ],
+          "answer": "Dans les dix minutes après l’expulsion du placenta",
+          "correct": "Dans les dix minutes après l’expulsion du placenta",
+          "explanation": "Le cours définit cette insertion par le délai de dix minutes après la délivrance.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 101–102."
+        },
+        {
+          "type": "qcm",
+          "text": "Quelle intervention est une contraception chirurgicale masculine ? (1 bonne réponse)",
+          "options": [
+            "Hystérectomie",
+            "Ligature tubaire",
+            "Circoncision comme méthode contraceptive",
+            "Vasectomie"
+          ],
+          "answer": "Vasectomie",
+          "correct": "Vasectomie",
+          "explanation": "La vasectomie concerne les canaux déférents.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 121."
+        },
+        {
+          "type": "qcm",
+          "text": "Quelles sont deux informations essentielles avant une stérilisation ? (2 bonnes réponses)",
+          "options": [
+            "Caractère permanent de la méthode",
+            "Protection contre toutes les IST",
+            "Existence d’autres méthodes contraceptives",
+            "Garantie absolue d’absence de complication"
+          ],
+          "answers": [
+            "Caractère permanent de la méthode",
+            "Existence d’autres méthodes contraceptives"
+          ],
+          "correct": [
+            "Caractère permanent de la méthode",
+            "Existence d’autres méthodes contraceptives"
+          ],
+          "explanation": "Ces informations sont nécessaires au consentement éclairé.",
+          "source": "INFAS, SR PF L2, 2021–2022, p. 122."
         }
       ]
     }
   ]
 };
-    const STORAGE_SUBJECTS = "PEDIATRIE_ASO_ASI_subjects_v1";
-    const STORAGE_RESULTS = "PEDIATRIE_ASO_ASI_results_v1";
-    const STORAGE_ATTEMPTS = "PEDIATRIE_ASO_ASI_attempts_v1";
+    const STORAGE_SUBJECTS = "NEUROCHIRURGIE_L3_subjects_v1";
+    const STORAGE_RESULTS = "NEUROCHIRURGIE_L3_results_v1";
+    const STORAGE_ATTEMPTS = "NEUROCHIRURGIE_L3_attempts_v1";
 
     let subjects = [];
         let currentSubject = null;
@@ -5416,10 +1849,10 @@ const CONFIG = {
     let currentQuestionIndex = 0;
     let savedQuestionAnswers = {};
     const QUESTION_DURATION_SECONDS = 30;
-    const QUIZ_SETTINGS_KEY = "APPRENTISSAGE_EVALUATION_quiz_settings_v2";
+    const QUIZ_SETTINGS_KEY = "STOMATOLOGIE_quiz_settings_v2";
     const DEFAULT_QUIZ_SETTINGS = {
-      questionCount: 50,
-      displayMode: "all",
+      questionCount: 60,
+      displayMode: "one",
       questionType: "both",
       cameraEnabled: false,
       antiCheatEnabled: true
@@ -5459,6 +1892,8 @@ const CONFIG = {
       try {
         const saved = { ...DEFAULT_QUIZ_SETTINGS, ...JSON.parse(localStorage.getItem(QUIZ_SETTINGS_KEY) || "{}") };
         saved.cameraEnabled = false;
+        saved.displayMode = "one";
+        saved.antiCheatEnabled = true;
         return saved;
       } catch (error) {
         return { ...DEFAULT_QUIZ_SETTINGS, cameraEnabled: false };
@@ -5752,7 +2187,7 @@ const CONFIG = {
     function updateStudentHeader() {
       const node = document.getElementById("studentHeaderName");
       if (!node) return;
-      node.textContent = `${getStudentProfile().nomComplet} |`;
+      node.textContent = getStudentProfile().nomComplet;
     }
 
     function getStudentResultsForDashboard() {
@@ -5816,18 +2251,18 @@ const CONFIG = {
           </div>
           <p class="student-evaluation-meta"><strong>Matière :</strong> ${escapeHTML(availableSubject.matter)}</p>
           <p class="student-evaluation-meta"><strong>Durée :</strong> ${availableSubject.duration} min</p>
-          <p class="student-evaluation-meta"><strong>Questions :</strong> ${Math.min(getQuizQuestionCount(), getQuestionsForSelectedType(availableSubject.questions).length)} sur ${availableSubject.questions.length} — ${getQuizTypeLabel()} — ${quizSettings.displayMode === "all" ? "toutes sur une page" : "question par question"}</p>
+          <p class="student-evaluation-meta"><strong>Questions :</strong> ${getQuizQuestionCount()} — ${getQuizTypeLabel()} — ${quizSettings.displayMode === "all" ? "toutes sur une page" : "question par question"}</p>
           <p class="student-evaluation-meta"><strong>Fermeture :</strong> ${formatDateTime(availableSubject.closeDate, availableSubject.closeTime)}</p>
           <button class="student-start-btn" onclick="startQuickEvaluation('${availableSubject.id}')">Commencer</button>
         </div>
       `).join("") : `
-        <div class="student-empty-state">Choisissez le sujet que vous souhaitez traiter.</div>
+        <div class="student-empty-state">Évaluation test sera disponible le dimanche 20 septembre 2026 de 21 h à 21 h 30.</div>
       `;
 
       homeView.innerHTML = `
         <div class="student-dashboard">
           <section class="student-profile-card">
-            <h2>${profile.nomComplet}</h2>
+            <h2>${escapeHTML(profile.nomComplet)}</h2>
             <p>
               <span>Nom et Prénoms :</span> <strong>${escapeHTML(profile.nomComplet)}</strong>
             </p>
@@ -5835,8 +2270,8 @@ const CONFIG = {
           </section>
 
           <section id="studentAvailableSection" class="student-section-card">
-            <h3>Sujets disponibles</h3>
-            <p class="student-section-note">Choisissez le sujet que vous souhaitez traiter.</p>
+            <h3>Sujet disponible</h3>
+            <p class="student-section-note">Évaluation test sera disponible le dimanche 20 septembre 2026 de 21 h à 21 h 30.</p>
             ${availableHtml}
           </section>
 
@@ -5856,7 +2291,7 @@ const CONFIG = {
     }
 
     function getMaximumQuestionCount(type = quizSettings.questionType) {
-      const bank = (subjects.length ? subjects : CONFIG.subjects).flatMap(subject => subject.questions || []);
+      const bank = subjects[0]?.questions || CONFIG.subjects[0]?.questions || [];
       if (type === "qcd") return bank.filter(q => getQuestionCategory(q) === "trueFalse").length;
       if (type === "qcm") return bank.filter(q => getQuestionCategory(q) !== "trueFalse").length;
       return bank.length;
@@ -5876,7 +2311,7 @@ const CONFIG = {
           </div>
           <div class="settings-field">
             <label for="settingsDisplayMode"><strong>Mode d’affichage</strong></label>
-            <select id="settingsDisplayMode">
+            <select id="settingsDisplayMode" disabled>
               <option value="one" ${quizSettings.displayMode === "one" ? "selected" : ""}>Question par question</option>
               <option value="all" ${quizSettings.displayMode === "all" ? "selected" : ""}>Toutes les questions</option>
             </select>
@@ -5906,7 +2341,7 @@ const CONFIG = {
               <small>Détecter les sorties de page, changements d’application et raccourcis interdits.</small>
             </div>
             <label class="settings-switch">
-              <input id="settingsAntiCheatEnabled" type="checkbox" ${quizSettings.antiCheatEnabled !== false ? "checked" : ""}>
+              <input id="settingsAntiCheatEnabled" type="checkbox" disabled ${quizSettings.antiCheatEnabled !== false ? "checked" : ""}>
               <span class="settings-switch-slider"></span>
               <span class="settings-switch-state">${quizSettings.antiCheatEnabled !== false ? "Activé" : "Désactivé"}</span>
             </label>
@@ -5933,10 +2368,10 @@ const CONFIG = {
       const requested = Number(document.getElementById("settingsQuestionCount").value);
       quizSettings = {
         questionCount: Math.max(1, Math.min(max, Number.isFinite(requested) ? Math.floor(requested) : 50)),
-        displayMode: document.getElementById("settingsDisplayMode").value,
+        displayMode: "one",
         questionType: type,
         cameraEnabled: false,
-        antiCheatEnabled: document.getElementById("settingsAntiCheatEnabled").checked
+        antiCheatEnabled: true
       };
       localStorage.setItem(QUIZ_SETTINGS_KEY, JSON.stringify(quizSettings));
       closeModal();
@@ -6539,7 +2974,6 @@ const CONFIG = {
           studentAnswer,
           correctAnswer,
           correction: q.correction || q.explanation || "",
-          source: q.source || "",
           state
         });
       });
@@ -6621,7 +3055,7 @@ const CONFIG = {
           <p class="score-big">${displayedResult}</p>
           <div class="grid">
             <div><strong>Statut :</strong> ${resultIsAutoSend ? "Auto envoi" : "Envoi normal"}</div>
-            <div><strong>Nom et Prénoms :</strong> ${escapeHTML(result.student.matricule || `${result.student.nom || ""} ${result.student.prenom || ""}`.trim())}</div>
+            <div><strong>Nom et Prénoms :</strong> ${escapeHTML(`${result.student.nom || ""} ${result.student.prenom || ""}`.trim())}</div>
             <div><strong>Sujet :</strong> ${escapeHTML(result.subjectTitle)}</div>
             <div><strong>Score :</strong> ${displayedScore}</div>
             <div><strong>Bonnes réponses :</strong> ${result.good}</div>
@@ -6673,7 +3107,6 @@ const CONFIG = {
             <p><strong>Réponse donnée :</strong> ${a.studentAnswer ? escapeHTML(a.studentAnswer) : "Aucune réponse"}</p>
             <p><strong>Bonne réponse :</strong> ${escapeHTML(a.correctAnswer)}</p>
             ${a.correction ? `<p><strong>Explication :</strong> ${escapeHTML(a.correction)}</p>` : `<p><strong>Explication :</strong> La bonne réponse est ${escapeHTML(a.correctAnswer)}.</p>`}
-            ${a.source ? `<p><strong>Sources :</strong> ${escapeHTML(a.source)}</p>` : ""}
           </div>
         `}).join("")}
       `;
@@ -6752,7 +3185,7 @@ const CONFIG = {
               ${results.map(r => `
                 <tr>
                   <td>${escapeHTML(r.date)}</td>
-                  <td>${escapeHTML(r.student?.matricule || `${r.student?.nom || ""} ${r.student?.prenom || ""}`.trim())}</td>
+                  <td>${escapeHTML(`${r.student?.nom || ""} ${r.student?.prenom || ""}`.trim())}</td>
                   <td>${escapeHTML(r.subjectTitle || r.subjectId || "Devoir importé")}</td>
                   <td><strong>${escapeHTML(r.note20 ?? "")}</strong></td>
                   <td>Statut ${(r.autoSend === true || r.pageExitDetected === true) ? "Auto envoi" : "Normal"} | Score ${escapeHTML(r.score ?? "")} | Bonnes ${escapeHTML(r.good ?? "")} | Mauvaises ${escapeHTML(r.bad ?? "")} | Vides ${escapeHTML(r.empty ?? "")} | Temps ${escapeHTML(r.usedTime ?? "")} | Incidents sécurité ${escapeHTML(r.pageExitCount ?? 0)}<br>${renderSecurityEvents(r.pageExitEvents || r.securityEvents)}
